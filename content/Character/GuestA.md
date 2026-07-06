@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-02T18:56:39.582+07:00
-modified: 2026-07-06T14:16:21.318+07:00
-published: 2026-07-06T14:16:21.318+07:00
+modified: 2026-07-06T15:42:17.892+07:00
+published: 2026-07-06T15:42:17.892+07:00
 tags:
   - character
 Character_ID: GuestA
@@ -16,12 +16,12 @@ canvas:
   - "[[_General Plot.canvas]]"
 _General Plot: []
 dg-publish: true
-DiceStrength:
-DiceReflex:
-DiceArtistry:
-DiceDeception:
-DiceKnowledge:
-DiceObservation:
+DiceStrength: "[[SDWeak]]"
+DiceReflex: "[[SDLight]]"
+DiceArtistry: "[[SDMid]]"
+DiceDeception: "[[SDMid]]"
+DiceKnowledge: "[[SDLight]]"
+DiceObservation: "[[SDWeak]]"
 ---
 
 GuestA
@@ -40,14 +40,14 @@ GuestA
 
 - \_general plot:
 
-- dicestrength: null
+- dicestrength: [[Dice/StartingDice/SDWeak|SDWeak]]
 
-- dicereflex: null
+- dicereflex: [[Dice/StartingDice/SDLight|SDLight]]
 
-- diceartistry: null
+- diceartistry: [[Dice/StartingDice/SDMid|SDMid]]
 
-- dicedeception: null
+- dicedeception: [[Dice/StartingDice/SDMid|SDMid]]
 
-- diceknowledge: null
+- diceknowledge: [[Dice/StartingDice/SDLight|SDLight]]
 
-- diceobservation: null
+- diceobservation: [[Dice/StartingDice/SDWeak|SDWeak]]

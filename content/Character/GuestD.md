@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-03T17:07:32.002+07:00
-modified: 2026-07-06T14:16:43.246+07:00
-published: 2026-07-06T14:16:43.246+07:00
+modified: 2026-07-06T15:44:06.566+07:00
+published: 2026-07-06T15:44:06.566+07:00
 tags:
   - character
 Dialogue_position: Left
@@ -15,12 +15,12 @@ canvas:
   - "[[_General Plot.canvas]]"
 _General Plot: []
 dg-publish: true
-DiceStrength:
-DiceReflex:
-DiceArtistry:
-DiceDeception:
-DiceKnowledge:
-DiceObservation:
+DiceStrength: "[[SDLight]]"
+DiceReflex: "[[SDMid]]"
+DiceArtistry: "[[SDMid]]"
+DiceDeception: "[[SDWeak]]"
+DiceKnowledge: "[[SDLight]]"
+DiceObservation: "[[SDWeak]]"
 ---
 
 GuestD
@@ -39,14 +39,14 @@ GuestD
 
 - \_general plot:
 
-- dicestrength: null
+- dicestrength: [[Dice/StartingDice/SDLight|SDLight]]
 
-- dicereflex: null
+- dicereflex: [[Dice/StartingDice/SDMid|SDMid]]
 
-- diceartistry: null
+- diceartistry: [[Dice/StartingDice/SDMid|SDMid]]
 
-- dicedeception: null
+- dicedeception: [[Dice/StartingDice/SDWeak|SDWeak]]
 
-- diceknowledge: null
+- diceknowledge: [[Dice/StartingDice/SDLight|SDLight]]
 
-- diceobservation: null
+- diceobservation: [[Dice/StartingDice/SDWeak|SDWeak]]

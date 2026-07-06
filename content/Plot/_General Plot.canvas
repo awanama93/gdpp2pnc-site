@@ -1,5 +1,6 @@
 {
 	"nodes":[
+		{"id":"5097b75e706e12e3","type":"file","file":"Character/PlayerCharacter.md","x":-2040,"y":5540,"width":400,"height":660},
 		{"id":"ef5dbe3460a10ba3","type":"file","file":"Narrative data/Quest/Quest0012.md","x":2560,"y":2900,"width":400,"height":660,"color":"5"},
 		{"id":"a15bf084f3fae325","type":"file","file":"Narrative data/Quest/Quest0011.md","x":1960,"y":2900,"width":400,"height":660,"color":"5"},
 		{"id":"857cc6c67f6b4dcc","type":"file","file":"Narrative data/Quest/Quest0008.md","x":40,"y":2920,"width":400,"height":640,"color":"5"},

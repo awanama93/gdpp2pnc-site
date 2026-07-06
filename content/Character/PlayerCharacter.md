@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-06T13:14:46.437+07:00
-modified: 2026-07-06T14:14:47.973+07:00
-published: 2026-07-06T14:14:47.973+07:00
+modified: 2026-07-06T15:47:23.483+07:00
+published: 2026-07-06T15:47:23.483+07:00
 tags:
   - character
 Dialogue_position:
@@ -10,12 +10,15 @@ Character_ID: "[[PlayerCharacter]]"
 Mesh: PlayerCharacter
 Narrative_data:
 dg-publish: true
-DiceStrength:
-DiceReflex:
-DiceArtistry:
-DiceDeception:
-DiceKnowledge:
-DiceObservation:
+DiceStrength: "[[SDMid]]"
+DiceReflex: "[[SDWeak]]"
+DiceArtistry: "[[SDWeak]]"
+DiceDeception: "[[SDMid]]"
+DiceKnowledge: "[[SDWeak]]"
+DiceObservation: "[[SDMid]]"
+canvas:
+  - "[[_General Plot.canvas]]"
+_General Plot: []
 ---
 
 PlayerCharacter
@@ -30,14 +33,18 @@ PlayerCharacter
 
 - narrative\_data: null
 
-- dicestrength: null
+- dicestrength: [[Dice/StartingDice/SDMid|SDMid]]
 
-- dicereflex: null
+- dicereflex: [[Dice/StartingDice/SDWeak|SDWeak]]
 
-- diceartistry: null
+- diceartistry: [[Dice/StartingDice/SDWeak|SDWeak]]
 
-- dicedeception: null
+- dicedeception: [[Dice/StartingDice/SDMid|SDMid]]
 
-- diceknowledge: null
+- diceknowledge: [[Dice/StartingDice/SDWeak|SDWeak]]
 
-- diceobservation: null
+- diceobservation: [[Dice/StartingDice/SDMid|SDMid]]
+
+- canvas: [[Plot/_General Plot.canvas|_General Plot.canvas]]
+
+- \_general plot:

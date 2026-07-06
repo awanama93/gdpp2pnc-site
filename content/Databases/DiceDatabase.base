@@ -26,3 +26,4 @@ views:
     sort: []
     columnSize:
       file.name: 150
+      note.Dice_name: 202
