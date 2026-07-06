@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-04T16:03:38.029+07:00
-modified: 2026-07-06T09:10:44.862+07:00
-published: 2026-07-06T09:10:44.862+07:00
+modified: 2026-07-06T13:46:44.796+07:00
+published: 2026-07-06T13:46:44.796+07:00
 tags:
   - dice
 Dice_ID: DeceptionBuffsample
@@ -25,21 +25,38 @@ Face_6_value: "-1"
 dg-publish: true
 ---
 
-### Properties
+DeceptionBuffsample
 
-- Dice\_ID: `VIEW[{Dice_ID}][text(renderMarkdown)]`
-- Dice\_name: `VIEW[{Dice_name}][text(renderMarkdown)]`
-- Dice\_type: `VIEW[{Dice_type}][text(renderMarkdown)]`
-- Influenced\_skill: `VIEW[{Influenced_skill}][text(renderMarkdown)]`
-- Face\_1\_type: `VIEW[{Face_1_type}][text(renderMarkdown)]`
-- Face\_1\_value: `VIEW[{Face_1_value}][text(renderMarkdown)]`
-- Face\_2\_type: `VIEW[{Face_2_type}][text(renderMarkdown)]`
-- Face\_2\_value: `VIEW[{Face_2_value}][text(renderMarkdown)]`
-- Face\_3\_type: `VIEW[{Face_3_type}][text(renderMarkdown)]`
-- Face\_3\_value: `VIEW[{Face_3_value}][text(renderMarkdown)]`
-- Face\_4\_type: `VIEW[{Face_4_type}][text(renderMarkdown)]`
-- Face\_4\_value: `VIEW[{Face_4_value}][text(renderMarkdown)]`
-- Face\_5\_type: `VIEW[{Face_5_type}][text(renderMarkdown)]`
-- Face\_5\_value: `VIEW[{Face_5_value}][text(renderMarkdown)]`
-- Face\_6\_type: `VIEW[{Face_6_type}][text(renderMarkdown)]`
-- Face\_6\_value: `VIEW[{Face_6_value}][text(renderMarkdown)]`
+- dice\_id: DeceptionBuffsample
+
+- dice\_name: DeceptionBuffsample
+
+- dice\_type: Condition dice
+
+- influenced\_skill: deception
+
+- face\_1\_type: health
+
+- face\_1\_value: -1
+
+- face\_2\_type: health
+
+- face\_2\_value: -1
+
+- face\_3\_value: -1
+
+- face\_3\_type: health
+
+- face\_4\_type: sanity
+
+- face\_4\_value: -1
+
+- face\_5\_type: sanity
+
+- face\_5\_value: -1
+
+- face\_6\_type: sanity
+
+- face\_6\_value: -1
+
+- tags: dice

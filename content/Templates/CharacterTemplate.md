@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-06-20T18:28:32.032+07:00
-modified: 2026-07-06T13:14:41.330+07:00
-published: 2026-07-06T13:14:41.330+07:00
+modified: 2026-07-06T13:50:11.360+07:00
+published: 2026-07-06T13:50:11.360+07:00
 tags:
   - character
 Dialogue_position:
@@ -29,10 +29,6 @@ CharacterTemplate
 - mesh: null
 
 - narrative\_data: null
-
-- dg-publish: true
-
-- publish: true
 
 - strengthdice: null
 

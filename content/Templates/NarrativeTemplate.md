@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-02T17:24:45.007+07:00
-modified: 2026-07-06T09:10:50.241+07:00
-published: 2026-07-06T09:10:50.241+07:00
+modified: 2026-07-06T13:50:36.782+07:00
+published: 2026-07-06T13:50:36.782+07:00
 tags:
   - narrativebeat
 Narrative_ID:
@@ -12,3 +12,17 @@ Exposition:
 Responses:
 dg-publish: true
 ---
+
+NarrativeTemplate
+
+- tags: narrativebeat
+
+- narrative\_id: null
+
+- narrative\_name: null
+
+- narrative\_completion\_status: null
+
+- exposition: null
+
+- responses: null

@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-04T17:08:23.066+07:00
-modified: 2026-07-06T09:10:48.777+07:00
-published: 2026-07-06T09:10:48.777+07:00
+modified: 2026-07-06T13:49:58.301+07:00
+published: 2026-07-06T13:49:58.301+07:00
 tags:
   - response
 Response_ID:
@@ -26,3 +26,43 @@ Failed_outcome: "[[Outcome0021]]"
 Neutral_outcome: "[[Outcome0021]]"
 dg-publish: true
 ---
+
+Response0015
+
+- response\_id: Response0015
+
+- narrative\_id: [[Narrative data/Narrative/Narrative0010|Narrative0010]]
+
+- response\_text: Interact to see whether you lose your health or sanity
+
+- player\_action\_description: Prepare to lose some health or sanity
+
+- opponent\_action\_description: Ready to take your health or sanity away
+
+- skill\_check\_text: Look at opponent condition dice, it has face that will subtract your health or sanity
+
+- response\_prerequisite\_type: Quest ongoing
+
+- prerequisite\_quest\_id: [[Narrative data/Quest/Quest0012|Quest0012]]
+
+- prerequisite\_item\_id: none
+
+- outcome\_id\_prerequisite: none
+
+- skill\_check?: yes
+
+- skill\_type: deception
+
+- multiple\_skill\_check\_attempt?: no
+
+- item\_check?: none
+
+- item\_id: none
+
+- succeed\_outcome: [[Narrative data/Outcome/Outcome0021|Outcome0021]]
+
+- failed\_outcome: [[Narrative data/Outcome/Outcome0021|Outcome0021]]
+
+- neutral\_outcome: [[Narrative data/Outcome/Outcome0021|Outcome0021]]
+
+- tags: response

@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-03T18:13:00.639+07:00
-modified: 2026-07-06T09:10:48.741+07:00
-published: 2026-07-06T09:10:48.741+07:00
+modified: 2026-07-06T13:49:55.739+07:00
+published: 2026-07-06T13:49:55.739+07:00
 tags:
   - response
 Response_ID:
@@ -26,3 +26,43 @@ Neutral_outcome: "[[Outcome0019]]"
 Outcome_ID_prerequisite: none
 dg-publish: true
 ---
+
+Response0013
+
+- response\_id: Response0013
+
+- narrative\_id: [[Narrative data/Narrative/Narrative0008|Narrative0008]]
+
+- response\_text: Interact to Guest A to get condition dice
+
+- player\_action\_description: Observing Guest A
+
+- opponent\_action\_description: Ready to give you condition
+
+- skill\_check\_text: Whatever happens, after this you will get condition...
+
+- response\_prerequisite\_type: Quest ongoing
+
+- prerequisite\_quest\_id: [[Narrative data/Quest/Quest0011|Quest0011]]
+
+- prerequisite\_item\_id: none
+
+- skill\_check?: yes
+
+- skill\_type: observation
+
+- multiple\_skill\_check\_attempt?: no
+
+- item\_check?: none
+
+- item\_id: none
+
+- succeed\_outcome: [[Narrative data/Outcome/Outcome0019|Outcome0019]]
+
+- failed\_outcome: [[Narrative data/Outcome/Outcome0019|Outcome0019]]
+
+- neutral\_outcome: [[Narrative data/Outcome/Outcome0019|Outcome0019]]
+
+- tags: response
+
+- outcome\_id\_prerequisite: none

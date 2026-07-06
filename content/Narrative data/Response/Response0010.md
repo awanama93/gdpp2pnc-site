@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-03T17:01:19.153+07:00
-modified: 2026-07-06T09:10:48.562+07:00
-published: 2026-07-06T09:10:48.562+07:00
+modified: 2026-07-06T13:49:52.153+07:00
+published: 2026-07-06T13:49:52.153+07:00
 tags:
   - response
 Response_ID: Response0010
@@ -25,3 +25,43 @@ Neutral_outcome: "[[Outcome0018]]"
 Outcome_ID_prerequisite: none
 dg-publish: true
 ---
+
+Response0010
+
+- response\_id: Response0010
+
+- narrative\_id: [[Narrative data/Narrative/Narrative0007|Narrative0007]]
+
+- response\_text: Try to beat Guest D with your strength skill
+
+- player\_action\_description: Your strength skill
+
+- opponent\_action\_description: Ready to check your strength
+
+- skill\_check\_text: Can you beat Guest D with your strength?
+
+- response\_prerequisite\_type: Quest ongoing
+
+- prerequisite\_quest\_id: [[Narrative data/Quest/Quest0010|Quest0010]]
+
+- prerequisite\_item\_id: none
+
+- skill\_check?: yes
+
+- skill\_type: strength
+
+- multiple\_skill\_check\_attempt?: yes
+
+- item\_check?: none
+
+- item\_id: none
+
+- succeed\_outcome: [[Narrative data/Outcome/Outcome0016|Outcome0016]]
+
+- failed\_outcome: [[Narrative data/Outcome/Outcome0017|Outcome0017]]
+
+- neutral\_outcome: [[Narrative data/Outcome/Outcome0018|Outcome0018]]
+
+- tags: response
+
+- outcome\_id\_prerequisite: none

@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-04T17:14:07.409+07:00
-modified: 2026-07-06T09:10:46.822+07:00
-published: 2026-07-06T09:10:46.822+07:00
+modified: 2026-07-06T13:48:57.701+07:00
+published: 2026-07-06T13:48:57.701+07:00
 tags:
   - outcome
 Outcome_ID: Outcome0021
@@ -31,3 +31,53 @@ Special_dice_face_3_addition: none
 Subtract_item_ID: none
 dg-publish: true
 ---
+
+Outcome0021
+
+- outcome\_id: Outcome0021
+
+- response\_id: [[Narrative data/Response/Response0015|Response0015]]
+
+- outcome\_name: See stat changes
+
+- outcome\_type: Any response
+
+- outcome\_response: See sanity or health changes on right top screen based on dice roll
+
+- exp\_gain: 3
+
+- add\_item\_id: none
+
+- condition\_target\_1: none
+
+- condition\_dice\_1\_type\_modification: none
+
+- condition\_dice\_1\_id: none
+
+- condition\_dice\_1\_influenced\_skill\_type: none
+
+- condition\_target\_2: none
+
+- condition\_dice\_2\_type\_modification: none
+
+- condition\_dice\_2\_id: none
+
+- condition\_dice\_2\_influenced\_skill\_type: none
+
+- condition\_target\_3: none
+
+- condition\_dice 3\_type\_modification: none
+
+- condition\_dice\_3\_id: none
+
+- condition\_dice\_3\_influenced\_skill\_type: none
+
+- tags: outcome
+
+- special\_dice\_face\_1\_addition: low integer
+
+- special\_dice\_face\_2\_addition: none
+
+- special\_dice\_face\_3\_addition: none
+
+- subtract\_item\_id: none

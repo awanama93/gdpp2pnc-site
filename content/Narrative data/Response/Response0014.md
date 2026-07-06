@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-04T15:03:01.199+07:00
-modified: 2026-07-06T09:10:48.852+07:00
-published: 2026-07-06T09:10:48.852+07:00
+modified: 2026-07-06T13:49:56.982+07:00
+published: 2026-07-06T13:49:56.982+07:00
 tags:
   - response
 Response_ID:
@@ -26,3 +26,43 @@ Neutral_outcome: "[[Outcome0020]]"
 Outcome_ID_prerequisite: "[[Outcome0019]]"
 dg-publish: true
 ---
+
+Response0014
+
+- response\_id: Response0014
+
+- narrative\_id: [[Narrative data/Narrative/Narrative0009|Narrative0009]]
+
+- response\_text: Interact to Guest B to lose condition dice
+
+- player\_action\_description: Observing Guest B
+
+- opponent\_action\_description: Ready to take your condition away
+
+- skill\_check\_text: Whatever happens, after this you will lose condition...
+
+- response\_prerequisite\_type: Outcome received
+
+- prerequisite\_quest\_id: none
+
+- prerequisite\_item\_id: none
+
+- skill\_check?: yes
+
+- skill\_type: observation
+
+- multiple\_skill\_check\_attempt?: no
+
+- item\_check?: none
+
+- item\_id: none
+
+- succeed\_outcome: [[Narrative data/Outcome/Outcome0020|Outcome0020]]
+
+- failed\_outcome: [[Narrative data/Outcome/Outcome0020|Outcome0020]]
+
+- neutral\_outcome: [[Narrative data/Outcome/Outcome0020|Outcome0020]]
+
+- tags: response
+
+- outcome\_id\_prerequisite: [[Narrative data/Outcome/Outcome0019|Outcome0019]]

@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-05T16:25:21.605+07:00
-modified: 2026-07-06T09:10:50.150+07:00
-published: 2026-07-06T09:10:50.150+07:00
+modified: 2026-07-06T13:50:18.089+07:00
+published: 2026-07-06T13:50:18.089+07:00
 tags:
   - doorteleporter
 DoorTeleporterData1:
@@ -41,3 +41,21 @@ DoorTeleporterData:
   TeleporterName: ""
   TeleporterNewStatus: ""
 ---
+
+DoorTeleporterTemplate
+
+- tags: doorteleporter
+
+- doorteleporterdata1: \[object Object]
+
+- doorteleporterdata2: \[object Object]
+
+- doorteleporterdata3: \[object Object]
+
+- doorteleporterdata4: \[object Object]
+
+- doorteleporterdata5: \[object Object]
+
+- doorteleporterdata6: \[object Object]
+
+- doorteleporterdata: \[object Object]

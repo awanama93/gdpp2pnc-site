@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-03T10:45:40.608+07:00
-modified: 2026-07-06T09:10:44.661+07:00
-published: 2026-07-06T09:10:44.661+07:00
+modified: 2026-07-06T13:46:29.085+07:00
+published: 2026-07-06T13:46:29.085+07:00
 tags:
   - character
 Dialogue_position: Left
@@ -17,9 +17,18 @@ _General Plot: []
 dg-publish: true
 ---
 
-### Properties
+GuestC
 
-- \*\*Character\_ID: `VIEW[{Character_ID}][text(renderMarkdown)]`
-- \*\*Narrative\_data: `VIEW[{Narrative_data}][text(renderMarkdown)]`
-- \*\*Mesh: `VIEW[{Mesh}][text(renderMarkdown)]`
-- \*\*Dialogue\_position: `VIEW[{Dialogue_position}][text(renderMarkdown)]`
+- tags: character
+
+- dialogue\_position: Left
+
+- character\_id: GuestC
+
+- mesh: ExtrasB
+
+- narrative\_data: [[Narrative data/Narrative/Narrative0006|Narrative0006]],[[Narrative data/Narrative/Narrative0011|Narrative0011]]
+
+- canvas: [[Plot/_General Plot.canvas|_General Plot.canvas]]
+
+- \_general plot:

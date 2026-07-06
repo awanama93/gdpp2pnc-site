@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-04T21:22:17.684+07:00
-modified: 2026-07-06T09:10:48.990+07:00
-published: 2026-07-06T09:10:48.990+07:00
+modified: 2026-07-06T13:50:05.622+07:00
+published: 2026-07-06T13:50:05.622+07:00
 tags:
   - response
 Response_ID:
@@ -26,3 +26,43 @@ Failed_outcome: "[[Outcome0026]]"
 Neutral_outcome: "[[Outcome0026]]"
 dg-publish: true
 ---
+
+Response0020
+
+- response\_id: Response0020
+
+- narrative\_id: [[Narrative data/Narrative/Narrative0013|Narrative0013]]
+
+- response\_text: Give precious item to Guest A
+
+- player\_action\_description: none
+
+- opponent\_action\_description: none
+
+- skill\_check\_text: none
+
+- response\_prerequisite\_type: Item ownership
+
+- prerequisite\_quest\_id: none
+
+- prerequisite\_item\_id: [[Narrative data/Item/Item0002|Item0002]]
+
+- outcome\_id\_prerequisite: none
+
+- skill\_check?: no
+
+- skill\_type: none
+
+- multiple\_skill\_check\_attempt?: no
+
+- item\_check?: yes
+
+- item\_id: Item0002
+
+- succeed\_outcome: [[Narrative data/Outcome/Outcome0026|Outcome0026]]
+
+- failed\_outcome: [[Narrative data/Outcome/Outcome0026|Outcome0026]]
+
+- neutral\_outcome: [[Narrative data/Outcome/Outcome0026|Outcome0026]]
+
+- tags: response

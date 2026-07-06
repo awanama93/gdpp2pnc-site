@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-04T16:47:06.639+07:00
-modified: 2026-07-06T12:28:43.847+07:00
-published: 2026-07-06T12:28:43.847+07:00
+modified: 2026-07-06T13:49:36.074+07:00
+published: 2026-07-06T13:49:36.074+07:00
 tags:
   - quest
 Quest_ID: Quest0012
@@ -29,7 +29,7 @@ _General Plot:
 dg-publish: true
 ---
 
-### Properties
+Quest0012
 
 - quest\_id: Quest0012
 
@@ -66,7 +66,3 @@ dg-publish: true
 - canvas: [[Plot/_General Plot.canvas|_General Plot.canvas]]
 
 - \_general plot: [[Narrative data/Quest/Quest0013|Quest0013]]
-
-- dg-publish: true
-
-- publish: true

@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-02T18:53:13.053+07:00
-modified: 2026-07-06T12:28:14.431+07:00
-published: 2026-07-06T12:28:14.431+07:00
+modified: 2026-07-06T13:49:19.229+07:00
+published: 2026-07-06T13:49:19.229+07:00
 tags:
   - quest
 Quest_ID: Quest0007
@@ -29,7 +29,7 @@ _General Plot:
 dg-publish: true
 ---
 
-### Properties
+Quest0007
 
 - quest\_id: Quest0007
 
@@ -66,7 +66,3 @@ dg-publish: true
 - canvas: [[Plot/_General Plot.canvas|_General Plot.canvas]]
 
 - \_general plot: [[Narrative data/Quest/Quest0008|Quest0008]],[[Narrative data/LocationChanger/LC0002|LC0002]]
-
-- dg-publish: true
-
-- publish: true

@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-03T16:34:30.808+07:00
-modified: 2026-07-06T09:10:46.356+07:00
-published: 2026-07-06T09:10:46.356+07:00
+modified: 2026-07-06T13:48:45.134+07:00
+published: 2026-07-06T13:48:45.134+07:00
 tags:
   - outcome
 Outcome_ID: Outcome0013
@@ -30,3 +30,53 @@ Special_dice_face_3_addition: none
 Subtract_item_ID: none
 dg-publish: true
 ---
+
+Outcome0013
+
+- outcome\_id: Outcome0013
+
+- response\_id: [[Narrative data/Response/Response0009|Response0009]]
+
+- outcome\_name: knowledge check succeed with Guest C
+
+- outcome\_type: Succeed response
+
+- outcome\_response: You're succeed to check knowledge with Guest C
+
+- exp\_gain: 3
+
+- add\_item\_id: none
+
+- condition\_dice\_1\_type\_modification: none
+
+- condition\_dice\_1\_id: none
+
+- condition\_dice\_2\_type\_modification: none
+
+- condition\_dice\_2\_id: none
+
+- tags: outcome
+
+- condition\_target\_1: none
+
+- condition\_target\_2: none
+
+- condition\_target\_3: none
+
+- condition\_dice 3\_type\_modification: none
+
+- condition\_dice\_3\_id: none
+
+- condition\_dice\_1\_influenced\_skill\_type: none
+
+- condition\_dice\_2\_influenced\_skill\_type: none
+
+- condition\_dice\_3\_influenced\_skill\_type: none
+
+- special\_dice\_face\_1\_addition: low sanity
+
+- special\_dice\_face\_2\_addition: none
+
+- special\_dice\_face\_3\_addition: none
+
+- subtract\_item\_id: none

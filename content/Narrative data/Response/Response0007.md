@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-02T19:15:15.348+07:00
-modified: 2026-07-06T09:10:48.439+07:00
-published: 2026-07-06T09:10:48.439+07:00
+modified: 2026-07-06T13:49:47.559+07:00
+published: 2026-07-06T13:49:47.559+07:00
 tags:
   - response
 Response_ID: Response0007
@@ -25,3 +25,43 @@ Neutral_outcome: none
 Outcome_ID_prerequisite: none
 dg-publish: true
 ---
+
+Response0007
+
+- tags: response
+
+- response\_id: Response0007
+
+- narrative\_id: [[Narrative data/Narrative/Narrative0004|Narrative0004]]
+
+- player\_action\_description: none
+
+- opponent\_action\_description: none
+
+- skill\_check\_text: none
+
+- response\_text: Talk to Guest A
+
+- response\_prerequisite\_type: none
+
+- prerequisite\_quest\_id: none
+
+- prerequisite\_item\_id: none
+
+- skill\_check?: no
+
+- skill\_type: none
+
+- multiple\_skill\_check\_attempt?: none
+
+- item\_check?: none
+
+- item\_id: none
+
+- succeed\_outcome: [[Narrative data/Outcome/Outcome0009|Outcome0009]]
+
+- failed\_outcome: none
+
+- neutral\_outcome: none
+
+- outcome\_id\_prerequisite: none
