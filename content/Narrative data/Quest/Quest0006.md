@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-02T18:38:52.302+07:00
-modified: 2026-07-06T09:57:43.614+07:00
-published: 2026-07-06T09:57:43.614+07:00
+modified: 2026-07-06T10:07:33.317+07:00
+published: 2026-07-06T10:07:33.317+07:00
 tags:
   - quest
 Quest_ID: "[[Quest0006]]"
@@ -50,5 +50,4 @@ _General Plot:
 
 Dataview
 
-<Query results will be output as markdown here>
-%% DATAVIEW_PUBLISHER: end %%
+DATAVIEW\_PUBLISHER: end %%
