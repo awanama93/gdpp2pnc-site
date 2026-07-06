@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-03T10:38:36.096+07:00
-modified: 2026-07-06T09:10:48.121+07:00
-published: 2026-07-06T09:10:48.121+07:00
+modified: 2026-07-06T12:28:25.653+07:00
+published: 2026-07-06T12:28:25.653+07:00
 tags:
   - quest
 Quest_ID: Quest0009
@@ -31,18 +31,42 @@ dg-publish: true
 
 ### Properties
 
-- Quest\_ID: `VIEW[{Quest_ID}][text(renderMarkdown)]`
-- Status: `VIEW[{Status}][text(renderMarkdown)]`
-- Quest\_type: `VIEW[{Quest_type}][text(renderMarkdown)]`
-- Quest\_name: `VIEW[{Quest_name}][text(renderMarkdown)]`
-- Quest\_description: `VIEW[{Quest_description}][text(renderMarkdown)]`
-- Hints: `VIEW[{Hints}][text(renderMarkdown)]`
-- Starter\_prerequisite\_type: `VIEW[{Starter_prerequisite_type}][text(renderMarkdown)]`
-- Starter\_item\_ID: `VIEW[{Starter_item_ID}][text(renderMarkdown)]`
-- Starter\_quest\_ID: `VIEW[{Starter_quest_ID}][text(renderMarkdown)]`
-- Starter\_response\_ID: `VIEW[{Starter_response_ID}][text(renderMarkdown)]`
-- Completion\_prerequisite\_type: `VIEW[{Completion_prerequisite_type}][text(renderMarkdown)]`
-- Completion\_item\_ID: `VIEW[{Completion_item_ID}][text(renderMarkdown)]`
-- Completion\_quest\_ID: `VIEW[{Completion_quest_ID}][text(renderMarkdown)]`
-- Completion\_response\_ID: `VIEW[{Completion_response_ID}][text(renderMarkdown)]`
-- Skill\_check\_result: `VIEW[{Skill_check_result}][text(renderMarkdown)]`
+- quest\_id: Quest0009
+
+- quest\_name: Succeed in skill check with Guest C
+
+- quest\_type: main quest
+
+- status: null
+
+- quest\_description: Sometimes you have to succeed in skill check. Learn how that works
+
+- hints: [[Narrative data/Hint/Hint0010|Hint0010]]
+
+- starter\_prerequisite\_type: Quest completion
+
+- starter\_item\_id: none
+
+- starter\_quest\_id: [[Narrative data/Quest/Quest0008|Quest0008]]
+
+- starter\_response\_id: none
+
+- completion\_prerequisite\_type: Skill check result
+
+- completion\_quest\_id: none
+
+- completion\_item\_id: none
+
+- completion\_response\_id: [[Narrative data/Response/Response0009|Response0009]]
+
+- skill\_check\_result: Succeed
+
+- tags: quest
+
+- canvas: [[Plot/_General Plot.canvas|_General Plot.canvas]]
+
+- \_general plot: [[Narrative data/Quest/Quest0010|Quest0010]],[[Narrative data/LocationChanger/LC0004|LC0004]]
+
+- dg-publish: true
+
+- publish: true
