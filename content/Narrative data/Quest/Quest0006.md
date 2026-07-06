@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-02T18:38:52.302+07:00
-modified: 2026-07-06T11:03:48.184+07:00
-published: 2026-07-06T11:03:48.184+07:00
+modified: 2026-07-06T12:20:21.126+07:00
+published: 2026-07-06T12:20:21.126+07:00
 tags:
   - quest
 Quest_ID: "[[Quest0006]]"
@@ -80,34 +80,60 @@ if (frontmatter) {
 percobaan datacore
 `$= current.name`
 
-ini adalah isi dari variabel
+coba
 
-- key:
+<div><p>main quest</p><p>How the world works</p></div>
 
-  \$types
+<div><a class="internal-link" href="Narrative data/Hint/Hint0022.md" data-tooltip-position="top" aria-label="Hint0022">Hint0022</a><a class="internal-link" href="Narrative data/Hint/HInt0023.md" data-tooltip-position="top" aria-label="HInt0023">HInt0023</a></div>
 
-- value:
-  - file
+- tags: quest
 
-  - markdown
+- quest\_id: [[Narrative data/Quest/Quest0006|Quest0006]]
 
-  - page
+- status: null
 
-  - taggable
+- quest\_type: main quest
 
-  - linkable
+- quest\_name: How the world works
 
-  - links
+- quest\_description: Learn how to interact with the game, then you're ready to play the game
 
-  - fields
+- hints: [[Narrative data/Hint/Hint0022|Hint0022]],[[Narrative data/Hint/HInt0023|HInt0023]]
 
-- provenance:
-  - type:
+- starter\_prerequisite\_type: none
 
-    intrinsic
+- starter\_item\_id: none
 
-  - file:
+- starter\_quest\_id: none
 
-    Narrative data/Quest/Quest0006.md
+- starter\_response\_id: none
 
-  - revision: 237
+- completion\_prerequisite\_type: Quest completion
+
+- completion\_item\_id: none
+
+- completion\_quest\_id: [[Narrative data/Quest/Quest0014|Quest0014]]
+
+- completion\_response\_id: none
+
+- skill\_check\_result: none
+
+- canvas: [[Plot/_General Plot.canvas|_General Plot.canvas]]
+
+- dg-publish: true
+
+- \_general plot: [[Narrative data/Quest/Quest0007|Quest0007]]
+
+- publish: true
+
+- \_\_: undefined
+
+- \_\_b: undefined
+
+- \_\_i: undefined
+
+- \_\_u: undefined
+
+- \_\_e: undefined
+
+- \_\_c: undefined
