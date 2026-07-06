@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Quartz 5
+  pageTitle: GDPP2 PNC Site
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
@@ -10,8 +10,6 @@ configuration:
   baseUrl: awanama93.github.io/gdpp2pnc-site
   ignorePatterns:
     - private
-    - templates
-    - .obsidian
   theme:
     fontOrigin: googleFonts
     cdnCaching: true
