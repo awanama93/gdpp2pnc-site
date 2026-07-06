@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-02T18:38:52.302+07:00
-modified: 2026-07-06T10:11:07.319+07:00
-published: 2026-07-06T10:11:07.319+07:00
+modified: 2026-07-06T11:03:48.184+07:00
+published: 2026-07-06T11:03:48.184+07:00
 tags:
   - quest
 Quest_ID: "[[Quest0006]]"
@@ -76,3 +76,38 @@ if (frontmatter) {
     dv.paragraph(output.join("\n"));
 }
 ```
+
+percobaan datacore
+`$= current.name`
+
+ini adalah isi dari variabel
+
+- key:
+
+  \$types
+
+- value:
+  - file
+
+  - markdown
+
+  - page
+
+  - taggable
+
+  - linkable
+
+  - links
+
+  - fields
+
+- provenance:
+  - type:
+
+    intrinsic
+
+  - file:
+
+    Narrative data/Quest/Quest0006.md
+
+  - revision: 237
