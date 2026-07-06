@@ -6,25 +6,26 @@ views:
     name: Table
     order:
       - file.name
-      - Response ID
-      - Narrative ID
-      - Response text
-      - Player action description
-      - Opponent action description
-      - Skill check text
-      - Response prerequisite type
-      - Prerequisite quest ID
-      - Prerequisite item ID
-      - Outcome ID prerequisite
-      - Skill check?
-      - Skill type
-      - Multiple skill check attempt?
-      - Item check?
-      - Item Id
-      - Succeed outcome
-      - Failed outcome
-      - Neutral outcome
+      - Response_ID
+      - Narrative_ID
+      - Response_text
+      - Player_action_description
+      - Opponent_action_description
+      - Skill_check_text
+      - Response_prerequisite_type
+      - Prerequisite_quest_ID
+      - Prerequisite_item_ID
+      - Outcome_ID_prerequisite
+      - Skill_check?
+      - Skill_type
+      - Multiple_skill_check_attempt?
+      - Item_check?
+      - Item_Id
+      - Succeed_outcome
+      - Failed_outcome
+      - Neutral_outcome
       - tags
     sort: []
     columnSize:
+      note.Response_ID: 127
       note.Narrative ID: 131

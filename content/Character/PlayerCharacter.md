@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-06T13:14:46.437+07:00
-modified: 2026-07-06T13:46:36.271+07:00
-published: 2026-07-06T13:46:36.271+07:00
+modified: 2026-07-06T14:14:47.973+07:00
+published: 2026-07-06T14:14:47.973+07:00
 tags:
   - character
 Dialogue_position:
@@ -10,12 +10,12 @@ Character_ID: "[[PlayerCharacter]]"
 Mesh: PlayerCharacter
 Narrative_data:
 dg-publish: true
-StrengthDice:
-ReflexDice:
-ArtistryDice:
-DeceptionDice:
-KnowledgeDice:
-ObservationDice:
+DiceStrength:
+DiceReflex:
+DiceArtistry:
+DiceDeception:
+DiceKnowledge:
+DiceObservation:
 ---
 
 PlayerCharacter
@@ -30,14 +30,14 @@ PlayerCharacter
 
 - narrative\_data: null
 
-- strengthdice: null
+- dicestrength: null
 
-- reflexdice: null
+- dicereflex: null
 
-- artistrydice: null
+- diceartistry: null
 
-- deceptiondice: null
+- dicedeception: null
 
-- knowledgedice: null
+- diceknowledge: null
 
-- observationdice: null
+- diceobservation: null

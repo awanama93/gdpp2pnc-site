@@ -1,13 +1,13 @@
 ---
 publish: true
 created: 2026-07-02T23:05:56.303+07:00
-modified: 2026-07-06T13:46:26.085+07:00
-published: 2026-07-06T13:46:26.085+07:00
+modified: 2026-07-06T15:13:06.868+07:00
+published: 2026-07-06T15:13:06.868+07:00
 tags:
   - character
-Dialogue_position: Left
-Character_ID: GuestB
-Mesh: ExtrasA
+Dialogue_position: Left & Right
+Character_ID: GroupGuestB
+Mesh: ExtrasA & Extras B
 Narrative_data:
   - "[[Narrative0005]]"
   - "[[Narrative0009]]"
@@ -16,20 +16,38 @@ canvas:
   - "[[_General Plot.canvas]]"
 _General Plot: []
 dg-publish: true
+DiceStrength:
+DiceReflex:
+DiceArtistry:
+DiceDeception:
+DiceKnowledge:
+DiceObservation:
 ---
 
 GuestB
 
 - tags: character
 
-- dialogue\_position: Left
+- dialogue\_position: Left & Right
 
-- character\_id: GuestB
+- character\_id: GroupGuestB
 
-- mesh: ExtrasA
+- mesh: ExtrasA & Extras B
 
 - narrative\_data: [[Narrative data/Narrative/Narrative0005|Narrative0005]],[[Narrative data/Narrative/Narrative0009|Narrative0009]],[[Narrative data/Narrative/Narrative0010|Narrative0010]]
 
 - canvas: [[Plot/_General Plot.canvas|_General Plot.canvas]]
 
 - \_general plot:
+
+- dicestrength: null
+
+- dicereflex: null
+
+- diceartistry: null
+
+- dicedeception: null
+
+- diceknowledge: null
+
+- diceobservation: null

@@ -6,7 +6,7 @@ views:
     name: Table
     order:
       - file.name
-      - Item Id
-      - Item name
-      - Item description
+      - Item_Id
+      - Item_name
+      - Item_description
       - tags

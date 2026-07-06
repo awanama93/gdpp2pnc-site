@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-03T17:07:32.002+07:00
-modified: 2026-07-06T13:46:31.488+07:00
-published: 2026-07-06T13:46:31.488+07:00
+modified: 2026-07-06T14:16:43.246+07:00
+published: 2026-07-06T14:16:43.246+07:00
 tags:
   - character
 Dialogue_position: Left
@@ -15,6 +15,12 @@ canvas:
   - "[[_General Plot.canvas]]"
 _General Plot: []
 dg-publish: true
+DiceStrength:
+DiceReflex:
+DiceArtistry:
+DiceDeception:
+DiceKnowledge:
+DiceObservation:
 ---
 
 GuestD
@@ -32,3 +38,15 @@ GuestD
 - canvas: [[Plot/_General Plot.canvas|_General Plot.canvas]]
 
 - \_general plot:
+
+- dicestrength: null
+
+- dicereflex: null
+
+- diceartistry: null
+
+- dicedeception: null
+
+- diceknowledge: null
+
+- diceobservation: null

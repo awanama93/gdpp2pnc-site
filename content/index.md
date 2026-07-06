@@ -1,39 +1,37 @@
 ---
 publish: true
 created: 2026-06-20T18:20:58.770+07:00
-modified: 2026-07-06T09:10:45.011+07:00
-published: 2026-07-06T09:10:45.011+07:00
+modified: 2026-07-06T15:14:23.267+07:00
+published: 2026-07-06T15:14:23.267+07:00
 dg-publish: true
 dg-home: true
-"---\nIni adalah front page untuk dokumentasi narrative, quest, dan content lainnya untuk project Point & Click Game Development Profesional Program Batch 2\n\nPada dokumen ini terdapat beragam informasi detil.\n\n- User dokumen ini bisa mulai dari melihat plot summary dari game ini": ": [[_Plot summary only]]"
-"\n- User dokumen ini bisa mulai dari melihat diagram quest dan narrative pada page berikut": ": [[_General Plot.canvas]]"
 ---
 
 Ini adalah front page untuk dokumentasi narrative, quest, dan content lainnya untuk project Point & Click Game Development Profesional Program Batch 2
 
 Pada dokumen ini terdapat beragam informasi detil.
 
-- User dokumen ini bisa mulai dari melihat plot summary dari game ini:: : [[_Plot summary only]]
+- User dokumen ini bisa mulai dari melihat plot summary dari game ini:[[_Plot summary only]]
 
-- User dokumen ini bisa mulai dari melihat diagram quest dan narrative pada page berikut:: : [[_General Plot.canvas]]
+- User dokumen ini bisa mulai dari melihat diagram quest dan narrative pada page berikut: [[_General Plot.canvas]]
 
 Lalu, user dokumen ini juga bisa mengakses beragam database tentang quest dan narrative:
 
-- Character database
+- #### Character database
   - [[CharacterDatabase.base]]
-- Dice database
+- #### Dice database
   - [[DiceDatabase.base]]
-- Item database
+- #### Item database
   - [[ItemDatabase.base]]
-- Location changer database
+- #### Location changer database
   - [[LocationChangerDatabase.base]]
-- Quest database
+- #### Quest database
   - [[QuestDatabase.base]]
-- Hint database
+- #### Hint database
   - [[HintDatabase.base]]
-- Narrative database
+- #### Narrative database
   - [[NarrativeDatabase.base]]
-- Response database
+- #### Response database
   - [[ResponseDatabase.base]]
-- Outcome database
+- #### Outcome database
   - [[OutcomeDatabase.base]]

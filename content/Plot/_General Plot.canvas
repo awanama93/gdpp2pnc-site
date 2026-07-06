@@ -7,28 +7,17 @@
 		{"id":"f8210db008041307","type":"file","file":"Narrative data/Quest/Quest0010.md","x":1280,"y":2920,"width":400,"height":640,"color":"5"},
 		{"id":"ea693f882c64b0e6","type":"file","file":"Narrative data/Quest/Quest0009.md","x":680,"y":2920,"width":400,"height":640,"color":"5"},
 		{"id":"41b601d6a7b3664c","type":"file","file":"Narrative data/Quest/Quest0013.md","x":3240,"y":2900,"width":400,"height":700,"color":"5"},
-		{"id":"16ea966b16d2478c","type":"file","file":"Character/GuestD.md","x":440,"y":5520,"width":400,"height":400},
-		{"id":"9a701e90bccf9cd1","type":"file","file":"Character/GuestA.md","x":-1500,"y":5560,"width":400,"height":360},
-		{"id":"6c8470e9213d22e8","type":"file","file":"Character/GuestB.md","x":-800,"y":5560,"width":400,"height":400},
-		{"id":"be205496c1ade5c3","type":"file","file":"Character/GuestC.md","x":-140,"y":5560,"width":400,"height":400},
-		{"id":"d3f5ef86ba4a82f7","type":"file","file":"Narrative data/LocationChanger/LC0001.md","x":-1760,"y":2140,"width":470,"height":480,"color":"2"},
+		{"id":"9a701e90bccf9cd1","type":"file","file":"Character/GuestA.md","x":-1500,"y":5560,"width":400,"height":680},
+		{"id":"6c8470e9213d22e8","type":"file","file":"Character/GuestB.md","x":-800,"y":5560,"width":400,"height":680},
+		{"id":"be205496c1ade5c3","type":"file","file":"Character/GuestC.md","x":-140,"y":5560,"width":400,"height":680},
+		{"id":"d3f5ef86ba4a82f7","type":"file","file":"Narrative data/LocationChanger/LC0001.md","x":-1760,"y":2140,"width":470,"height":940,"color":"2"},
 		{"id":"350628078f7241ca","type":"file","file":"Narrative data/Quest/Quest0006.md","x":-1040,"y":2200,"width":400,"height":840,"color":"1"},
-		{
-			"id":"5c27144d64c87e39",
-			"type":"text",
-			"text":"Start here",
-			"styleAttributes":{},
-			"x":-2300,
-			"y":2350,
-			"width":250,
-			"height":60
-		},
 		{"id":"8a156029d2480deb","type":"file","file":"Narrative data/Quest/Quest0014.md","x":3920,"y":2380,"width":400,"height":700,"color":"5"},
-		{"id":"bda550fbf6901c86","type":"file","file":"Narrative data/LocationChanger/LC0004.md","x":720,"y":3990,"width":500,"height":510,"color":"2"},
-		{"id":"d4319e5177da409e","type":"file","file":"Narrative data/LocationChanger/LC0005.md","x":1360,"y":3990,"width":440,"height":510,"color":"2"},
-		{"id":"ab42715f3f51bb15","type":"file","file":"Narrative data/LocationChanger/LC0003.md","x":80,"y":3995,"width":540,"height":500,"color":"2"},
-		{"id":"5c12009ebe2ec0a7","type":"file","file":"Narrative data/LocationChanger/LC0002.md","x":-520,"y":3995,"width":480,"height":500,"color":"2"},
-		{"id":"a2cad7bb2ba17eef","type":"file","file":"Narrative data/LocationChanger/LC0006.md","x":3640,"y":3720,"width":500,"height":360,"color":"2"},
+		{"id":"bda550fbf6901c86","type":"file","file":"Narrative data/LocationChanger/LC0004.md","x":720,"y":3990,"width":500,"height":930,"color":"2"},
+		{"id":"d4319e5177da409e","type":"file","file":"Narrative data/LocationChanger/LC0005.md","x":1360,"y":3990,"width":440,"height":930,"color":"2"},
+		{"id":"ab42715f3f51bb15","type":"file","file":"Narrative data/LocationChanger/LC0003.md","x":80,"y":3995,"width":540,"height":925,"color":"2"},
+		{"id":"5c12009ebe2ec0a7","type":"file","file":"Narrative data/LocationChanger/LC0002.md","x":-520,"y":3995,"width":480,"height":925,"color":"2"},
+		{"id":"a2cad7bb2ba17eef","type":"file","file":"Narrative data/LocationChanger/LC0006.md","x":3640,"y":3720,"width":500,"height":960,"color":"2"},
 		{"id":"1e5343a4fe56525e","type":"file","file":"Plot/Friendship relationship phase.md","x":6000,"y":-800,"width":440,"height":340},
 		{"id":"3c8ef359db9c4844","type":"file","file":"Plot/Love relationship phase.md","x":6640,"y":-800,"width":520,"height":340},
 		{"id":"e44395e5acfeaa98","type":"file","file":"Plot/Bagian 3 Investigasi awal - Community.md","x":5800,"y":-40,"width":400,"height":400},
@@ -52,15 +41,28 @@
 		{"id":"a9874b41689dc5d8","type":"file","file":"Plot/Ending A The scapegoat.md","x":12840,"y":-260,"width":400,"height":400},
 		{"id":"69adfd5d83875776","type":"file","file":"Plot/Ending B Truth revealed.md","x":12920,"y":380,"width":400,"height":400},
 		{
+			"id":"5c27144d64c87e39",
+			"type":"text",
+			"text":"Start here",
+			"styleAttributes":{},
+			"x":-2960,
+			"y":2530,
+			"width":250,
+			"height":60
+		},
+		{"id":"2de04378de217093","type":"file","file":"Narrative data/DoorTeleporter/DT0002.md","x":-520,"y":1280,"width":400,"height":660,"color":"4"},
+		{"id":"dc92fb132dbe4c25","type":"file","file":"Narrative data/DoorTeleporter/DT0001.md","x":-2400,"y":1280,"width":400,"height":840,"color":"4"},
+		{
 			"id":"b6ed898b95714a3d",
 			"type":"text",
 			"text":"Learn list\n\nClick to interact\nSkill check\nEXP\nDifferent type of outcome\nSkill dice type\nUpgrade skill dice face\nCondition dice\nDifferent type of non-integer face & stat\nSpecial dice face\nCrafting special dice\nFace",
 			"styleAttributes":{},
-			"x":-1655,
-			"y":2700,
+			"x":-1360,
+			"y":3200,
 			"width":260,
 			"height":340
-		}
+		},
+		{"id":"16ea966b16d2478c","type":"file","file":"Character/GuestD.md","x":480,"y":5560,"width":400,"height":680}
 	],
 	"edges":[
 		{
@@ -252,17 +254,20 @@
 			"fromSide":"right",
 			"toNode":"857cc6c67f6b4dcc",
 			"toSide":"left",
-			"color":"5"
+			"color":"5",
+			"label":"5"
 		},
 		{
 			"id":"91d0b94e2ac9a425",
 			"styleAttributes":{},
 			"toFloating":false,
+			"fromFloating":false,
 			"fromNode":"857cc6c67f6b4dcc",
 			"fromSide":"right",
 			"toNode":"ea693f882c64b0e6",
 			"toSide":"left",
-			"color":"5"
+			"color":"5",
+			"label":"6"
 		},
 		{
 			"id":"05f6e18725eb371e",
@@ -272,7 +277,8 @@
 			"fromSide":"right",
 			"toNode":"f8210db008041307",
 			"toSide":"left",
-			"color":"5"
+			"color":"5",
+			"label":"7"
 		},
 		{
 			"id":"40b575cb32f9498e",
@@ -283,7 +289,8 @@
 			"fromSide":"right",
 			"toNode":"a15bf084f3fae325",
 			"toSide":"left",
-			"color":"5"
+			"color":"5",
+			"label":"8"
 		},
 		{
 			"id":"8045556be29bcddf",
@@ -294,7 +301,8 @@
 			"fromSide":"right",
 			"toNode":"ef5dbe3460a10ba3",
 			"toSide":"left",
-			"color":"5"
+			"color":"5",
+			"label":"9"
 		},
 		{
 			"id":"df1c4270d9b151e9",
@@ -304,18 +312,8 @@
 			"fromSide":"right",
 			"toNode":"41b601d6a7b3664c",
 			"toSide":"left",
-			"color":"5"
-		},
-		{
-			"id":"b9a9d80641aa5db9",
-			"styleAttributes":{"pathfindingMethod":"a-star","path":"short-dashed"},
-			"toFloating":false,
-			"fromFloating":false,
-			"fromNode":"350628078f7241ca",
-			"fromSide":"right",
-			"toNode":"cb1102d63b8b7991",
-			"toSide":"top",
-			"color":"1"
+			"color":"5",
+			"label":"10"
 		},
 		{
 			"id":"b8e18b378016b4f5",
@@ -326,7 +324,8 @@
 			"fromSide":"right",
 			"toNode":"8a156029d2480deb",
 			"toSide":"bottom",
-			"color":"5"
+			"color":"5",
+			"label":"11"
 		},
 		{
 			"id":"6d8eef6c3c8f744f",
@@ -337,7 +336,8 @@
 			"fromSide":"right",
 			"toNode":"350628078f7241ca",
 			"toSide":"left",
-			"color":"2"
+			"color":"2",
+			"label":"3"
 		},
 		{
 			"id":"60fc2f85e8b69a6e",
@@ -346,9 +346,10 @@
 			"fromFloating":false,
 			"fromNode":"5c27144d64c87e39",
 			"fromSide":"right",
-			"toNode":"d3f5ef86ba4a82f7",
-			"toSide":"left",
-			"color":"2"
+			"toNode":"dc92fb132dbe4c25",
+			"toSide":"bottom",
+			"color":"2",
+			"label":"1"
 		},
 		{
 			"id":"5506167ce90917fe",
@@ -391,7 +392,8 @@
 			"fromSide":"left",
 			"toNode":"350628078f7241ca",
 			"toSide":"right",
-			"color":"1"
+			"color":"1",
+			"label":"12"
 		},
 		{
 			"id":"144f1d15c873c92c",
@@ -409,10 +411,46 @@
 			"styleAttributes":{"pathfindingMethod":"a-star","path":"long-dashed"},
 			"toFloating":false,
 			"fromNode":"41b601d6a7b3664c",
-			"fromSide":"right",
+			"fromSide":"bottom",
 			"toNode":"a2cad7bb2ba17eef",
 			"toSide":"top",
 			"color":"2"
+		},
+		{
+			"id":"6b35dea1a1b2f3d3",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"dc92fb132dbe4c25",
+			"fromSide":"right",
+			"toNode":"d3f5ef86ba4a82f7",
+			"toSide":"top",
+			"color":"4",
+			"label":"2"
+		},
+		{
+			"id":"69b3a8726324b198",
+			"styleAttributes":{"path":"dotted","pathfindingMethod":"a-star"},
+			"toFloating":false,
+			"fromNode":"350628078f7241ca",
+			"fromSide":"right",
+			"toNode":"cb1102d63b8b7991",
+			"toSide":"top",
+			"color":"1",
+			"label":"4"
+		},
+		{
+			"id":"2ed5528346ed8053",
+			"styleAttributes":{
+				"pathfindingMethod":"square",
+				"path":null
+			},
+			"toFloating":false,
+			"fromNode":"350628078f7241ca",
+			"fromSide":"top",
+			"toNode":"2de04378de217093",
+			"toSide":"bottom",
+			"color":"4"
 		}
 	],
 	"metadata":{

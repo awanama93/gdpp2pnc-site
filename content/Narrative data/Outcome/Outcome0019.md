@@ -50,11 +50,11 @@ Outcome0019
 
 - condition\_dice\_1\_type\_modification: addition
 
-- condition\_dice\_1\_id: [[Dice/BuffSampleDice|BuffSampleDice]]
+- condition\_dice\_1\_id: [[Dice/ConditionDice/BuffSampleDice|BuffSampleDice]]
 
 - condition\_dice\_2\_type\_modification: addition
 
-- condition\_dice\_2\_id: [[Dice/NerfSampleDice|NerfSampleDice]]
+- condition\_dice\_2\_id: [[Dice/ConditionDice/NerfSampleDice|NerfSampleDice]]
 
 - tags: outcome
 
@@ -66,7 +66,7 @@ Outcome0019
 
 - condition\_dice 3\_type\_modification: addition
 
-- condition\_dice\_3\_id: [[Dice/ObservationBuffSample|ObservationBuffSample]]
+- condition\_dice\_3\_id: [[Dice/ConditionDice/ObservationBuffSample|ObservationBuffSample]]
 
 - condition\_dice\_1\_influenced\_skill\_type: any skill
 

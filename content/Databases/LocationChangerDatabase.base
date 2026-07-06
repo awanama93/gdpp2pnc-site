@@ -6,22 +6,27 @@ views:
     name: Table
     order:
       - file.name
-      - Quest ID trigger
-      - CharacterData1
-      - CharacterData2
-      - CharacterData3
-      - CharacterData4
-      - CharacterData5
-      - CharacterData6
-      - CharacterData7
-      - CharacterData8
-      - CharacterData9
-      - CharacterData10
-      - CharacterData11
-      - CharacterData12
-      - CharacterData13
-      - CharacterData15
-      - CharacterData14
+      - Quest_ID_trigger
+      - LC1CharacterID
+      - LC1Area
+      - LC1NewLocation
+      - LC1Animation
+      - LC2CharacterID
+      - LC2Area
+      - LC2NewLocation
+      - LC2Animation
+      - LC3CharacterID
+      - LC3Area
+      - LC3NewLocation
+      - LC3Animation
+      - LC4CharacterID
+      - LC4Area
+      - LC4NewLocation
+      - LC4Animation
+      - LC5CharacterID
+      - LC5Area
+      - LC5NewLocation
+      - LC5Animation
       - tags
     sort: []
     columnSize:

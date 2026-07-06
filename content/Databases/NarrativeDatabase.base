@@ -9,10 +9,10 @@ views:
         - file.inFolder("Narrative data/Narrative")
     order:
       - file.name
-      - Narrative ID
-      - Narrative name
+      - Narrative_ID
+      - Narrative_name
       - Exposition
-      - Narrative completion status
+      - Narrative_completion_status
       - Responses
       - tags
     columnSize:

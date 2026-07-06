@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-02T18:56:39.582+07:00
-modified: 2026-07-06T13:46:22.859+07:00
-published: 2026-07-06T13:46:22.859+07:00
+modified: 2026-07-06T14:16:21.318+07:00
+published: 2026-07-06T14:16:21.318+07:00
 tags:
   - character
 Character_ID: GuestA
@@ -16,6 +16,12 @@ canvas:
   - "[[_General Plot.canvas]]"
 _General Plot: []
 dg-publish: true
+DiceStrength:
+DiceReflex:
+DiceArtistry:
+DiceDeception:
+DiceKnowledge:
+DiceObservation:
 ---
 
 GuestA
@@ -33,3 +39,15 @@ GuestA
 - canvas: [[Plot/_General Plot.canvas|_General Plot.canvas]]
 
 - \_general plot:
+
+- dicestrength: null
+
+- dicereflex: null
+
+- diceartistry: null
+
+- dicedeception: null
+
+- diceknowledge: null
+
+- diceobservation: null

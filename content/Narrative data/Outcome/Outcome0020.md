@@ -64,7 +64,7 @@ Outcome0020
 
 - condition\_dice 3\_type\_modification: addition
 
-- condition\_dice\_3\_id: [[Dice/DeceptionBuffsample|DeceptionBuffsample]]
+- condition\_dice\_3\_id: [[Dice/ConditionDice/DeceptionBuffsample|DeceptionBuffsample]]
 
 - tags: outcome
 

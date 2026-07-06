@@ -1,61 +1,99 @@
 ---
 publish: true
 created: 2026-07-05T16:25:21.605+07:00
-modified: 2026-07-06T13:50:18.089+07:00
-published: 2026-07-06T13:50:18.089+07:00
+modified: 2026-07-06T14:33:29.731+07:00
+published: 2026-07-06T14:33:29.731+07:00
 tags:
   - doorteleporter
-DoorTeleporterData1:
-  DoorName: ""
-  DoorNewStatus: ""
-  TeleporterName: ""
-  TeleporterNewStatus: ""
-DoorTeleporterData2:
-  DoorName: ""
-  DoorNewStatus: ""
-  TeleporterName: ""
-  TeleporterNewStatus: ""
-DoorTeleporterData3:
-  DoorName: ""
-  DoorNewStatus: ""
-  TeleporterName: ""
-  TeleporterNewStatus: ""
-DoorTeleporterData4:
-  DoorName: ""
-  DoorNewStatus: ""
-  TeleporterName: ""
-  TeleporterNewStatus: ""
-DoorTeleporterData5:
-  DoorName: ""
-  DoorNewStatus: ""
-  TeleporterName: ""
-  TeleporterNewStatus: ""
-DoorTeleporterData6:
-  DoorName: ""
-  DoorNewStatus: ""
-  TeleporterName: ""
-  TeleporterNewStatus: ""
-DoorTeleporterData:
-  DoorName: ""
-  DoorNewStatus: ""
-  TeleporterName: ""
-  TeleporterNewStatus: ""
+Quest_ID_trigger:
+DT1DoorName:
+DT1DoorNewStatus:
+D1TeleporterName:
+D1TeleporterNewStatus:
+D2DoorName:
+D2DoorNewStatus:
+D2TeleporterName:
+D2TeleporterNewStatus:
+D3DoorName:
+D3DoorNewStatus:
+D3TeleporterName:
+D3TeleporterNewStatus:
+D4DoorName:
+D4DoorNewStatus:
+D4TeleporterName:
+D4TeleporterNewStatus:
+D5DoorName:
+D5DoorNewStatus:
+D5TeleporterName:
+D5TeleporterNewStatus:
+D6DoorName:
+D6DoorNewStatus:
+D6TeleporterName:
+D6TeleporterNewStatus:
+D7DoorName:
+D7DoorNewStatus:
+D7TeleporterName:
+D7TeleporterNewStatus:
 ---
 
 DoorTeleporterTemplate
 
 - tags: doorteleporter
 
-- doorteleporterdata1: \[object Object]
+- quest\_id\_trigger: null
 
-- doorteleporterdata2: \[object Object]
+- dt1doorname: null
 
-- doorteleporterdata3: \[object Object]
+- dt1doornewstatus: null
 
-- doorteleporterdata4: \[object Object]
+- d1teleportername: null
 
-- doorteleporterdata5: \[object Object]
+- d1teleporternewstatus: null
 
-- doorteleporterdata6: \[object Object]
+- d2doorname: null
 
-- doorteleporterdata: \[object Object]
+- d2doornewstatus: null
+
+- d2teleportername: null
+
+- d2teleporternewstatus: null
+
+- d3doorname: null
+
+- d3doornewstatus: null
+
+- d3teleportername: null
+
+- d3teleporternewstatus: null
+
+- d4doorname: null
+
+- d4doornewstatus: null
+
+- d4teleportername: null
+
+- d4teleporternewstatus: null
+
+- d5doorname: null
+
+- d5doornewstatus: null
+
+- d5teleportername: null
+
+- d5teleporternewstatus: null
+
+- d6doorname: null
+
+- d6doornewstatus: null
+
+- d6teleportername: null
+
+- d6teleporternewstatus: null
+
+- d7doorname: null
+
+- d7doornewstatus: null
+
+- d7teleportername: null
+
+- d7teleporternewstatus: null

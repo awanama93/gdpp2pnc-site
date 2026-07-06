@@ -6,14 +6,14 @@ views:
     name: Table
     order:
       - file.name
-      - Hint ID
-      - Quest ID relation
-      - Hint description
+      - Hint_ID
+      - Quest_ID_relation
+      - Hint_description
       - Status
-      - Hint prerequisite type
-      - Item Id
-      - Quest ID prerequisite
-      - Outcome ID prerequisite
+      - Hint_prerequisite_type
+      - Item_Id
+      - Quest_ID_prerequisite
+      - Outcome_ID_prerequisite
       - tags
     sort:
       - property: Quest ID

@@ -6,21 +6,21 @@ views:
         - file.inFolder("Narrative data/Quest")
     order:
       - file.name
-      - Quest ID
-      - Quest name
-      - Quest type
+      - Quest_ID
+      - Quest_name
+      - Quest_type
       - Status
-      - Quest description
+      - Quest_description
       - Hints
-      - Starter prerequisite type
-      - Starter item ID
-      - Starter quest ID
-      - Starter response ID
-      - Completion prerequisite type
-      - Completion quest ID
-      - Completion item ID
-      - Skill check result
-      - Completion response ID
+      - Starter_prerequisite_type
+      - Starter_item_ID
+      - Starter_quest_ID
+      - Starter_response_ID
+      - Completion_prerequisite_type
+      - Completion_quest_ID
+      - Completion_item_ID
+      - Skill_check_result
+      - Completion_response_ID
       - tags
     sort: []
     columnSize:

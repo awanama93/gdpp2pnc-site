@@ -6,10 +6,16 @@ views:
         - file.inFolder("Character")
     order:
       - file.name
-      - Character ID
+      - Character_ID
       - Mesh
-      - Narrative data
-      - Dialogue position
+      - Narrative_data
+      - Dialogue_position
+      - DiceStrength
+      - DiceReflex
+      - DiceArtistry
+      - DiceDeception
+      - DiceKnowledge
+      - DiceObservation
       - tags
     columnSize:
       note.Narrative data: 326

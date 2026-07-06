@@ -6,22 +6,23 @@ views:
     name: Table
     order:
       - file.name
-      - Dice ID
-      - Dice name
-      - Dice type
-      - Influenced skill
-      - Face 1 type
-      - Face 1 value
-      - Face 2 type
-      - Face 2 value
-      - Face 3 type
-      - Face 3 value
-      - Face 4 type
-      - Face 4 value
-      - Face 5 type
-      - Face 5 value
-      - Face 6 type
-      - Face 6 value
+      - Dice_ID
+      - Dice_name
+      - Dice_type
+      - Influenced_skill
+      - Face_1_type
+      - Face_1_value
+      - Face_2_type
+      - Face_2_value
+      - Face_3_type
+      - Face_3_value
+      - Face_4_type
+      - Face_4_value
+      - Face_5_type
+      - Face_5_value
+      - Face_6_type
+      - Face_6_value
       - tags
+    sort: []
     columnSize:
       file.name: 150

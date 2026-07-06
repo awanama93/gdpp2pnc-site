@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-02T18:38:52.302+07:00
-modified: 2026-07-06T13:49:15.299+07:00
-published: 2026-07-06T13:49:15.299+07:00
+modified: 2026-07-06T15:09:56.027+07:00
+published: 2026-07-06T15:09:56.027+07:00
 tags:
   - quest
 Quest_ID: "[[Quest0006]]"
@@ -28,6 +28,7 @@ canvas:
 dg-publish: true
 _General Plot:
   - "[[Quest0007]]"
+  - "[[DT0002]]"
 ---
 
 Quest0006
