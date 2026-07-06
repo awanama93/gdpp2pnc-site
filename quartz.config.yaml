@@ -247,7 +247,9 @@ plugins:
         - description
         - tags
         - aliases
-      excludedProperties: []
+      excludedProperties:
+        - publish
+        - dg-publish
       hidePropertiesView: false
       delimiters: ---
       language: yaml
