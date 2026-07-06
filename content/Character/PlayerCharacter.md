@@ -1,13 +1,13 @@
 ---
 publish: true
-created: 2026-06-20T18:28:32.032+07:00
-modified: 2026-07-06T13:14:41.330+07:00
-published: 2026-07-06T13:14:41.330+07:00
+created: 2026-07-06T13:14:46.437+07:00
+modified: 2026-07-06T13:15:23.381+07:00
+published: 2026-07-06T13:15:23.381+07:00
 tags:
   - character
 Dialogue_position:
-Character_ID:
-Mesh:
+Character_ID: "[[PlayerCharacter]]"
+Mesh: PlayerCharacter
 Narrative_data:
 dg-publish: true
 StrengthDice:
@@ -18,15 +18,15 @@ KnowledgeDice:
 ObservationDice:
 ---
 
-CharacterTemplate
+PlayerCharacter
 
 - tags: character
 
 - dialogue\_position: null
 
-- character\_id: null
+- character\_id: [[Character/PlayerCharacter|PlayerCharacter]]
 
-- mesh: null
+- mesh: PlayerCharacter
 
 - narrative\_data: null
 

@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-04T20:54:25.847+07:00
-modified: 2026-07-06T12:28:55.966+07:00
-published: 2026-07-06T12:28:55.966+07:00
+modified: 2026-07-06T12:39:18.635+07:00
+published: 2026-07-06T12:39:18.635+07:00
 tags:
   - quest
 Quest_ID: Quest0014
@@ -66,8 +66,4 @@ _General Plot:
 
 - canvas: [[Plot/_General Plot.canvas|_General Plot.canvas]]
 
-- dg-publish: true
-
 - \_general plot: [[Narrative data/Quest/Quest0006|Quest0006]]
-
-- publish: true

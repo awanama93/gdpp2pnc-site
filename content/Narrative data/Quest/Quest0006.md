@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-02T18:38:52.302+07:00
-modified: 2026-07-06T12:28:02.717+07:00
-published: 2026-07-06T12:28:02.717+07:00
+modified: 2026-07-06T13:14:15.962+07:00
+published: 2026-07-06T13:14:15.962+07:00
 tags:
   - quest
 Quest_ID: "[[Quest0006]]"
@@ -30,7 +30,7 @@ _General Plot:
   - "[[Quest0007]]"
 ---
 
-### Properties
+Quest0006
 
 - tags: quest
 
