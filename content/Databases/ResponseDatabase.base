@@ -1,0 +1,30 @@
+filters:
+  and:
+    - file.inFolder("Narrative data/Response")
+views:
+  - type: table
+    name: Table
+    order:
+      - file.name
+      - Response ID
+      - Narrative ID
+      - Response text
+      - Player action description
+      - Opponent action description
+      - Skill check text
+      - Response prerequisite type
+      - Prerequisite quest ID
+      - Prerequisite item ID
+      - Outcome ID prerequisite
+      - Skill check?
+      - Skill type
+      - Multiple skill check attempt?
+      - Item check?
+      - Item Id
+      - Succeed outcome
+      - Failed outcome
+      - Neutral outcome
+      - tags
+    sort: []
+    columnSize:
+      note.Narrative ID: 131

@@ -1,0 +1,21 @@
+filters:
+  and:
+    - file.inFolder("Narrative data/Narrative")
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.inFolder("Narrative data/Narrative")
+    order:
+      - file.name
+      - Narrative ID
+      - Narrative name
+      - Exposition
+      - Narrative completion status
+      - Responses
+      - tags
+    columnSize:
+      note.Exposition: 164
+      note.Narrative completion status: 172
+      note.Responses: 334
