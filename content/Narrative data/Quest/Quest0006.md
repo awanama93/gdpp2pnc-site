@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-02T18:38:52.302+07:00
-modified: 2026-07-06T09:10:47.878+07:00
-published: 2026-07-06T09:10:47.878+07:00
+modified: 2026-07-06T09:57:43.614+07:00
+published: 2026-07-06T09:57:43.614+07:00
 tags:
   - quest
 Quest_ID: "[[Quest0006]]"
@@ -50,29 +50,5 @@ _General Plot:
 
 Dataview
 
-```dataviewjs
-// Grab the frontmatter object of the current file
-let frontmatter = dv.current();
-
-if (frontmatter) {
-    let output = [];
-    
-    // Loop through every key in the metadata
-    for (let key of Object.keys(frontmatter)) {
-        // Filter out Dataview's internal system keys
-        if (!["file", "id", "position"].includes(key)) {
-            let value = frontmatter[key];
-            
-            // Format arrays (like lists of links) into comma-separated text
-            if (Array.isArray(value)) {
-                value = value.join(", ");
-            }
-            
-            output.push(`- **${key}**: ${value}`);
-        }
-    }
-    
-    // Print the final list as plain markdown prose
-    dv.paragraph(output.join("\n"));
-}
-```
+<Query results will be output as markdown here>
+%% DATAVIEW_PUBLISHER: end %%
