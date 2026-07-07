@@ -1,11 +1,11 @@
 ---
 publish: true
 created: 2026-07-03T17:37:12.990+07:00
-modified: 2026-07-06T13:48:53.086+07:00
-published: 2026-07-06T13:48:53.086+07:00
+modified: 2026-07-07T09:51:21.395+07:00
+published: 2026-07-07T09:51:21.395+07:00
 tags:
   - outcome
-Outcome_ID: Outcome0018
+Outcome_ID: "[[Outcome0018]]"
 Response_ID:
   - "[[Response0010]]"
   - "[[Response0011]]"
@@ -36,7 +36,7 @@ dg-publish: true
 
 Outcome0018
 
-- outcome\_id: Outcome0018
+- outcome\_id: [[Narrative data/Outcome/Outcome0018|Outcome0018]]
 
 - response\_id: [[Narrative data/Response/Response0010|Response0010]],[[Narrative data/Response/Response0011|Response0011]],[[Narrative data/Response/Response0012|Response0012]]
 

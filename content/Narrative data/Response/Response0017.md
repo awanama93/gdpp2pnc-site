@@ -1,12 +1,11 @@
 ---
 publish: true
 created: 2026-07-04T19:48:37.093+07:00
-modified: 2026-07-06T13:50:01.137+07:00
-published: 2026-07-06T13:50:01.137+07:00
+modified: 2026-07-07T15:21:59.164+07:00
+published: 2026-07-07T15:21:59.164+07:00
 tags:
   - response
-Response_ID:
-  - Response0017
+Response_ID: "[[Response0017]]"
 Narrative_ID: "[[Narrative0011]]"
 Response_text: Ask how to make special dice
 Player_action_description: none
@@ -25,11 +24,15 @@ Succeed_outcome: "[[Outcome0023]]"
 Failed_outcome: "[[Outcome0023]]"
 Neutral_outcome: "[[Outcome0023]]"
 dg-publish: true
+Response_completion_status:
+Quest_ID_prerequisite_relation: none
+Item_ID_prerequisite_relation: none
+Outcome_ID_prerequisite_relation: is
 ---
 
 Response0017
 
-- response\_id: Response0017
+- response\_id: [[Narrative data/Response/Response0017|Response0017]]
 
 - narrative\_id: [[Narrative data/Narrative/Narrative0011|Narrative0011]]
 
@@ -66,3 +69,11 @@ Response0017
 - neutral\_outcome: [[Narrative data/Outcome/Outcome0023|Outcome0023]]
 
 - tags: response
+
+- response\_completion\_status: null
+
+- quest\_id\_prerequisite\_relation: none
+
+- item\_id\_prerequisite\_relation: none
+
+- outcome\_id\_prerequisite\_relation: is

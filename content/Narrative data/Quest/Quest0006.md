@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-02T18:38:52.302+07:00
-modified: 2026-07-06T15:09:56.027+07:00
-published: 2026-07-06T15:09:56.027+07:00
+modified: 2026-07-07T15:34:08.232+07:00
+published: 2026-07-07T15:34:08.232+07:00
 tags:
   - quest
 Quest_ID: "[[Quest0006]]"
@@ -29,6 +29,15 @@ dg-publish: true
 _General Plot:
   - "[[Quest0007]]"
   - "[[DT0002]]"
+  - "[[DT0001]]"
+Completion_quest_ID_relation: is
+Completion_item_ID_relation: none
+Completion_response_ID_relation: none
+Completion_outcome_ID_relation: none
+Completion_outcome_ID: none
+Narrative_ID:
+  - none
+Narrative_ID_relation: none
 ---
 
 Quest0006
@@ -67,4 +76,18 @@ Quest0006
 
 - canvas: [[Plot/_General Plot.canvas|_General Plot.canvas]]
 
-- \_general plot: [[Narrative data/Quest/Quest0007|Quest0007]]
+- \_general plot: [[Narrative data/Quest/Quest0007|Quest0007]],[[Narrative data/DoorTeleporter/DT0002|DT0002]],[[Narrative data/DoorTeleporter/DT0001|DT0001]]
+
+- completion\_quest\_id\_relation: is
+
+- completion\_item\_id\_relation: none
+
+- completion\_response\_id\_relation: none
+
+- completion\_outcome\_id\_relation: none
+
+- completion\_outcome\_id: none
+
+- narrative\_id: none
+
+- narrative\_id\_relation: none

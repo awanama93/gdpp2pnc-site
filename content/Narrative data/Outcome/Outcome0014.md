@@ -1,11 +1,11 @@
 ---
 publish: true
 created: 2026-07-03T16:37:28.231+07:00
-modified: 2026-07-06T13:48:47.605+07:00
-published: 2026-07-06T13:48:47.605+07:00
+modified: 2026-07-07T09:51:14.420+07:00
+published: 2026-07-07T09:51:14.420+07:00
 tags:
   - outcome
-Outcome_ID: Outcome0014
+Outcome_ID: "[[Outcome0014]]"
 Response_ID: "[[Response0009]]"
 Outcome_name: knowledge check failed with Guest C
 Outcome_type: Failed response
@@ -33,7 +33,7 @@ dg-publish: true
 
 Outcome0014
 
-- outcome\_id: Outcome0014
+- outcome\_id: [[Narrative data/Outcome/Outcome0014|Outcome0014]]
 
 - response\_id: [[Narrative data/Response/Response0009|Response0009]]
 

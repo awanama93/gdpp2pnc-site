@@ -1,12 +1,11 @@
 ---
 publish: true
 created: 2026-07-04T21:22:17.684+07:00
-modified: 2026-07-06T13:50:05.622+07:00
-published: 2026-07-06T13:50:05.622+07:00
+modified: 2026-07-07T15:22:03.935+07:00
+published: 2026-07-07T15:22:03.935+07:00
 tags:
   - response
-Response_ID:
-  - Response0020
+Response_ID: "[[Response0020]]"
 Narrative_ID: "[[Narrative0013]]"
 Response_text: Give precious item to Guest A
 Player_action_description: none
@@ -20,16 +19,20 @@ Skill_check?: no
 Skill_type: none
 Multiple_skill_check_attempt?: no
 Item_check?: yes
-Item_Id: Item0002
+Item_Id: "[[Item0002]]"
 Succeed_outcome: "[[Outcome0026]]"
 Failed_outcome: "[[Outcome0026]]"
 Neutral_outcome: "[[Outcome0026]]"
 dg-publish: true
+Response_completion_status:
+Quest_ID_prerequisite_relation: none
+Item_ID_prerequisite_relation: is
+Outcome_ID_prerequisite_relation: none
 ---
 
 Response0020
 
-- response\_id: Response0020
+- response\_id: [[Narrative data/Response/Response0020|Response0020]]
 
 - narrative\_id: [[Narrative data/Narrative/Narrative0013|Narrative0013]]
 
@@ -57,7 +60,7 @@ Response0020
 
 - item\_check?: yes
 
-- item\_id: Item0002
+- item\_id: [[Narrative data/Item/Item0002|Item0002]]
 
 - succeed\_outcome: [[Narrative data/Outcome/Outcome0026|Outcome0026]]
 
@@ -66,3 +69,11 @@ Response0020
 - neutral\_outcome: [[Narrative data/Outcome/Outcome0026|Outcome0026]]
 
 - tags: response
+
+- response\_completion\_status: null
+
+- quest\_id\_prerequisite\_relation: none
+
+- item\_id\_prerequisite\_relation: is
+
+- outcome\_id\_prerequisite\_relation: none

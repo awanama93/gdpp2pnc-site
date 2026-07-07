@@ -1,11 +1,11 @@
 ---
 publish: true
 created: 2026-07-04T17:25:27.370+07:00
-modified: 2026-07-06T13:49:38.745+07:00
-published: 2026-07-06T13:49:38.745+07:00
+modified: 2026-07-07T15:01:44.421+07:00
+published: 2026-07-07T15:01:44.421+07:00
 tags:
   - quest
-Quest_ID: Quest0013
+Quest_ID: "[[Quest0013]]"
 Quest_name: Learn about special dice
 Quest_type: main quest
 Status:
@@ -30,11 +30,19 @@ _General Plot:
   - "[[Quest0014]]"
   - "[[LC0006]]"
 dg-publish: true
+Completion_quest_ID_relation: none
+Completion_item_ID_relation: none
+Completion_response_ID_relation: is
+Completion_outcome_ID_relation: none
+Completion_outcome_ID: none
+Narrative_ID:
+  - none
+Narrative_ID_relation: none
 ---
 
 Quest0013
 
-- quest\_id: Quest0013
+- quest\_id: [[Narrative data/Quest/Quest0013|Quest0013]]
 
 - quest\_name: Learn about special dice
 
@@ -69,3 +77,17 @@ Quest0013
 - canvas: [[Plot/_General Plot.canvas|_General Plot.canvas]]
 
 - \_general plot: [[Narrative data/Quest/Quest0014|Quest0014]],[[Narrative data/LocationChanger/LC0006|LC0006]]
+
+- completion\_quest\_id\_relation: none
+
+- completion\_item\_id\_relation: none
+
+- completion\_response\_id\_relation: is
+
+- completion\_outcome\_id\_relation: none
+
+- completion\_outcome\_id: none
+
+- narrative\_id: none
+
+- narrative\_id\_relation: none

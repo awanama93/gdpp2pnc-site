@@ -1,11 +1,11 @@
 ---
 publish: true
 created: 2026-07-03T17:16:37.124+07:00
-modified: 2026-07-06T13:49:53.394+07:00
-published: 2026-07-06T13:49:53.394+07:00
+modified: 2026-07-07T15:21:50.176+07:00
+published: 2026-07-07T15:21:50.176+07:00
 tags:
   - response
-Response_ID: Response0011
+Response_ID: "[[Response0011]]"
 Narrative_ID: "[[Narrative0007]]"
 Response_text: Try to beat Guest D with your artistry skill
 Player_action_description: Your artistry skill
@@ -24,11 +24,15 @@ Failed_outcome: "[[Outcome0017]]"
 Neutral_outcome: "[[Outcome0018]]"
 Outcome_ID_prerequisite: none
 dg-publish: true
+Response_completion_status:
+Quest_ID_prerequisite_relation: is
+Item_ID_prerequisite_relation: none
+Outcome_ID_prerequisite_relation: none
 ---
 
 Response0011
 
-- response\_id: Response0011
+- response\_id: [[Narrative data/Response/Response0011|Response0011]]
 
 - narrative\_id: [[Narrative data/Narrative/Narrative0007|Narrative0007]]
 
@@ -65,3 +69,11 @@ Response0011
 - tags: response
 
 - outcome\_id\_prerequisite: none
+
+- response\_completion\_status: null
+
+- quest\_id\_prerequisite\_relation: is
+
+- item\_id\_prerequisite\_relation: none
+
+- outcome\_id\_prerequisite\_relation: none

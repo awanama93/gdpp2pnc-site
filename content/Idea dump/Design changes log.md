@@ -1,0 +1,30 @@
+- 7 July
+  - When: Setelah add Bagian 1 Prolog:
+  - Quest completion
+    - Tambah narrative\_ID (list) dan narrative\_ID\_relation sebagai salah satu syarat completion
+      - Kenapa? supaya quest bisa diselesaikan secara non-linear. Jadi urutan player menyelesaikan bagian2 questnya itu bisa terserah player
+      - narrative\_ID\_relation: is, or, and, none
+        - is berarti narrative\_ID yang dibutuhkan untuk menyelesaikan suatu quest hanya ada 1 dan itulah syaratnya
+        - or berarti narrative yang dibutuhkan untuk menyelesaikan suatu quest bisa lebih dari satu dan salah satu dari narrative itu bisa menyelesaikan narrative tersebut
+        - and berarti narrative yang dibutuhkan untuk menyelesaikan suatu quest lebih dari satu dan untuk menyelesaikan quest tersebut, semua narrative harus diselesaikan
+  - Narrative completion
+    - Tambah response\_ID\_relation salah satu syarat completion
+      - Kenapa? sebagai implikasi perubahan struktur quest completion
+      - response\_ID\_relation: is, or, and
+        - is berarti response yang dibutuhkan untuk menyelesaikan suatu narrative hanya ada 1 dan itulah syaratnya
+        - or berarti response yang dibutuhkan untuk menyelesaikan suatu narrative bisa lebih dari satu dan salah satu dari response itu bisa menyelesaikan narrative tersebut
+        - and berarti response yang dibutuhkan untuk menyelesaikan suatu narrative lebih dari satu dan untuk menyelesaikan narrative tersebut, semua response harus diselesaikan
+  - Response completion
+    - Tambah response completion status
+    - Ketika player mendapatkan suatu outcome\*, maka suatu response dinyatakan selesai
+      - \* Jika response tersebut adalah suatu skill check yang multiple attempt, maka response bisa terus muncul
+      - \* Jika response tersebut adalah suatu skill check yang tidak multiple attempt, maka begitu outcome didapatkan, response dianggap completed, dan response tersebut disembunyikan dari opsi response
+        - Response completion status: completed, ongoing, non-started
+  - Beberapa implikasi lain
+    - Ketika suatu response dinyatakan selesai, narrative akan mengevaluasi apakah syarat responsenya sudah mencukupi? Kalau iya, maka narrative tersebut dianggap selesai
+    - Ketika narrative dianggap selesai, maka quest mengevaluasi apakah syarat narrativenya sudah mencukupi? Kalau iya, maka quest tersebut dianggap selesai
+    - Response:
+      - ubah nama variabel supaya lebih mudah dipahami
+        - prerequisite\_quest\_ID => Quest\_ID\_prerequisite
+        - prerequisite\_item\_ID => Item\_ID\_prerequisite
+      - tambah quest\_ID\_prerequisite\_relation, item\_ID\_prerequisite\_relation, outcome\_ID\_prerequisite\_relation

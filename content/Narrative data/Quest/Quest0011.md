@@ -1,11 +1,11 @@
 ---
 publish: true
 created: 2026-07-03T17:47:16.486+07:00
-modified: 2026-07-06T13:49:33.683+07:00
-published: 2026-07-06T13:49:33.683+07:00
+modified: 2026-07-07T15:01:41.565+07:00
+published: 2026-07-07T15:01:41.565+07:00
 tags:
   - quest
-Quest_ID: Quest0011
+Quest_ID: "[[Quest0011]]"
 Quest_name: Get and lose condition
 Quest_type: main quest
 Status:
@@ -28,11 +28,19 @@ canvas:
 _General Plot:
   - "[[Quest0012]]"
 dg-publish: true
+Completion_quest_ID_relation: none
+Completion_item_ID_relation: none
+Completion_response_ID_relation: is
+Completion_outcome_ID_relation: none
+Completion_outcome_ID: none
+Narrative_ID:
+  - none
+Narrative_ID_relation: none
 ---
 
 Quest0011
 
-- quest\_id: Quest0011
+- quest\_id: [[Narrative data/Quest/Quest0011|Quest0011]]
 
 - quest\_name: Get and lose condition
 
@@ -67,3 +75,17 @@ Quest0011
 - canvas: [[Plot/_General Plot.canvas|_General Plot.canvas]]
 
 - \_general plot: [[Narrative data/Quest/Quest0012|Quest0012]]
+
+- completion\_quest\_id\_relation: none
+
+- completion\_item\_id\_relation: none
+
+- completion\_response\_id\_relation: is
+
+- completion\_outcome\_id\_relation: none
+
+- completion\_outcome\_id: none
+
+- narrative\_id: none
+
+- narrative\_id\_relation: none

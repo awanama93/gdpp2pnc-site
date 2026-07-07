@@ -1,10 +1,13 @@
 ---
+publish: true
+created: 2026-07-01T21:48:47.681+07:00
+modified: 2026-07-06T16:20:23.982+07:00
+published: 2026-07-06T16:20:23.982+07:00
 canvas:
   - "[[_General Plot.canvas]]"
 _General Plot:
   - "[[Bagian 5 Keluhan Security Organizer]]"
 dg-publish: true
-publish: true
 ---
 
 - Bagian 4 Insiden Jaringan Food Court

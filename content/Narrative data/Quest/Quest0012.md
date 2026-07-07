@@ -1,11 +1,11 @@
 ---
 publish: true
 created: 2026-07-04T16:47:06.639+07:00
-modified: 2026-07-06T13:49:36.074+07:00
-published: 2026-07-06T13:49:36.074+07:00
+modified: 2026-07-07T15:01:42.823+07:00
+published: 2026-07-07T15:01:42.823+07:00
 tags:
   - quest
-Quest_ID: Quest0012
+Quest_ID: "[[Quest0012]]"
 Quest_name: Learn about various stats
 Quest_type: main quest
 Status:
@@ -27,11 +27,19 @@ canvas:
 _General Plot:
   - "[[Quest0013]]"
 dg-publish: true
+Completion_quest_ID_relation: none
+Completion_item_ID_relation: none
+Completion_response_ID_relation: is
+Completion_outcome_ID_relation: none
+Completion_outcome_ID: none
+Narrative_ID:
+  - none
+Narrative_ID_relation: none
 ---
 
 Quest0012
 
-- quest\_id: Quest0012
+- quest\_id: [[Narrative data/Quest/Quest0012|Quest0012]]
 
 - quest\_name: Learn about various stats
 
@@ -66,3 +74,17 @@ Quest0012
 - canvas: [[Plot/_General Plot.canvas|_General Plot.canvas]]
 
 - \_general plot: [[Narrative data/Quest/Quest0013|Quest0013]]
+
+- completion\_quest\_id\_relation: none
+
+- completion\_item\_id\_relation: none
+
+- completion\_response\_id\_relation: is
+
+- completion\_outcome\_id\_relation: none
+
+- completion\_outcome\_id: none
+
+- narrative\_id: none
+
+- narrative\_id\_relation: none

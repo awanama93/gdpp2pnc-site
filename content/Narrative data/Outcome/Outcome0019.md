@@ -1,11 +1,11 @@
 ---
 publish: true
 created: 2026-07-03T18:23:36.990+07:00
-modified: 2026-07-06T13:48:54.358+07:00
-published: 2026-07-06T13:48:54.358+07:00
+modified: 2026-07-07T09:51:23.061+07:00
+published: 2026-07-07T09:51:23.061+07:00
 tags:
   - outcome
-Outcome_ID: Outcome0019
+Outcome_ID: "[[Outcome0019]]"
 Response_ID:
   - "[[Response0013]]"
 Outcome_name: Get condition dice
@@ -34,7 +34,7 @@ dg-publish: true
 
 Outcome0019
 
-- outcome\_id: Outcome0019
+- outcome\_id: [[Narrative data/Outcome/Outcome0019|Outcome0019]]
 
 - response\_id: [[Narrative data/Response/Response0013|Response0013]]
 

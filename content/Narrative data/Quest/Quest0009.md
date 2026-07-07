@@ -1,11 +1,11 @@
 ---
 publish: true
 created: 2026-07-03T10:38:36.096+07:00
-modified: 2026-07-06T13:49:26.546+07:00
-published: 2026-07-06T13:49:26.546+07:00
+modified: 2026-07-07T15:01:38.726+07:00
+published: 2026-07-07T15:01:38.726+07:00
 tags:
   - quest
-Quest_ID: Quest0009
+Quest_ID: "[[Quest0009]]"
 Quest_name: Succeed in skill check with Guest C
 Quest_type: main quest
 Status:
@@ -27,11 +27,19 @@ _General Plot:
   - "[[Quest0010]]"
   - "[[LC0004]]"
 dg-publish: true
+Completion_quest_ID_relation: none
+Completion_item_ID_relation: none
+Completion_response_ID_relation: is
+Completion_outcome_ID_relation: none
+Completion_outcome_ID: none
+Narrative_ID:
+  - none
+Narrative_ID_relation: none
 ---
 
 Quest0009
 
-- quest\_id: Quest0009
+- quest\_id: [[Narrative data/Quest/Quest0009|Quest0009]]
 
 - quest\_name: Succeed in skill check with Guest C
 
@@ -66,3 +74,17 @@ Quest0009
 - canvas: [[Plot/_General Plot.canvas|_General Plot.canvas]]
 
 - \_general plot: [[Narrative data/Quest/Quest0010|Quest0010]],[[Narrative data/LocationChanger/LC0004|LC0004]]
+
+- completion\_quest\_id\_relation: none
+
+- completion\_item\_id\_relation: none
+
+- completion\_response\_id\_relation: is
+
+- completion\_outcome\_id\_relation: none
+
+- completion\_outcome\_id: none
+
+- narrative\_id: none
+
+- narrative\_id\_relation: none

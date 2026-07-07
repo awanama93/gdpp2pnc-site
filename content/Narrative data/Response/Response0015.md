@@ -1,12 +1,11 @@
 ---
 publish: true
 created: 2026-07-04T17:08:23.066+07:00
-modified: 2026-07-06T13:49:58.301+07:00
-published: 2026-07-06T13:49:58.301+07:00
+modified: 2026-07-07T15:21:56.172+07:00
+published: 2026-07-07T15:21:56.172+07:00
 tags:
   - response
-Response_ID:
-  - Response0015
+Response_ID: "[[Response0015]]"
 Narrative_ID: "[[Narrative0010]]"
 Response_text: Interact to see whether you lose your health or sanity
 Player_action_description: Prepare to lose some health or sanity
@@ -25,11 +24,15 @@ Succeed_outcome: "[[Outcome0021]]"
 Failed_outcome: "[[Outcome0021]]"
 Neutral_outcome: "[[Outcome0021]]"
 dg-publish: true
+Response_completion_status:
+Quest_ID_prerequisite_relation: is
+Item_ID_prerequisite_relation: none
+Outcome_ID_prerequisite_relation: none
 ---
 
 Response0015
 
-- response\_id: Response0015
+- response\_id: [[Narrative data/Response/Response0015|Response0015]]
 
 - narrative\_id: [[Narrative data/Narrative/Narrative0010|Narrative0010]]
 
@@ -66,3 +69,11 @@ Response0015
 - neutral\_outcome: [[Narrative data/Outcome/Outcome0021|Outcome0021]]
 
 - tags: response
+
+- response\_completion\_status: null
+
+- quest\_id\_prerequisite\_relation: is
+
+- item\_id\_prerequisite\_relation: none
+
+- outcome\_id\_prerequisite\_relation: none

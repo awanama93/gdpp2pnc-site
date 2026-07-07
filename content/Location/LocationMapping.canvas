@@ -1,5 +1,6 @@
 {
 	"nodes":[
+		{"id":"d348a602815424d5","type":"file","file":"Asset/AreaToiletCorridorReal.png","x":940,"y":140,"width":400,"height":260},
 		{"id":"83445e88c47848f6","type":"file","file":"Asset/AreaHubInside.png","x":-240,"y":-80,"width":400,"height":225},
 		{"id":"8772689cdead7e17","type":"file","file":"Asset/AreaFoodCourt.png","x":260,"y":-80,"width":400,"height":227},
 		{"id":"da164b22cf269533","type":"file","file":"Asset/AreaConventionArea.png","x":-239,"y":-440,"width":399,"height":230},

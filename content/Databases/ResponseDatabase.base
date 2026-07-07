@@ -1,6 +1,11 @@
 filters:
   and:
     - file.inFolder("Narrative data/Response")
+properties:
+  note.Prerequisite_quest_ID:
+    displayName: Quest_ID_prerequisite
+  note.Prerequisite_item_ID:
+    displayName: Item_ID_prerequisite
 views:
   - type: table
     name: Table
@@ -9,13 +14,17 @@ views:
       - Response_ID
       - Narrative_ID
       - Response_text
+      - Response_completion_status
       - Player_action_description
       - Opponent_action_description
       - Skill_check_text
       - Response_prerequisite_type
       - Prerequisite_quest_ID
+      - Quest_ID_prerequisite_relation
       - Prerequisite_item_ID
+      - Item_ID_prerequisite_relation
       - Outcome_ID_prerequisite
+      - Outcome_ID_prerequisite_relation
       - Skill_check?
       - Skill_type
       - Multiple_skill_check_attempt?
@@ -27,5 +36,9 @@ views:
       - tags
     sort: []
     columnSize:
-      note.Response_ID: 127
-      note.Narrative ID: 131
+      note.Response_ID: 191
+      note.Response_text: 355
+      note.Player_action_description: 288
+      note.Skill_check_text: 362
+      note.Prerequisite_quest_ID: 193
+      note.Item_Id: 120

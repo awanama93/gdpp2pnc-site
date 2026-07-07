@@ -1,12 +1,12 @@
 ---
 publish: true
 created: 2026-06-22T13:53:49.493+07:00
-modified: 2026-07-06T09:10:50.026+07:00
-published: 2026-07-06T09:10:50.026+07:00
+modified: 2026-07-07T15:37:35.922+07:00
+published: 2026-07-07T15:37:35.922+07:00
 dg-publish: true
 ---
 
-[[Bagian 1 Tutorial Scene]]
+[[Bagian 1 Prolog]]
 \- The player sangat menyukai pop culture jepang. Dia sudah berkeliling berkali-kali di The Convention. Sebelum berkeliling untuk yang terakhir kali, dia pergi ke toilet dulu.
 \- Ternyata koridor toilet dipenuhi antrean dan kerumunan. Tapi dalam upayanya untuk masuk toilet itu, dia terhibur karena ternyata banyak orang terkenal juga di sana. Ada Vlogger yang sedang mengantre sambil mengotak-atik kameranya. Ada The weeb yang disegani para pengunjung. Walaupun mengeluhkan pengelolaan antrean, The weeb tetap bisa mengobrol ramah dengan orang-orang. Dan ternyata di depan toilet perempuan pun ada Stage host, sang influencer media sosial yang jadi MC dari event ini. Stage host sedang mengobrol dengan Musician yang penampilannya ditunggu-tunggu orang. Stage host sedang memberikan tas tangannya pada Musician.
 \- Setelah susah payah, akhirnya dia berhasil masuk toilet dan melegakan diri.

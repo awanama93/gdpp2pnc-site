@@ -1,11 +1,11 @@
 ---
 publish: true
 created: 2026-07-04T20:54:25.847+07:00
-modified: 2026-07-06T13:46:03.960+07:00
-published: 2026-07-06T13:46:03.960+07:00
+modified: 2026-07-07T15:01:45.740+07:00
+published: 2026-07-07T15:01:45.740+07:00
 tags:
   - quest
-Quest_ID: Quest0014
+Quest_ID: "[[Quest0014]]"
 Quest_name: Learn about item
 Quest_type: main quest
 Status:
@@ -28,11 +28,19 @@ canvas:
 dg-publish: true
 _General Plot:
   - "[[Quest0006]]"
+Completion_quest_ID_relation: none
+Completion_item_ID_relation: none
+Completion_response_ID_relation: is
+Completion_outcome_ID_relation: none
+Completion_outcome_ID: none
+Narrative_ID:
+  - none
+Narrative_ID_relation: none
 ---
 
 Quest0014
 
-- quest\_id: Quest0014
+- quest\_id: [[Narrative data/Quest/Quest0014|Quest0014]]
 
 - quest\_name: Learn about item
 
@@ -67,3 +75,17 @@ Quest0014
 - canvas: [[Plot/_General Plot.canvas|_General Plot.canvas]]
 
 - \_general plot: [[Narrative data/Quest/Quest0006|Quest0006]]
+
+- completion\_quest\_id\_relation: none
+
+- completion\_item\_id\_relation: none
+
+- completion\_response\_id\_relation: is
+
+- completion\_outcome\_id\_relation: none
+
+- completion\_outcome\_id: none
+
+- narrative\_id: none
+
+- narrative\_id\_relation: none

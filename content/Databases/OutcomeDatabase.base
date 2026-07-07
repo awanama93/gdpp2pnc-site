@@ -32,8 +32,6 @@ views:
       - tags
     sort: []
     columnSize:
-      note.Response ID: 358
-      note.Outcome name: 181
-      note.Outcome response: 327
-      note.Condition dice 3 type modification: 174
-      note.Condition dice 3 ID: 201
+      note.Outcome_ID: 175
+      note.Outcome_name: 341
+      note.Outcome_response: 327

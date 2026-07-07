@@ -1,12 +1,11 @@
 ---
 publish: true
 created: 2026-07-04T15:03:01.199+07:00
-modified: 2026-07-06T13:49:56.982+07:00
-published: 2026-07-06T13:49:56.982+07:00
+modified: 2026-07-07T15:21:54.117+07:00
+published: 2026-07-07T15:21:54.117+07:00
 tags:
   - response
-Response_ID:
-  - Response0014
+Response_ID: "[[Response0014]]"
 Narrative_ID: "[[Narrative0009]]"
 Response_text: Interact to Guest B to lose condition dice
 Player_action_description: Observing Guest B
@@ -25,11 +24,15 @@ Failed_outcome: "[[Outcome0020]]"
 Neutral_outcome: "[[Outcome0020]]"
 Outcome_ID_prerequisite: "[[Outcome0019]]"
 dg-publish: true
+Response_completion_status:
+Quest_ID_prerequisite_relation: none
+Item_ID_prerequisite_relation: none
+Outcome_ID_prerequisite_relation: is
 ---
 
 Response0014
 
-- response\_id: Response0014
+- response\_id: [[Narrative data/Response/Response0014|Response0014]]
 
 - narrative\_id: [[Narrative data/Narrative/Narrative0009|Narrative0009]]
 
@@ -66,3 +69,11 @@ Response0014
 - tags: response
 
 - outcome\_id\_prerequisite: [[Narrative data/Outcome/Outcome0019|Outcome0019]]
+
+- response\_completion\_status: null
+
+- quest\_id\_prerequisite\_relation: none
+
+- item\_id\_prerequisite\_relation: none
+
+- outcome\_id\_prerequisite\_relation: is

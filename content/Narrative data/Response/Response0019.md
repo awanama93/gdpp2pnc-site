@@ -1,12 +1,11 @@
 ---
 publish: true
 created: 2026-07-04T21:09:48.195+07:00
-modified: 2026-07-06T13:50:04.316+07:00
-published: 2026-07-06T13:50:04.316+07:00
+modified: 2026-07-07T15:22:02.611+07:00
+published: 2026-07-07T15:22:02.611+07:00
 tags:
   - response
-Response_ID:
-  - Response0019
+Response_ID: "[[Response0019]]"
 Narrative_ID: "[[Narrative0012]]"
 Response_text: Get item from Guest D
 Player_action_description: none
@@ -25,11 +24,15 @@ Succeed_outcome: "[[Outcome0025]]"
 Failed_outcome: "[[Outcome0025]]"
 Neutral_outcome: "[[Outcome0025]]"
 dg-publish: true
+Response_completion_status:
+Quest_ID_prerequisite_relation: is
+Item_ID_prerequisite_relation: none
+Outcome_ID_prerequisite_relation: none
 ---
 
 Response0019
 
-- response\_id: Response0019
+- response\_id: [[Narrative data/Response/Response0019|Response0019]]
 
 - narrative\_id: [[Narrative data/Narrative/Narrative0012|Narrative0012]]
 
@@ -66,3 +69,11 @@ Response0019
 - neutral\_outcome: [[Narrative data/Outcome/Outcome0025|Outcome0025]]
 
 - tags: response
+
+- response\_completion\_status: null
+
+- quest\_id\_prerequisite\_relation: is
+
+- item\_id\_prerequisite\_relation: none
+
+- outcome\_id\_prerequisite\_relation: none

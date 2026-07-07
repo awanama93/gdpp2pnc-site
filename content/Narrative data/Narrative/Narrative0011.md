@@ -1,11 +1,11 @@
 ---
 publish: true
 created: 2026-07-04T19:38:59.162+07:00
-modified: 2026-07-06T13:48:31.480+07:00
-published: 2026-07-06T13:48:31.480+07:00
+modified: 2026-07-07T14:50:32.135+07:00
+published: 2026-07-07T14:50:32.135+07:00
 tags:
   - narrativebeat
-Narrative_ID: Narrative0011
+Narrative_ID: "[[Narrative0011]]"
 Narrative_name: "[[GuestC]]"
 Exposition: Guest C is ready to teach you about special dice
 Narrative_completion_status:
@@ -14,11 +14,12 @@ Responses:
   - "[[Response0017]]"
   - "[[Response0018]]"
 dg-publish: true
+Response_ID_relation: and
 ---
 
 Narrative0011
 
-- narrative\_id: Narrative0011
+- narrative\_id: [[Narrative data/Narrative/Narrative0011|Narrative0011]]
 
 - narrative\_name: [[Character/GuestC|GuestC]]
 
@@ -29,3 +30,5 @@ Narrative0011
 - responses: [[Narrative data/Response/Response0016|Response0016]],[[Narrative data/Response/Response0017|Response0017]],[[Narrative data/Response/Response0018|Response0018]]
 
 - tags: narrativebeat
+
+- response\_id\_relation: and

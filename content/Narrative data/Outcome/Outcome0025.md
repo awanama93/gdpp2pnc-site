@@ -1,11 +1,11 @@
 ---
 publish: true
 created: 2026-07-04T21:13:40.927+07:00
-modified: 2026-07-06T13:49:03.906+07:00
-published: 2026-07-06T13:49:03.906+07:00
+modified: 2026-07-07T09:51:33.214+07:00
+published: 2026-07-07T09:51:33.214+07:00
 tags:
   - outcome
-Outcome_ID: Outcome0025
+Outcome_ID: "[[Outcome0025]]"
 Response_ID:
   - "[[Response0019]]"
 Outcome_name: Get precious item
@@ -34,7 +34,7 @@ dg-publish: true
 
 Outcome0025
 
-- outcome\_id: Outcome0025
+- outcome\_id: [[Narrative data/Outcome/Outcome0025|Outcome0025]]
 
 - response\_id: [[Narrative data/Response/Response0019|Response0019]]
 

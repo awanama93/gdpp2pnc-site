@@ -1,11 +1,11 @@
 ---
 publish: true
 created: 2026-07-02T19:22:39.417+07:00
-modified: 2026-07-06T13:48:37.292+07:00
-published: 2026-07-06T13:48:37.292+07:00
+modified: 2026-07-07T09:51:01.553+07:00
+published: 2026-07-07T09:51:01.553+07:00
 tags:
   - outcome
-Outcome_ID: Outcome0009
+Outcome_ID: "[[Outcome0009]]"
 Response_ID: "[[Response0007]]"
 Outcome_name: Talked to Guest A
 Outcome_type: Any response
@@ -35,7 +35,7 @@ Outcome0009
 
 - tags: outcome
 
-- outcome\_id: Outcome0009
+- outcome\_id: [[Narrative data/Outcome/Outcome0009|Outcome0009]]
 
 - response\_id: [[Narrative data/Response/Response0007|Response0007]]
 

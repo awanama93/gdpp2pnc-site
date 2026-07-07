@@ -1,11 +1,11 @@
 ---
 publish: true
 created: 2026-07-03T16:38:37.272+07:00
-modified: 2026-07-06T13:48:49.130+07:00
-published: 2026-07-06T13:48:49.130+07:00
+modified: 2026-07-07T09:51:16.100+07:00
+published: 2026-07-07T09:51:16.100+07:00
 tags:
   - outcome
-Outcome_ID: Outcome0015
+Outcome_ID: "[[Outcome0015]]"
 Response_ID: "[[Response0009]]"
 Outcome_name: knowledge check neutral with Guest B
 Outcome_type: Neutral response
@@ -33,7 +33,7 @@ dg-publish: true
 
 Outcome0015
 
-- outcome\_id: Outcome0015
+- outcome\_id: [[Narrative data/Outcome/Outcome0015|Outcome0015]]
 
 - response\_id: [[Narrative data/Response/Response0009|Response0009]]
 

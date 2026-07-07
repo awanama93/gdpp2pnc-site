@@ -18,4 +18,5 @@ views:
       - DiceObservation
       - tags
     columnSize:
-      note.Narrative data: 326
+      note.Character_ID: 177
+      note.Narrative_data: 368

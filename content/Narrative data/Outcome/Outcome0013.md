@@ -1,11 +1,11 @@
 ---
 publish: true
 created: 2026-07-03T16:34:30.808+07:00
-modified: 2026-07-06T13:48:45.134+07:00
-published: 2026-07-06T13:48:45.134+07:00
+modified: 2026-07-07T09:51:12.829+07:00
+published: 2026-07-07T09:51:12.829+07:00
 tags:
   - outcome
-Outcome_ID: Outcome0013
+Outcome_ID: "[[Outcome0013]]"
 Response_ID: "[[Response0009]]"
 Outcome_name: knowledge check succeed with Guest C
 Outcome_type: Succeed response
@@ -33,7 +33,7 @@ dg-publish: true
 
 Outcome0013
 
-- outcome\_id: Outcome0013
+- outcome\_id: [[Narrative data/Outcome/Outcome0013|Outcome0013]]
 
 - response\_id: [[Narrative data/Response/Response0009|Response0009]]
 

@@ -18,15 +18,21 @@ views:
       - Starter_response_ID
       - Completion_prerequisite_type
       - Completion_quest_ID
+      - Completion_quest_ID_relation
       - Completion_item_ID
-      - Skill_check_result
+      - Completion_item_ID_relation
+      - Completion_outcome_ID
+      - Completion_outcome_ID_relation
       - Completion_response_ID
+      - Completion_response_ID_relation
+      - Skill_check_result
+      - Narrative_ID
+      - Narrative_ID_relation
       - tags
     sort: []
     columnSize:
-      note.Quest name: 262
-      note.Quest description: 311
+      note.Quest_name: 300
       note.Hints: 242
-      note.Completion response ID: 340
+      note.Narrative_ID: 341
   - type: table
     name: View

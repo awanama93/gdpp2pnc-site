@@ -1,11 +1,11 @@
 ---
 publish: true
 created: 2026-07-03T10:44:25.661+07:00
-modified: 2026-07-06T13:49:50.820+07:00
-published: 2026-07-06T13:49:50.820+07:00
+modified: 2026-07-07T15:21:48.006+07:00
+published: 2026-07-07T15:21:48.006+07:00
 tags:
   - response
-Response_ID: Response0009
+Response_ID: "[[Response0009]]"
 Narrative_ID: "[[Narrative0006]]"
 Player_action_description: Your knowledge skill
 Opponent_action_description: Ready to check your knowledge
@@ -24,11 +24,15 @@ Failed_outcome: "[[Outcome0014]]"
 Neutral_outcome: "[[Outcome0015]]"
 Outcome_ID_prerequisite: none
 dg-publish: true
+Response_completion_status:
+Quest_ID_prerequisite_relation: is
+Item_ID_prerequisite_relation: none
+Outcome_ID_prerequisite_relation: none
 ---
 
 Response0009
 
-- response\_id: Response0009
+- response\_id: [[Narrative data/Response/Response0009|Response0009]]
 
 - narrative\_id: [[Narrative data/Narrative/Narrative0006|Narrative0006]]
 
@@ -65,3 +69,11 @@ Response0009
 - tags: response
 
 - outcome\_id\_prerequisite: none
+
+- response\_completion\_status: null
+
+- quest\_id\_prerequisite\_relation: is
+
+- item\_id\_prerequisite\_relation: none
+
+- outcome\_id\_prerequisite\_relation: none

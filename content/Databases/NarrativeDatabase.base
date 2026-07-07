@@ -14,8 +14,11 @@ views:
       - Exposition
       - Narrative_completion_status
       - Responses
+      - Response_ID_relation
       - tags
+    sort: []
     columnSize:
-      note.Exposition: 164
-      note.Narrative completion status: 172
+      note.Narrative_ID: 156
+      note.Narrative_name: 180
+      note.Exposition: 434
       note.Responses: 334

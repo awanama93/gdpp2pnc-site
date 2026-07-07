@@ -1,11 +1,11 @@
 ---
 publish: true
 created: 2026-07-04T15:10:05.598+07:00
-modified: 2026-07-06T13:48:55.774+07:00
-published: 2026-07-06T13:48:55.774+07:00
+modified: 2026-07-07T09:51:24.753+07:00
+published: 2026-07-07T09:51:24.753+07:00
 tags:
   - outcome
-Outcome_ID: Outcome0020
+Outcome_ID: "[[Outcome0020]]"
 Response_ID:
   - "[[Response0014]]"
 Outcome_name: Lose condition dice
@@ -34,7 +34,7 @@ dg-publish: true
 
 Outcome0020
 
-- outcome\_id: Outcome0020
+- outcome\_id: [[Narrative data/Outcome/Outcome0020|Outcome0020]]
 
 - response\_id: [[Narrative data/Response/Response0014|Response0014]]
 

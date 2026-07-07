@@ -1,11 +1,11 @@
 ---
 publish: true
 created: 2026-07-02T22:54:13.626+07:00
-modified: 2026-07-06T13:48:41.924+07:00
-published: 2026-07-06T13:48:41.924+07:00
+modified: 2026-07-07T09:51:09.203+07:00
+published: 2026-07-07T09:51:09.203+07:00
 tags:
   - outcome
-Outcome_ID: Outcome0011
+Outcome_ID: "[[Outcome0011]]"
 Response_ID: "[[Response0008]]"
 Outcome_name: observation check failed with Guest B
 Outcome_type: Failed response
@@ -33,7 +33,7 @@ dg-publish: true
 
 Outcome0011
 
-- outcome\_id: Outcome0011
+- outcome\_id: [[Narrative data/Outcome/Outcome0011|Outcome0011]]
 
 - response\_id: [[Narrative data/Response/Response0008|Response0008]]
 

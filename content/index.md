@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-06-20T18:20:58.770+07:00
-modified: 2026-07-06T15:14:23.267+07:00
-published: 2026-07-06T15:14:23.267+07:00
+modified: 2026-07-07T15:50:12.577+07:00
+published: 2026-07-07T15:50:12.577+07:00
 dg-publish: true
 dg-home: true
 ---
@@ -21,6 +21,8 @@ Lalu, user dokumen ini juga bisa mengakses beragam database tentang quest dan na
   - [[CharacterDatabase.base]]
 - #### Dice database
   - [[DiceDatabase.base]]
+- #### DoorTeleporter database
+  - [[DoorTeleporterDatabase.base]]
 - #### Item database
   - [[ItemDatabase.base]]
 - #### Location changer database

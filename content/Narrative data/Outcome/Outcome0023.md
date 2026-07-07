@@ -1,11 +1,11 @@
 ---
 publish: true
 created: 2026-07-04T19:50:23.310+07:00
-modified: 2026-07-06T13:49:01.166+07:00
-published: 2026-07-06T13:49:01.166+07:00
+modified: 2026-07-07T09:51:29.910+07:00
+published: 2026-07-07T09:51:29.910+07:00
 tags:
   - outcome
-Outcome_ID: Outcome0023
+Outcome_ID: "[[Outcome0023]]"
 Response_ID:
   - "[[Response0017]]"
 Outcome_name: How to make special dice
@@ -34,7 +34,7 @@ dg-publish: true
 
 Outcome0023
 
-- outcome\_id: Outcome0023
+- outcome\_id: [[Narrative data/Outcome/Outcome0023|Outcome0023]]
 
 - response\_id: [[Narrative data/Response/Response0017|Response0017]]
 

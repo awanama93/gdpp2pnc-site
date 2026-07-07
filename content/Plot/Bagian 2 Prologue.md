@@ -1,10 +1,13 @@
 ---
+publish: true
+created: 2026-07-01T21:46:31.906+07:00
+modified: 2026-07-06T16:20:22.573+07:00
+published: 2026-07-06T16:20:22.573+07:00
 canvas:
   - "[[_General Plot.canvas]]"
 _General Plot:
   - "[[Bagian 3 Investigasi awal - Community]]"
 dg-publish: true
-publish: true
 ---
 
 Bagian 2 Prologue

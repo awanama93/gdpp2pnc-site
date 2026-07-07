@@ -1,11 +1,11 @@
 ---
 publish: true
 created: 2026-07-02T19:15:15.348+07:00
-modified: 2026-07-06T13:49:47.559+07:00
-published: 2026-07-06T13:49:47.559+07:00
+modified: 2026-07-07T15:21:41.215+07:00
+published: 2026-07-07T15:21:41.215+07:00
 tags:
   - response
-Response_ID: Response0007
+Response_ID: "[[Response0007]]"
 Narrative_ID: "[[Narrative0004]]"
 Player_action_description: none
 Opponent_action_description: none
@@ -24,13 +24,17 @@ Failed_outcome: none
 Neutral_outcome: none
 Outcome_ID_prerequisite: none
 dg-publish: true
+Response_completion_status:
+Quest_ID_prerequisite_relation: none
+Item_ID_prerequisite_relation: none
+Outcome_ID_prerequisite_relation: none
 ---
 
 Response0007
 
 - tags: response
 
-- response\_id: Response0007
+- response\_id: [[Narrative data/Response/Response0007|Response0007]]
 
 - narrative\_id: [[Narrative data/Narrative/Narrative0004|Narrative0004]]
 
@@ -65,3 +69,11 @@ Response0007
 - neutral\_outcome: none
 
 - outcome\_id\_prerequisite: none
+
+- response\_completion\_status: null
+
+- quest\_id\_prerequisite\_relation: none
+
+- item\_id\_prerequisite\_relation: none
+
+- outcome\_id\_prerequisite\_relation: none
