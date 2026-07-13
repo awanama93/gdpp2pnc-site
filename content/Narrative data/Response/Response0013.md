@@ -30,50 +30,29 @@ Item_ID_prerequisite_relation: none
 Outcome_ID_prerequisite_relation: none
 ---
 
-Response0013
+```datacorejsx
+return function TitleHeader() { 
+const file = dc.useCurrentFile(); 
+if (!file) return null; 
+// file.$name contains the clean string of the note title 
+return <h1>{file.$name}</h1>; }
 
-- response\_id: [[Narrative data/Response/Response0013|Response0013]]
+```
 
-- narrative\_id: [[Narrative data/Narrative/Narrative0008|Narrative0008]]
+```datacorejsx
+return function View() {
+const file = dc.useCurrentFile();
+const hiddenKeys = ["dg-publish", "publish"];
 
-- response\_text: Interact to Guest A to get condition dice
+if(!file) return <p>loading</p>;
 
-- player\_action\_description: Observing Guest A
+const KUMPULAN = file.$frontmatter;
 
-- opponent\_action\_description: Ready to give you condition
+const items = Object.entries(KUMPULAN)
+	.filter(([key]) => !key.startsWith("__") && !hiddenKeys.includes(key))
+	.map(([key, field]) => {return `${key}: ${field?.value}`;}
+);
+	return <dc.List rows={items} />;
+}
 
-- skill\_check\_text: Whatever happens, after this you will get condition...
-
-- response\_prerequisite\_type: Quest ongoing
-
-- prerequisite\_quest\_id: [[Narrative data/Quest/Quest0011|Quest0011]]
-
-- prerequisite\_item\_id: none
-
-- skill\_check?: yes
-
-- skill\_type: observation
-
-- multiple\_skill\_check\_attempt?: no
-
-- item\_check?: none
-
-- item\_id: none
-
-- succeed\_outcome: [[Narrative data/Outcome/Outcome0019|Outcome0019]]
-
-- failed\_outcome: [[Narrative data/Outcome/Outcome0019|Outcome0019]]
-
-- neutral\_outcome: [[Narrative data/Outcome/Outcome0019|Outcome0019]]
-
-- tags: response
-
-- outcome\_id\_prerequisite: none
-
-- response\_completion\_status: null
-
-- quest\_id\_prerequisite\_relation: is
-
-- item\_id\_prerequisite\_relation: none
-
-- outcome\_id\_prerequisite\_relation: none
+```

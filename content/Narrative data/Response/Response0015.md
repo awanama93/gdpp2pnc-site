@@ -30,7 +30,14 @@ Item_ID_prerequisite_relation: none
 Outcome_ID_prerequisite_relation: none
 ---
 
-Response0015
+```datacorejsx
+return function TitleHeader() { 
+const file = dc.useCurrentFile(); 
+if (!file) return null; 
+// file.$name contains the clean string of the note title 
+return <h1>{file.$name}</h1>; }
+
+```
 
 - response\_id: [[Narrative data/Response/Response0015|Response0015]]
 

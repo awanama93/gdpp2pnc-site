@@ -16,6 +16,7 @@ views:
       - Starter_item_ID
       - Starter_quest_ID
       - Starter_response_ID
+      - Starter_Narrative_ID
       - Completion_prerequisite_type
       - Completion_quest_ID
       - Completion_quest_ID_relation
@@ -31,7 +32,7 @@ views:
       - tags
     sort: []
     columnSize:
-      note.Quest_name: 300
+      note.Quest_name: 352
       note.Hints: 242
       note.Narrative_ID: 341
   - type: table

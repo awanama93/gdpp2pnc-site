@@ -30,50 +30,29 @@ Item_ID_prerequisite_relation: none
 Outcome_ID_prerequisite_relation: none
 ---
 
-Response0010
+```datacorejsx
+return function TitleHeader() { 
+const file = dc.useCurrentFile(); 
+if (!file) return null; 
+// file.$name contains the clean string of the note title 
+return <h1>{file.$name}</h1>; }
 
-- response\_id: [[Narrative data/Response/Response0010|Response0010]]
+```
 
-- narrative\_id: [[Narrative data/Narrative/Narrative0007|Narrative0007]]
+```datacorejsx
+return function View() {
+const file = dc.useCurrentFile();
+const hiddenKeys = ["dg-publish", "publish"];
 
-- response\_text: Try to beat Guest D with your strength skill
+if(!file) return <p>loading</p>;
 
-- player\_action\_description: Your strength skill
+const KUMPULAN = file.$frontmatter;
 
-- opponent\_action\_description: Ready to check your strength
+const items = Object.entries(KUMPULAN)
+	.filter(([key]) => !key.startsWith("__") && !hiddenKeys.includes(key))
+	.map(([key, field]) => {return `${key}: ${field?.value}`;}
+);
+	return <dc.List rows={items} />;
+}
 
-- skill\_check\_text: Can you beat Guest D with your strength?
-
-- response\_prerequisite\_type: Quest ongoing
-
-- prerequisite\_quest\_id: [[Narrative data/Quest/Quest0010|Quest0010]]
-
-- prerequisite\_item\_id: none
-
-- skill\_check?: yes
-
-- skill\_type: strength
-
-- multiple\_skill\_check\_attempt?: yes
-
-- item\_check?: none
-
-- item\_id: none
-
-- succeed\_outcome: [[Narrative data/Outcome/Outcome0016|Outcome0016]]
-
-- failed\_outcome: [[Narrative data/Outcome/Outcome0017|Outcome0017]]
-
-- neutral\_outcome: [[Narrative data/Outcome/Outcome0018|Outcome0018]]
-
-- tags: response
-
-- outcome\_id\_prerequisite: none
-
-- response\_completion\_status: null
-
-- quest\_id\_prerequisite\_relation: is
-
-- item\_id\_prerequisite\_relation: none
-
-- outcome\_id\_prerequisite\_relation: none
+```

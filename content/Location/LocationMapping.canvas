@@ -19,7 +19,11 @@
 			"y":-20,
 			"width":250,
 			"height":60
-		}
+		},
+		{"id":"4bef7b5a6e5f59c4","type":"file","file":"Asset/AreaToiletMaleReal.png","x":1240,"y":-430,"width":400,"height":224},
+		{"id":"49956dd75a86794a","type":"file","file":"Asset/AreaConventionReal.png","x":820,"y":-997,"width":372,"height":400},
+		{"id":"05b4c1b50f340297","type":"file","file":"Asset/AreaOrganizerRoomReal.png","x":-1180,"y":-200,"width":323,"height":399},
+		{"id":"03a7444f01dd83a2","type":"file","file":"Asset/AreaHubReal.png","x":-680,"y":240,"width":400,"height":227}
 	],
 	"edges":[
 		{

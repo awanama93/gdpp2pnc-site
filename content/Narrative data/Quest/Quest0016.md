@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-06T21:32:40.919+07:00
-modified: 2026-07-07T15:01:48.315+07:00
-published: 2026-07-07T15:01:48.315+07:00
+modified: 2026-07-11T20:25:05.617+07:00
+published: 2026-07-11T20:25:05.617+07:00
 tags:
   - quest
 Quest_ID: "[[Quest0016]]"
@@ -36,6 +36,7 @@ Completion_outcome_ID: none
 Narrative_ID:
   - none
 Narrative_ID_relation: none
+Starter_Narrative_ID: none
 ---
 
 Quest0016
@@ -89,3 +90,5 @@ Quest0016
 - narrative\_id: none
 
 - narrative\_id\_relation: none
+
+- starter\_narrative\_id: none

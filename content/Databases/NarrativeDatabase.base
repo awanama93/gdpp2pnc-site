@@ -18,7 +18,7 @@ views:
       - tags
     sort: []
     columnSize:
-      note.Narrative_ID: 156
-      note.Narrative_name: 180
+      note.Narrative_ID: 126
+      note.Narrative_name: 209
       note.Exposition: 434
       note.Responses: 334

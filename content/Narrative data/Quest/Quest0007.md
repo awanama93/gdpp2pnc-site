@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-02T18:53:13.053+07:00
-modified: 2026-07-07T15:01:35.877+07:00
-published: 2026-07-07T15:01:35.877+07:00
+modified: 2026-07-11T20:25:05.189+07:00
+published: 2026-07-11T20:25:05.189+07:00
 tags:
   - quest
 Quest_ID: "[[Quest0007]]"
@@ -35,56 +35,25 @@ Completion_outcome_ID: none
 Narrative_ID:
   - none
 Narrative_ID_relation: none
+Starter_Narrative_ID: none
 ---
 
 Quest0007
 
-- quest\_id: [[Narrative data/Quest/Quest0007|Quest0007]]
+```datacorejsx
+return function View() {
+const file = dc.useCurrentFile();
+const hiddenKeys = ["dg-publish", "publish"];
 
-- quest\_name: Click on Guest A
+if(!file) return <p>loading</p>;
 
-- quest\_type: main quest
+const KUMPULAN = file.$frontmatter;
 
-- status: null
+const items = Object.entries(KUMPULAN)
+	.filter(([key]) => !key.startsWith("__") && !hiddenKeys.includes(key))
+	.map(([key, field]) => {return `${key}: ${field?.value}`;}
+);
+	return <dc.List rows={items} />;
+}
 
-- quest\_description: You can click on an object or character to interact with it
-
-- starter\_prerequisite\_type: null
-
-- hints: [[Narrative data/Hint/Hint0006|Hint0006]]
-
-- starter\_item\_id: none
-
-- starter\_quest\_id: [[Narrative data/Quest/Quest0006|Quest0006]]
-
-- starter\_response\_id: none
-
-- completion\_prerequisite\_type: Response selection
-
-- completion\_quest\_id: none
-
-- completion\_item\_id: none
-
-- completion\_response\_id: [[Narrative data/Response/Response0007|Response0007]]
-
-- skill\_check\_result: none
-
-- tags: quest
-
-- canvas: [[Plot/_General Plot.canvas|_General Plot.canvas]]
-
-- \_general plot: [[Narrative data/Quest/Quest0008|Quest0008]],[[Narrative data/LocationChanger/LC0002|LC0002]]
-
-- completion\_quest\_id\_relation: none
-
-- completion\_item\_id\_relation: none
-
-- completion\_response\_id\_relation: is
-
-- completion\_outcome\_id\_relation: none
-
-- completion\_outcome\_id: none
-
-- narrative\_id: none
-
-- narrative\_id\_relation: none
+```

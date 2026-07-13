@@ -1,78 +1,83 @@
 ---
 publish: true
 created: 2026-07-07T12:30:12.687+07:00
-modified: 2026-07-07T15:16:55.191+07:00
-published: 2026-07-07T15:16:55.191+07:00
+modified: 2026-07-10T12:55:24.377+07:00
+published: 2026-07-10T12:55:24.377+07:00
+tags:
+  - response
 Response_ID:
   - "[[Response0039]]"
 Narrative_ID:
-Response_text:
-Player_action_description:
-Opponent_action_description:
-Skill_check_text:
-Response_prerequisite_type:
+  - "[[Narrative0023]]"
+Response_text: Use your knowledge about people hype to inflate her ego
+Player_action_description: Tell her what you've heard so far
+Opponent_action_description: Listening to fans
+Skill_check_text: Will she appreciate the hype?
+Response_prerequisite_type: Quest ongoing
 Prerequisite_quest_ID:
+  - "[[Quest0020]]"
 Prerequisite_item_ID:
+  - none
 Outcome_ID_prerequisite:
-Skill_check?:
-Skill_type:
-Multiple_skill_check_attempt?:
-Item_check?:
-Item_Id:
-Succeed_outcome:
-Failed_outcome:
-Neutral_outcome:
-tags:
+  - none
+Skill_check?: yes
+Skill_type: knowledge
+Multiple_skill_check_attempt?: no
+Item_check?: none
+Item_Id: none
+Succeed_outcome: "[[Outcome0063]]"
+Failed_outcome: "[[Outcome0061]]"
+Neutral_outcome: "[[Outcome0062]]"
 Response_completion_status:
-Quest_ID_prerequisite_relation:
-Item_ID_prerequisite_relation:
-Outcome_ID_prerequisite_relation:
+Quest_ID_prerequisite_relation: is
+Item_ID_prerequisite_relation: none
+Outcome_ID_prerequisite_relation: none
 ---
 
 Response0039
 
 - response\_id: [[Narrative data/Response/Response0039|Response0039]]
 
-- narrative\_id: null
+- narrative\_id: [[Narrative data/Narrative/Narrative0023|Narrative0023]]
 
-- response\_text: null
+- response\_text: Use your knowledge about people hype to inflate her ego
 
-- player\_action\_description: null
+- player\_action\_description: Tell her what you've heard so far
 
-- opponent\_action\_description: null
+- opponent\_action\_description: Listening to fans
 
-- skill\_check\_text: null
+- skill\_check\_text: Will she appreciate the hype?
 
-- response\_prerequisite\_type: null
+- response\_prerequisite\_type: Quest ongoing
 
-- prerequisite\_quest\_id: null
+- prerequisite\_quest\_id: [[Narrative data/Quest/Quest0020|Quest0020]]
 
-- prerequisite\_item\_id: null
+- prerequisite\_item\_id: none
 
-- outcome\_id\_prerequisite: null
+- outcome\_id\_prerequisite: none
 
-- skill\_check?: null
+- skill\_check?: yes
 
-- skill\_type: null
+- skill\_type: knowledge
 
-- multiple\_skill\_check\_attempt?: null
+- multiple\_skill\_check\_attempt?: no
 
-- item\_check?: null
+- item\_check?: none
 
-- item\_id: null
+- item\_id: none
 
-- succeed\_outcome: null
+- succeed\_outcome: [[Narrative data/Outcome/Outcome0063|Outcome0063]]
 
-- failed\_outcome: null
+- failed\_outcome: [[Narrative data/Outcome/Outcome0061|Outcome0061]]
 
-- neutral\_outcome: null
+- neutral\_outcome: [[Narrative data/Outcome/Outcome0062|Outcome0062]]
 
-- tags: null
+- tags: response
 
 - response\_completion\_status: null
 
-- quest\_id\_prerequisite\_relation: null
+- quest\_id\_prerequisite\_relation: is
 
-- item\_id\_prerequisite\_relation: null
+- item\_id\_prerequisite\_relation: none
 
-- outcome\_id\_prerequisite\_relation: null
+- outcome\_id\_prerequisite\_relation: none

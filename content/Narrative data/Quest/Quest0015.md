@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-06T21:26:46.928+07:00
-modified: 2026-07-07T15:58:19.232+07:00
-published: 2026-07-07T15:58:19.232+07:00
+modified: 2026-07-11T20:25:05.536+07:00
+published: 2026-07-11T20:25:05.536+07:00
 tags:
   - quest
 Quest_ID: "[[Quest0015]]"
@@ -39,6 +39,7 @@ Completion_outcome_ID: none
 Narrative_ID:
   - "[[Narrative0020]]"
 Narrative_ID_relation: is
+Starter_Narrative_ID: none
 ---
 
 Quest0015
@@ -92,3 +93,5 @@ Quest0015
 - narrative\_id: [[Narrative data/Narrative/Narrative0020|Narrative0020]]
 
 - narrative\_id\_relation: is
+
+- starter\_narrative\_id: none

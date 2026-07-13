@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-03T10:38:36.096+07:00
-modified: 2026-07-07T15:01:38.726+07:00
-published: 2026-07-07T15:01:38.726+07:00
+modified: 2026-07-11T20:25:05.243+07:00
+published: 2026-07-11T20:25:05.243+07:00
 tags:
   - quest
 Quest_ID: "[[Quest0009]]"
@@ -35,56 +35,25 @@ Completion_outcome_ID: none
 Narrative_ID:
   - none
 Narrative_ID_relation: none
+Starter_Narrative_ID: none
 ---
 
 Quest0009
 
-- quest\_id: [[Narrative data/Quest/Quest0009|Quest0009]]
+```datacorejsx
+return function View() {
+const file = dc.useCurrentFile();
+const hiddenKeys = ["dg-publish", "publish"];
 
-- quest\_name: Succeed in skill check with Guest C
+if(!file) return <p>loading</p>;
 
-- quest\_type: main quest
+const KUMPULAN = file.$frontmatter;
 
-- status: null
+const items = Object.entries(KUMPULAN)
+	.filter(([key]) => !key.startsWith("__") && !hiddenKeys.includes(key))
+	.map(([key, field]) => {return `${key}: ${field?.value}`;}
+);
+	return <dc.List rows={items} />;
+}
 
-- quest\_description: Sometimes you have to succeed in skill check. Learn how that works
-
-- hints: [[Narrative data/Hint/Hint0010|Hint0010]]
-
-- starter\_prerequisite\_type: Quest completion
-
-- starter\_item\_id: none
-
-- starter\_quest\_id: [[Narrative data/Quest/Quest0008|Quest0008]]
-
-- starter\_response\_id: none
-
-- completion\_prerequisite\_type: Skill check result
-
-- completion\_quest\_id: none
-
-- completion\_item\_id: none
-
-- completion\_response\_id: [[Narrative data/Response/Response0009|Response0009]]
-
-- skill\_check\_result: Succeed
-
-- tags: quest
-
-- canvas: [[Plot/_General Plot.canvas|_General Plot.canvas]]
-
-- \_general plot: [[Narrative data/Quest/Quest0010|Quest0010]],[[Narrative data/LocationChanger/LC0004|LC0004]]
-
-- completion\_quest\_id\_relation: none
-
-- completion\_item\_id\_relation: none
-
-- completion\_response\_id\_relation: is
-
-- completion\_outcome\_id\_relation: none
-
-- completion\_outcome\_id: none
-
-- narrative\_id: none
-
-- narrative\_id\_relation: none
+```

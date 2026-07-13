@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-03T17:07:32.002+07:00
-modified: 2026-07-06T23:25:48.575+07:00
-published: 2026-07-06T23:25:48.575+07:00
+modified: 2026-07-11T16:14:36.330+07:00
+published: 2026-07-11T16:14:36.330+07:00
 tags:
   - character
 Dialogue_position: Left
@@ -12,6 +12,7 @@ Narrative_data:
   - "[[Narrative0007]]"
   - "[[Narrative0012]]"
   - "[[Narrative0019]]"
+  - "[[Narrative0031]]"
 canvas:
   - "[[_General Plot.canvas]]"
 _General Plot: []
@@ -34,7 +35,7 @@ GuestD
 
 - mesh: ExtrasB
 
-- narrative\_data: [[Narrative data/Narrative/Narrative0007|Narrative0007]],[[Narrative data/Narrative/Narrative0012|Narrative0012]],[[Narrative data/Narrative/Narrative0019|Narrative0019]]
+- narrative\_data: [[Narrative data/Narrative/Narrative0007|Narrative0007]],[[Narrative data/Narrative/Narrative0012|Narrative0012]],[[Narrative data/Narrative/Narrative0019|Narrative0019]],[[Narrative data/Narrative/Narrative0031|Narrative0031]]
 
 - canvas: [[Plot/_General Plot.canvas|_General Plot.canvas]]
 

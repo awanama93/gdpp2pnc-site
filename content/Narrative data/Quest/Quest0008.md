@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-02T22:27:23.152+07:00
-modified: 2026-07-07T15:01:37.459+07:00
-published: 2026-07-07T15:01:37.459+07:00
+modified: 2026-07-11T20:25:05.214+07:00
+published: 2026-07-11T20:25:05.214+07:00
 tags:
   - quest
 Quest_ID: "[[Quest0008]]"
@@ -37,56 +37,25 @@ Completion_outcome_ID: none
 Narrative_ID:
   - none
 Narrative_ID_relation: none
+Starter_Narrative_ID: none
 ---
 
 Quest0008
 
-- quest\_id: [[Narrative data/Quest/Quest0008|Quest0008]]
+```datacorejsx
+return function View() {
+const file = dc.useCurrentFile();
+const hiddenKeys = ["dg-publish", "publish"];
 
-- quest\_name: Learn skill check with Guest B
+if(!file) return <p>loading</p>;
 
-- quest\_type: main quest
+const KUMPULAN = file.$frontmatter;
 
-- status: null
+const items = Object.entries(KUMPULAN)
+	.filter(([key]) => !key.startsWith("__") && !hiddenKeys.includes(key))
+	.map(([key, field]) => {return `${key}: ${field?.value}`;}
+);
+	return <dc.List rows={items} />;
+}
 
-- quest\_description: To resolve certain situation you have to do skill check using dice
-
-- starter\_prerequisite\_type: Quest completion
-
-- hints: [[Narrative data/Hint/Hint0007|Hint0007]],[[Narrative data/Hint/Hint0008|Hint0008]],[[Narrative data/Hint/Hint0009|Hint0009]]
-
-- starter\_item\_id: none
-
-- starter\_quest\_id: [[Narrative data/Quest/Quest0007|Quest0007]]
-
-- starter\_response\_id: none
-
-- completion\_prerequisite\_type: Skill check result
-
-- completion\_quest\_id: none
-
-- completion\_item\_id: none
-
-- completion\_response\_id: [[Narrative data/Response/Response0008|Response0008]]
-
-- skill\_check\_result: Succeed
-
-- tags: quest
-
-- canvas: [[Plot/_General Plot.canvas|_General Plot.canvas]]
-
-- \_general plot: [[Narrative data/Quest/Quest0009|Quest0009]],[[Narrative data/LocationChanger/LC0003|LC0003]]
-
-- completion\_quest\_id\_relation: none
-
-- completion\_item\_id\_relation: none
-
-- completion\_response\_id\_relation: is
-
-- completion\_outcome\_id\_relation: none
-
-- completion\_outcome\_id: none
-
-- narrative\_id: none
-
-- narrative\_id\_relation: none
+```

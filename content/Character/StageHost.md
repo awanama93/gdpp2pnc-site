@@ -1,14 +1,15 @@
 ---
 publish: true
 created: 2026-07-06T21:03:48.587+07:00
-modified: 2026-07-06T23:23:21.437+07:00
-published: 2026-07-06T23:23:21.437+07:00
+modified: 2026-07-11T16:09:27.335+07:00
+published: 2026-07-11T16:09:27.335+07:00
 tags:
   - character
 Dialogue_position:
 Character_ID: "[[StageHost]]"
 Mesh: StageHost
 Narrative_data:
+  - "[[Narrative0026]]"
 dg-publish: true
 DiceStrength:
 DiceReflex:
@@ -28,7 +29,7 @@ StageHost
 
 - mesh: StageHost
 
-- narrative\_data: null
+- narrative\_data: [[Narrative data/Narrative/Narrative0026|Narrative0026]]
 
 - dicestrength: null
 

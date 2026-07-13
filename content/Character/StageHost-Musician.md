@@ -1,11 +1,11 @@
 ---
 publish: true
 created: 2026-07-06T21:03:52.103+07:00
-modified: 2026-07-06T23:27:33.318+07:00
-published: 2026-07-06T23:27:33.318+07:00
+modified: 2026-07-07T21:48:13.466+07:00
+published: 2026-07-07T21:48:13.466+07:00
 tags:
   - character
-Dialogue_position: Left & Right
+Dialogue_position: Left
 Character_ID: "[[StageHost-Musician]]"
 Mesh: StageHost & Musician
 Narrative_data:
@@ -23,7 +23,7 @@ StageHost-Musician
 
 - tags: character
 
-- dialogue\_position: Left & Right
+- dialogue\_position: Left
 
 - character\_id: [[Character/StageHost-Musician|StageHost-Musician]]
 

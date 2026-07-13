@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-04T20:54:25.847+07:00
-modified: 2026-07-07T15:01:45.740+07:00
-published: 2026-07-07T15:01:45.740+07:00
+modified: 2026-07-11T20:25:05.509+07:00
+published: 2026-07-11T20:25:05.509+07:00
 tags:
   - quest
 Quest_ID: "[[Quest0014]]"
@@ -36,6 +36,7 @@ Completion_outcome_ID: none
 Narrative_ID:
   - none
 Narrative_ID_relation: none
+Starter_Narrative_ID: none
 ---
 
 Quest0014
@@ -89,3 +90,5 @@ Quest0014
 - narrative\_id: none
 
 - narrative\_id\_relation: none
+
+- starter\_narrative\_id: none

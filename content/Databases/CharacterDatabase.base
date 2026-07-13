@@ -19,4 +19,5 @@ views:
       - tags
     columnSize:
       note.Character_ID: 177
-      note.Narrative_data: 368
+      note.Mesh: 246
+      note.Narrative_data: 485

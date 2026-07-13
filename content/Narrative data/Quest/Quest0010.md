@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-03T16:56:09.569+07:00
-modified: 2026-07-07T15:01:39.987+07:00
-published: 2026-07-07T15:01:39.987+07:00
+modified: 2026-07-11T20:25:05.318+07:00
+published: 2026-07-11T20:25:05.318+07:00
 tags:
   - quest
 Quest_ID: "[[Quest0010]]"
@@ -40,56 +40,25 @@ Completion_outcome_ID: none
 Narrative_ID:
   - none
 Narrative_ID_relation: none
+Starter_Narrative_ID: none
 ---
 
 Quest0010
 
-- quest\_id: [[Narrative data/Quest/Quest0010|Quest0010]]
+```datacorejsx
+return function View() {
+const file = dc.useCurrentFile();
+const hiddenKeys = ["dg-publish", "publish"];
 
-- quest\_name: Beat Guest D in any skill check
+if(!file) return <p>loading</p>;
 
-- quest\_type: main quest
+const KUMPULAN = file.$frontmatter;
 
-- status: null
+const items = Object.entries(KUMPULAN)
+	.filter(([key]) => !key.startsWith("__") && !hiddenKeys.includes(key))
+	.map(([key, field]) => {return `${key}: ${field?.value}`;}
+);
+	return <dc.List rows={items} />;
+}
 
-- quest\_description: Sometimes you have multiple ways to beat opponent on skill check. Learn how that works
-
-- hints: [[Narrative data/Hint/Hint0011|Hint0011]],[[Narrative data/Hint/Hint0012|Hint0012]],[[Narrative data/Hint/Hint0013|Hint0013]]
-
-- starter\_prerequisite\_type: Quest completion
-
-- starter\_item\_id: none
-
-- starter\_quest\_id: [[Narrative data/Quest/Quest0009|Quest0009]]
-
-- starter\_response\_id: none
-
-- completion\_prerequisite\_type: Skill check result
-
-- completion\_quest\_id: none
-
-- completion\_item\_id: none
-
-- skill\_check\_result: Succeed
-
-- completion\_response\_id: [[Narrative data/Response/Response0010|Response0010]],[[Narrative data/Response/Response0011|Response0011]],[[Narrative data/Response/Response0012|Response0012]]
-
-- tags: quest
-
-- canvas: [[Plot/_General Plot.canvas|_General Plot.canvas]]
-
-- \_general plot: [[Narrative data/Quest/Quest0011|Quest0011]],[[Narrative data/LocationChanger/LC0005|LC0005]]
-
-- completion\_quest\_id\_relation: none
-
-- completion\_item\_id\_relation: none
-
-- completion\_response\_id\_relation: or
-
-- completion\_outcome\_id\_relation: none
-
-- completion\_outcome\_id: none
-
-- narrative\_id: none
-
-- narrative\_id\_relation: none
+```
