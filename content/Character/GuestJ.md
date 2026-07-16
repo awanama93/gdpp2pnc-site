@@ -1,19 +1,21 @@
 ---
 publish: true
 created: 2026-07-11T16:56:53.405+07:00
-modified: 2026-07-11T17:00:45.118+07:00
-published: 2026-07-11T17:00:45.118+07:00
+modified: 2026-07-16T17:48:04.142+07:00
+published: 2026-07-16T17:48:04.142+07:00
+tags:
+  - character
 Character_ID: "[[GuestJ]]"
 Mesh:
 Narrative_data:
-Dialogue_position:
-DiceStrength:
-DiceReflex:
-DiceArtistry:
-DiceDeception:
-DiceKnowledge:
-DiceObservation:
-tags:
+  - "[[Narrative0038]]"
+Dialogue_position: Left
+DiceStrength: "[[SDLight]]"
+DiceReflex: "[[SDLight]]"
+DiceArtistry: "[[SDLight]]"
+DiceDeception: "[[SDLight]]"
+DiceKnowledge: "[[SDLight]]"
+DiceObservation: "[[SDLight]]"
 ---
 
 GuestJ
@@ -22,20 +24,20 @@ GuestJ
 
 - mesh: null
 
-- narrative\_data: null
+- narrative\_data: [[Narrative data/Narrative/Narrative0038|Narrative0038]]
 
-- dialogue\_position: null
+- dialogue\_position: Left
 
-- dicestrength: null
+- dicestrength: [[Dice/StartingDice/SDLight|SDLight]]
 
-- dicereflex: null
+- dicereflex: [[Dice/StartingDice/SDLight|SDLight]]
 
-- diceartistry: null
+- diceartistry: [[Dice/StartingDice/SDLight|SDLight]]
 
-- dicedeception: null
+- dicedeception: [[Dice/StartingDice/SDLight|SDLight]]
 
-- diceknowledge: null
+- diceknowledge: [[Dice/StartingDice/SDLight|SDLight]]
 
-- diceobservation: null
+- diceobservation: [[Dice/StartingDice/SDLight|SDLight]]
 
-- tags: null
+- tags: character

@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-07T12:30:12.687+07:00
-modified: 2026-07-07T15:24:33.272+07:00
-published: 2026-07-07T15:24:33.272+07:00
+modified: 2026-07-16T17:05:39.751+07:00
+published: 2026-07-16T17:05:39.751+07:00
 tags:
   - response
 Response_ID:
@@ -33,6 +33,8 @@ Response_completion_status:
 Quest_ID_prerequisite_relation: and
 Item_ID_prerequisite_relation: none
 Outcome_ID_prerequisite_relation: none
+Character_ID:
+  - "[[GuestE]]"
 ---
 
 Response0034
@@ -82,3 +84,5 @@ Response0034
 - item\_id\_prerequisite\_relation: none
 
 - outcome\_id\_prerequisite\_relation: none
+
+- character\_id: [[Character/GuestE|GuestE]]

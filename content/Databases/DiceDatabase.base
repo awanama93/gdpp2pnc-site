@@ -4,6 +4,14 @@ filters:
 views:
   - type: table
     name: Table
+    filters:
+      and:
+        - or:
+            - Dice_name.startsWith("DON")
+            - Dice_name.startsWith("DPB")
+        - or:
+            - Influenced_skill.contains("Any skill")
+            - Influenced_skill.contains("observation")
     order:
       - file.name
       - Dice_ID
@@ -25,5 +33,28 @@ views:
       - tags
     sort: []
     columnSize:
-      file.name: 150
-      note.Dice_name: 202
+      file.name: 120
+      note.Dice_ID: 175
+      note.Dice_name: 193
+      note.Influenced_skill: 210
+  - type: table
+    name: BaseView
+    order:
+      - file.name
+      - Dice_ID
+      - Dice_name
+      - Dice_type
+      - Influenced_skill
+      - Face_1_type
+      - Face_1_value
+      - Face_2_type
+      - Face_2_value
+      - Face_3_type
+      - Face_3_value
+      - Face_4_type
+      - Face_4_value
+      - Face_5_type
+      - Face_5_value
+      - Face_6_type
+      - Face_6_value
+      - tags

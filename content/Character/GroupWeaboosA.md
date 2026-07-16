@@ -1,29 +1,29 @@
 ---
 publish: true
 created: 2026-07-09T19:57:40.388+07:00
-modified: 2026-07-11T16:10:28.625+07:00
-published: 2026-07-11T16:10:28.625+07:00
+modified: 2026-07-16T17:47:48.427+07:00
+published: 2026-07-16T17:47:48.427+07:00
 tags:
   - character
-Dialogue_position:
+Dialogue_position: Left
 Character_ID: "[[GroupWeaboosA]]"
 Mesh: 3 character mesh based on extras A and Extras B with guest texture variation
 Narrative_data:
   - "[[Narrative0033]]"
 dg-publish: true
-DiceStrength:
-DiceReflex:
-DiceArtistry:
-DiceDeception:
-DiceKnowledge:
-DiceObservation:
+DiceStrength: "[[SDWeak]]"
+DiceReflex: "[[SDWeak]]"
+DiceArtistry: "[[SDWeak]]"
+DiceDeception: "[[SDWeak]]"
+DiceKnowledge: "[[SDWeak]]"
+DiceObservation: "[[SDWeak]]"
 ---
 
 GroupWeaboosA
 
 - tags: character
 
-- dialogue\_position: null
+- dialogue\_position: Left
 
 - character\_id: [[Character/GroupWeaboosA|GroupWeaboosA]]
 
@@ -31,14 +31,14 @@ GroupWeaboosA
 
 - narrative\_data: [[Narrative data/Narrative/Narrative0033|Narrative0033]]
 
-- dicestrength: null
+- dicestrength: [[Dice/StartingDice/SDWeak|SDWeak]]
 
-- dicereflex: null
+- dicereflex: [[Dice/StartingDice/SDWeak|SDWeak]]
 
-- diceartistry: null
+- diceartistry: [[Dice/StartingDice/SDWeak|SDWeak]]
 
-- dicedeception: null
+- dicedeception: [[Dice/StartingDice/SDWeak|SDWeak]]
 
-- diceknowledge: null
+- diceknowledge: [[Dice/StartingDice/SDWeak|SDWeak]]
 
-- diceobservation: null
+- diceobservation: [[Dice/StartingDice/SDWeak|SDWeak]]

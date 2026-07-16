@@ -33,3 +33,51 @@ Special_dice_face_3_addition:
 ---
 
 Outcome0090
+
+- outcome\_id: [[Narrative data/Outcome/Outcome0090|Outcome0090]]
+
+- response\_id: [[Narrative data/Response/Response0059|Response0059]],[[Narrative data/Response/Response0060|Response0060]]
+
+- outcome\_name: You have something that is not yours
+
+- outcome\_type: Any response
+
+- outcome\_response: Unfortunately, you have something that is not belong to you
+
+- exp\_gain: 4
+
+- add\_item\_id: null
+
+- subtract\_item\_id: null
+
+- condition\_target\_1: null
+
+- condition\_dice\_1\_type\_modification: null
+
+- condition\_dice\_1\_id: null
+
+- condition\_dice\_1\_influenced\_skill\_type: null
+
+- condition\_target\_2: null
+
+- condition\_dice\_2\_type\_modification: null
+
+- condition\_dice\_2\_id: null
+
+- condition\_dice\_2\_influenced\_skill\_type: null
+
+- condition\_target\_3: null
+
+- condition\_dice\_3\_id: null
+
+- condition\_dice 3\_type\_modification: null
+
+- condition\_dice\_3\_influenced\_skill\_type: null
+
+- special\_dice\_face\_1\_addition: null
+
+- special\_dice\_face\_2\_addition: null
+
+- special\_dice\_face\_3\_addition: null
+
+- tags: outcome

@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-07T11:15:28.758+07:00
-modified: 2026-07-07T15:22:14.366+07:00
-published: 2026-07-07T15:22:14.366+07:00
+modified: 2026-07-16T17:05:11.158+07:00
+published: 2026-07-16T17:05:11.158+07:00
 tags:
   - response
 Response_ID:
@@ -28,6 +28,8 @@ Response_completion_status:
 Quest_ID_prerequisite_relation: none
 Item_ID_prerequisite_relation: none
 Outcome_ID_prerequisite_relation: is
+Character_ID:
+  - "[[GuestD]]"
 ---
 
 Response0029
@@ -77,3 +79,5 @@ Response0029
 - item\_id\_prerequisite\_relation: none
 
 - outcome\_id\_prerequisite\_relation: is
+
+- character\_id: [[Character/GuestD|GuestD]]

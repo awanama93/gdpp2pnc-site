@@ -1,28 +1,28 @@
 ---
 publish: true
 created: 2026-07-09T20:01:20.024+07:00
-modified: 2026-07-11T16:11:54.035+07:00
-published: 2026-07-11T16:11:54.035+07:00
+modified: 2026-07-16T17:48:07.429+07:00
+published: 2026-07-16T17:48:07.429+07:00
 tags:
   - character
-Dialogue_position:
+Dialogue_position: Left
 Character_ID: "[[OrganizerB]]"
 Mesh: ExtrasA with organizer texture variant
 Narrative_data:
 dg-publish: true
-DiceStrength:
-DiceReflex:
-DiceArtistry:
-DiceDeception:
-DiceKnowledge:
-DiceObservation:
+DiceStrength: "[[SDWeak]]"
+DiceReflex: "[[SDWeak]]"
+DiceArtistry: "[[SDWeak]]"
+DiceDeception: "[[SDWeak]]"
+DiceKnowledge: "[[SDWeak]]"
+DiceObservation: "[[SDWeak]]"
 ---
 
 OrganizerB
 
 - tags: character
 
-- dialogue\_position: null
+- dialogue\_position: Left
 
 - character\_id: [[Character/OrganizerB|OrganizerB]]
 
@@ -30,14 +30,14 @@ OrganizerB
 
 - narrative\_data: null
 
-- dicestrength: null
+- dicestrength: [[Dice/StartingDice/SDWeak|SDWeak]]
 
-- dicereflex: null
+- dicereflex: [[Dice/StartingDice/SDWeak|SDWeak]]
 
-- diceartistry: null
+- diceartistry: [[Dice/StartingDice/SDWeak|SDWeak]]
 
-- dicedeception: null
+- dicedeception: [[Dice/StartingDice/SDWeak|SDWeak]]
 
-- diceknowledge: null
+- diceknowledge: [[Dice/StartingDice/SDWeak|SDWeak]]
 
-- diceobservation: null
+- diceobservation: [[Dice/StartingDice/SDWeak|SDWeak]]

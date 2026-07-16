@@ -35,36 +35,50 @@ Special_dice_face_3_addition:
 
 Outcome0099
 
-```datacorejsx
+- outcome\_id: [[Narrative data/Outcome/Outcome0099|Outcome0099]]
 
-return function View() {
+- response\_id: [[Narrative data/Response/Response0067|Response0067]],[[Narrative data/Response/Response0068|Response0068]],[[Narrative data/Response/Response0069|Response0069]]
 
-const file = dc.useCurrentFile();
+- outcome\_name: She looks at you in pity
 
-const hiddenKeys = ["dg-publish", "publish"];
+- outcome\_type: Failed response
 
-  
+- outcome\_response: She looks at you in pity by telling him that you are innocent
 
-if(!file) return <p>loading</p>;
+- exp\_gain: 2
 
-  
+- add\_item\_id: null
 
-const KUMPULAN = file.$frontmatter;
+- subtract\_item\_id: null
 
-  
+- condition\_target\_1: null
 
-const items = Object.entries(KUMPULAN)
+- condition\_dice\_1\_type\_modification: null
 
-    .filter(([key]) => !key.startsWith("__") && !hiddenKeys.includes(key))
+- condition\_dice\_1\_id: null
 
-    .map(([key, field]) => {return `${key}: ${field?.value}`;}
+- condition\_dice\_1\_influenced\_skill\_type: null
 
-);
+- condition\_target\_2: null
 
-    return <dc.List rows={items} />;
+- condition\_dice\_2\_type\_modification: null
 
-}
+- condition\_dice\_2\_id: null
 
-  
+- condition\_dice\_2\_influenced\_skill\_type: null
 
-```
+- condition\_target\_3: null
+
+- condition\_dice\_3\_id: null
+
+- condition\_dice 3\_type\_modification: null
+
+- condition\_dice\_3\_influenced\_skill\_type: null
+
+- special\_dice\_face\_1\_addition: null
+
+- special\_dice\_face\_2\_addition: null
+
+- special\_dice\_face\_3\_addition: null
+
+- tags: outcome

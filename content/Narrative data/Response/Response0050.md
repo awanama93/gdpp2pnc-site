@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-10T11:45:41.588+07:00
-modified: 2026-07-11T00:46:24.051+07:00
-published: 2026-07-11T00:46:24.051+07:00
+modified: 2026-07-16T17:07:22.208+07:00
+published: 2026-07-16T17:07:22.208+07:00
 tags:
   - response
 Response_ID:
@@ -32,6 +32,8 @@ Item_Id: none
 Succeed_outcome: "[[Outcome0080]]"
 Failed_outcome: "[[Outcome0081]]"
 Neutral_outcome: "[[Outcome0082]]"
+Character_ID:
+  - "[[GroupMangaAfficionadoA]]"
 ---
 
 Response0050
@@ -81,3 +83,5 @@ Response0050
 - neutral\_outcome: [[Narrative data/Outcome/Outcome0082|Outcome0082]]
 
 - tags: response
+
+- character\_id: [[Character/GroupMangaAfficionadoA|GroupMangaAfficionadoA]]

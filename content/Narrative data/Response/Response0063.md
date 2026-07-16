@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-10T11:45:41.588+07:00
-modified: 2026-07-11T20:58:00.472+07:00
-published: 2026-07-11T20:58:00.472+07:00
+modified: 2026-07-16T17:11:18.492+07:00
+published: 2026-07-16T17:11:18.492+07:00
 tags:
   - response
 Response_ID:
@@ -32,6 +32,8 @@ Item_Id: none
 Succeed_outcome: "[[Outcome0091]]"
 Failed_outcome: "[[Outcome0093]]"
 Neutral_outcome: "[[Outcome0092]]"
+Character_ID:
+  - "[[SecurityOrganizer]]"
 ---
 
 Response0063
@@ -81,3 +83,5 @@ Response0063
 - neutral\_outcome: [[Narrative data/Outcome/Outcome0092|Outcome0092]]
 
 - tags: response
+
+- character\_id: [[Character/SecurityOrganizer|SecurityOrganizer]]

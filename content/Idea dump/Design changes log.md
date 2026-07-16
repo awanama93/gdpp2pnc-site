@@ -28,3 +28,6 @@
         - prerequisite\_quest\_ID => Quest\_ID\_prerequisite
         - prerequisite\_item\_ID => Item\_ID\_prerequisite
       - tambah quest\_ID\_prerequisite\_relation, item\_ID\_prerequisite\_relation, outcome\_ID\_prerequisite\_relation
+- 16 July
+  - Tambah list Character\_ID di [[ResponseDatabase.base]] sekadar untuk mempermudah filtering data pas balancing
+  -

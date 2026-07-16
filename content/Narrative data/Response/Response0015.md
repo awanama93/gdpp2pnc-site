@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-04T17:08:23.066+07:00
-modified: 2026-07-07T15:21:56.172+07:00
-published: 2026-07-07T15:21:56.172+07:00
+modified: 2026-07-16T17:03:31.038+07:00
+published: 2026-07-16T17:03:31.038+07:00
 tags:
   - response
 Response_ID: "[[Response0015]]"
@@ -28,16 +28,11 @@ Response_completion_status:
 Quest_ID_prerequisite_relation: is
 Item_ID_prerequisite_relation: none
 Outcome_ID_prerequisite_relation: none
+Character_ID:
+  - "[[GroupGuestB]]"
 ---
 
-```datacorejsx
-return function TitleHeader() { 
-const file = dc.useCurrentFile(); 
-if (!file) return null; 
-// file.$name contains the clean string of the note title 
-return <h1>{file.$name}</h1>; }
-
-```
+Response0015
 
 - response\_id: [[Narrative data/Response/Response0015|Response0015]]
 
@@ -84,3 +79,5 @@ return <h1>{file.$name}</h1>; }
 - item\_id\_prerequisite\_relation: none
 
 - outcome\_id\_prerequisite\_relation: none
+
+- character\_id: [[Character/GroupGuestB|GroupGuestB]]

@@ -1,29 +1,29 @@
 ---
 publish: true
 created: 2026-07-06T21:04:00.694+07:00
-modified: 2026-07-11T16:07:14.690+07:00
-published: 2026-07-11T16:07:14.690+07:00
+modified: 2026-07-16T17:47:35.079+07:00
+published: 2026-07-16T17:47:35.079+07:00
 tags:
   - character
-Dialogue_position:
+Dialogue_position: Left
 Character_ID: "[[MaleToiletDoor]]"
 Mesh: Toilet door
 Narrative_data:
   - "[[Narrative0021]]"
 dg-publish: true
-DiceStrength:
-DiceReflex:
-DiceArtistry:
-DiceDeception:
-DiceKnowledge:
-DiceObservation:
+DiceStrength: "[[SDWeak]]"
+DiceReflex: "[[SDStrong]]"
+DiceArtistry: "[[SDWeak]]"
+DiceDeception: "[[SDWeak]]"
+DiceKnowledge: "[[SDWeak]]"
+DiceObservation: "[[SDWeak]]"
 ---
 
 MaleToiletDoor
 
 - tags: character
 
-- dialogue\_position: null
+- dialogue\_position: Left
 
 - character\_id: [[Character/MaleToiletDoor|MaleToiletDoor]]
 
@@ -31,14 +31,14 @@ MaleToiletDoor
 
 - narrative\_data: [[Narrative data/Narrative/Narrative0021|Narrative0021]]
 
-- dicestrength: null
+- dicestrength: [[Dice/StartingDice/SDWeak|SDWeak]]
 
-- dicereflex: null
+- dicereflex: [[Dice/StartingDice/SDStrong|SDStrong]]
 
-- diceartistry: null
+- diceartistry: [[Dice/StartingDice/SDWeak|SDWeak]]
 
-- dicedeception: null
+- dicedeception: [[Dice/StartingDice/SDWeak|SDWeak]]
 
-- diceknowledge: null
+- diceknowledge: [[Dice/StartingDice/SDWeak|SDWeak]]
 
-- diceobservation: null
+- diceobservation: [[Dice/StartingDice/SDWeak|SDWeak]]

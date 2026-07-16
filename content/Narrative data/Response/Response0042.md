@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-10T11:45:41.588+07:00
-modified: 2026-07-10T22:47:51.835+07:00
-published: 2026-07-10T22:47:51.835+07:00
+modified: 2026-07-16T17:06:24.904+07:00
+published: 2026-07-16T17:06:24.904+07:00
 tags:
   - response
 Response_ID:
@@ -32,6 +32,8 @@ Item_Id: none
 Succeed_outcome: "[[Outcome0068]]"
 Failed_outcome: "[[Outcome0065]]"
 Neutral_outcome: "[[Outcome0066]]"
+Character_ID:
+  - "[[CosplayerFanA]]"
 ---
 
 Response0042
@@ -81,3 +83,5 @@ Response0042
 - neutral\_outcome: [[Narrative data/Outcome/Outcome0066|Outcome0066]]
 
 - tags: response
+
+- character\_id: [[Character/CosplayerFanA|CosplayerFanA]]

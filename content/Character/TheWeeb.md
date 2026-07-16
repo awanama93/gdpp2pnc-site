@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-06T21:03:44.821+07:00
-modified: 2026-07-11T16:13:08.369+07:00
-published: 2026-07-11T16:13:08.369+07:00
+modified: 2026-07-16T16:22:22.213+07:00
+published: 2026-07-16T16:22:22.213+07:00
 tags:
   - character
 Dialogue_position: Left
@@ -12,12 +12,12 @@ Narrative_data:
   - "[[Narrative0015]]"
   - "[[Narrative0027]]"
 dg-publish: true
-DiceStrength:
-DiceReflex:
-DiceArtistry:
-DiceDeception:
-DiceKnowledge:
-DiceObservation:
+DiceStrength: "[[SDMid]]"
+DiceReflex: "[[SDFirm]]"
+DiceArtistry: "[[SDLight]]"
+DiceDeception: "[[SDWeak]]"
+DiceKnowledge: "[[SDStrong]]"
+DiceObservation: "[[SDSubstantial]]"
 ---
 
 TheWeeb
@@ -32,14 +32,14 @@ TheWeeb
 
 - narrative\_data: [[Narrative data/Narrative/Narrative0015|Narrative0015]],[[Narrative data/Narrative/Narrative0027|Narrative0027]]
 
-- dicestrength: null
+- dicestrength: [[Dice/StartingDice/SDMid|SDMid]]
 
-- dicereflex: null
+- dicereflex: [[Dice/StartingDice/SDFirm|SDFirm]]
 
-- diceartistry: null
+- diceartistry: [[Dice/StartingDice/SDLight|SDLight]]
 
-- dicedeception: null
+- dicedeception: [[Dice/StartingDice/SDWeak|SDWeak]]
 
-- diceknowledge: null
+- diceknowledge: [[Dice/StartingDice/SDStrong|SDStrong]]
 
-- diceobservation: null
+- diceobservation: [[Dice/StartingDice/SDSubstantial|SDSubstantial]]

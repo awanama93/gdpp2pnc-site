@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-07T12:30:12.687+07:00
-modified: 2026-07-10T12:55:24.377+07:00
-published: 2026-07-10T12:55:24.377+07:00
+modified: 2026-07-16T17:06:10.816+07:00
+published: 2026-07-16T17:06:10.816+07:00
 tags:
   - response
 Response_ID:
@@ -32,6 +32,8 @@ Response_completion_status:
 Quest_ID_prerequisite_relation: is
 Item_ID_prerequisite_relation: none
 Outcome_ID_prerequisite_relation: none
+Character_ID:
+  - "[[Cosplayer]]"
 ---
 
 Response0039
@@ -81,3 +83,5 @@ Response0039
 - item\_id\_prerequisite\_relation: none
 
 - outcome\_id\_prerequisite\_relation: none
+
+- character\_id: [[Character/Cosplayer|Cosplayer]]

@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-10T11:45:41.588+07:00
-modified: 2026-07-11T13:03:25.399+07:00
-published: 2026-07-11T13:03:25.399+07:00
+modified: 2026-07-16T17:08:04.467+07:00
+published: 2026-07-16T17:08:04.467+07:00
 tags:
   - response
 Response_ID:
@@ -32,6 +32,9 @@ Item_Id: none
 Succeed_outcome: "[[Outcome0087]]"
 Failed_outcome: "[[Outcome0087]]"
 Neutral_outcome: "[[Outcome0087]]"
+Character_ID:
+  - "[[BoothAttendeeA]]"
+  - "[[BoothAttendeeB]]"
 ---
 
 Response0054
@@ -81,3 +84,5 @@ Response0054
 - neutral\_outcome: [[Narrative data/Outcome/Outcome0087|Outcome0087]]
 
 - tags: response
+
+- character\_id: [[Character/BoothAttendeeA|BoothAttendeeA]],[[Character/BoothAttendeeB|BoothAttendeeB]]

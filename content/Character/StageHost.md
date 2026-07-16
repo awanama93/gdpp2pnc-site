@@ -1,44 +1,45 @@
 ---
 publish: true
 created: 2026-07-06T21:03:48.587+07:00
-modified: 2026-07-11T16:09:27.335+07:00
-published: 2026-07-11T16:09:27.335+07:00
+modified: 2026-07-16T17:47:43.405+07:00
+published: 2026-07-16T17:47:43.405+07:00
 tags:
   - character
-Dialogue_position:
+Dialogue_position: Left
 Character_ID: "[[StageHost]]"
 Mesh: StageHost
 Narrative_data:
   - "[[Narrative0026]]"
+  - "[[Narrative0043]]"
 dg-publish: true
-DiceStrength:
-DiceReflex:
-DiceArtistry:
-DiceDeception:
-DiceKnowledge:
-DiceObservation:
+DiceStrength: "[[SDMid]]"
+DiceReflex: "[[SDFirm]]"
+DiceArtistry: "[[SDLight]]"
+DiceDeception: "[[SDStrong]]"
+DiceKnowledge: "[[SDWeak]]"
+DiceObservation: "[[SDSubstantial]]"
 ---
 
 StageHost
 
 - tags: character
 
-- dialogue\_position: null
+- dialogue\_position: Left
 
 - character\_id: [[Character/StageHost|StageHost]]
 
 - mesh: StageHost
 
-- narrative\_data: [[Narrative data/Narrative/Narrative0026|Narrative0026]]
+- narrative\_data: [[Narrative data/Narrative/Narrative0026|Narrative0026]],[[Narrative data/Narrative/Narrative0043|Narrative0043]]
 
-- dicestrength: null
+- dicestrength: [[Dice/StartingDice/SDMid|SDMid]]
 
-- dicereflex: null
+- dicereflex: [[Dice/StartingDice/SDFirm|SDFirm]]
 
-- diceartistry: null
+- diceartistry: [[Dice/StartingDice/SDLight|SDLight]]
 
-- dicedeception: null
+- dicedeception: [[Dice/StartingDice/SDStrong|SDStrong]]
 
-- diceknowledge: null
+- diceknowledge: [[Dice/StartingDice/SDWeak|SDWeak]]
 
-- diceobservation: null
+- diceobservation: [[Dice/StartingDice/SDSubstantial|SDSubstantial]]

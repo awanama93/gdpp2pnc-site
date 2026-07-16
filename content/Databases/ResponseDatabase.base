@@ -9,10 +9,15 @@ properties:
 views:
   - type: table
     name: Table
+    filters:
+      and:
+        - note["Skill_check?"] == "yes"
+        - Skill_type == "observation"
     order:
       - file.name
       - Response_ID
       - Narrative_ID
+      - Character_ID
       - Response_text
       - Response_completion_status
       - Player_action_description
@@ -27,9 +32,6 @@ views:
       - Outcome_ID_prerequisite_relation
       - Skill_check?
       - Skill_type
-      - Multiple_skill_check_attempt?
-      - Item_check?
-      - Item_Id
       - Succeed_outcome
       - Failed_outcome
       - Neutral_outcome
@@ -37,8 +39,10 @@ views:
     sort: []
     columnSize:
       note.Response_ID: 123
-      note.Response_text: 355
+      note.Character_ID: 270
+      note.Response_text: 280
       note.Player_action_description: 288
       note.Skill_check_text: 362
       note.Prerequisite_quest_ID: 193
+      note.Multiple_skill_check_attempt?: 95
       note.Item_Id: 120

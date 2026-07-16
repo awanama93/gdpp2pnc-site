@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-10T11:45:41.588+07:00
-modified: 2026-07-11T18:54:16.584+07:00
-published: 2026-07-11T18:54:16.584+07:00
+modified: 2026-07-16T17:09:52.655+07:00
+published: 2026-07-16T17:09:52.655+07:00
 tags:
   - response
 Response_ID:
@@ -32,6 +32,10 @@ Item_Id: none
 Succeed_outcome: "[[Outcome0088]]"
 Failed_outcome: "[[Outcome0088]]"
 Neutral_outcome: "[[Outcome0088]]"
+Character_ID:
+  - "[[GuestF]]"
+  - "[[GuestG]]"
+  - "[[GuestH]]"
 ---
 
 Response0055
@@ -81,3 +85,5 @@ Response0055
 - neutral\_outcome: [[Narrative data/Outcome/Outcome0088|Outcome0088]]
 
 - tags: response
+
+- character\_id: [[Character/GuestF|GuestF]],[[Character/GuestG|GuestG]],[[Character/GuestH|GuestH]]

@@ -7,7 +7,6 @@ views:
     order:
       - file.name
       - Character_ID
-      - Mesh
       - Narrative_data
       - Dialogue_position
       - DiceStrength
@@ -17,7 +16,9 @@ views:
       - DiceKnowledge
       - DiceObservation
       - tags
+    sort:
+      - property: Narrative_data
+        direction: ASC
     columnSize:
       note.Character_ID: 177
-      note.Mesh: 246
-      note.Narrative_data: 485
+      note.Narrative_data: 568

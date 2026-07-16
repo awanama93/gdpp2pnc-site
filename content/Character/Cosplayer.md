@@ -1,29 +1,29 @@
 ---
 publish: true
 created: 2026-07-09T19:52:00.403+07:00
-modified: 2026-07-11T16:10:32.510+07:00
-published: 2026-07-11T16:10:32.510+07:00
+modified: 2026-07-16T17:47:37.889+07:00
+published: 2026-07-16T17:47:37.889+07:00
 tags:
   - character
-Dialogue_position:
+Dialogue_position: Left
 Character_ID: "[[Cosplayer]]"
 Mesh: Cosplayer
 Narrative_data:
   - "[[Narrative0023]]"
 dg-publish: true
-DiceStrength:
-DiceReflex:
-DiceArtistry:
-DiceDeception:
-DiceKnowledge:
-DiceObservation:
+DiceStrength: "[[SDWeak]]"
+DiceReflex: "[[SDFirm]]"
+DiceArtistry: "[[SDSubstantial]]"
+DiceDeception: "[[SDStrong]]"
+DiceKnowledge: "[[SDLight]]"
+DiceObservation: "[[SDMid]]"
 ---
 
 Cosplayer
 
 - tags: character
 
-- dialogue\_position: null
+- dialogue\_position: Left
 
 - character\_id: [[Character/Cosplayer|Cosplayer]]
 
@@ -31,14 +31,14 @@ Cosplayer
 
 - narrative\_data: [[Narrative data/Narrative/Narrative0023|Narrative0023]]
 
-- dicestrength: null
+- dicestrength: [[Dice/StartingDice/SDWeak|SDWeak]]
 
-- dicereflex: null
+- dicereflex: [[Dice/StartingDice/SDFirm|SDFirm]]
 
-- diceartistry: null
+- diceartistry: [[Dice/StartingDice/SDSubstantial|SDSubstantial]]
 
-- dicedeception: null
+- dicedeception: [[Dice/StartingDice/SDStrong|SDStrong]]
 
-- diceknowledge: null
+- diceknowledge: [[Dice/StartingDice/SDLight|SDLight]]
 
-- diceobservation: null
+- diceobservation: [[Dice/StartingDice/SDMid|SDMid]]

@@ -4,6 +4,9 @@ filters:
 views:
   - type: table
     name: Table
+    filters:
+      and:
+        - Outcome_type == "Succeed response"
     order:
       - file.name
       - Outcome_ID

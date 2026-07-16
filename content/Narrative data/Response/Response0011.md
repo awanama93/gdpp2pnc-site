@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-03T17:16:37.124+07:00
-modified: 2026-07-07T15:21:50.176+07:00
-published: 2026-07-07T15:21:50.176+07:00
+modified: 2026-07-16T17:02:45.608+07:00
+published: 2026-07-16T17:02:45.608+07:00
 tags:
   - response
 Response_ID: "[[Response0011]]"
@@ -28,31 +28,56 @@ Response_completion_status:
 Quest_ID_prerequisite_relation: is
 Item_ID_prerequisite_relation: none
 Outcome_ID_prerequisite_relation: none
+Character_ID:
+  - "[[GuestD]]"
 ---
 
-```datacorejsx
-return function TitleHeader() { 
-const file = dc.useCurrentFile(); 
-if (!file) return null; 
-// file.$name contains the clean string of the note title 
-return <h1>{file.$name}</h1>; }
+Response0011
 
-```
+- response\_id: [[Narrative data/Response/Response0011|Response0011]]
 
-```datacorejsx
-return function View() {
-const file = dc.useCurrentFile();
-const hiddenKeys = ["dg-publish", "publish"];
+- narrative\_id: [[Narrative data/Narrative/Narrative0007|Narrative0007]]
 
-if(!file) return <p>loading</p>;
+- response\_text: Try to beat Guest D with your artistry skill
 
-const KUMPULAN = file.$frontmatter;
+- player\_action\_description: Your artistry skill
 
-const items = Object.entries(KUMPULAN)
-	.filter(([key]) => !key.startsWith("__") && !hiddenKeys.includes(key))
-	.map(([key, field]) => {return `${key}: ${field?.value}`;}
-);
-	return <dc.List rows={items} />;
-}
+- opponent\_action\_description: Ready to check your artistry
 
-```
+- skill\_check\_text: Can you beat Guest D with your artistry?
+
+- response\_prerequisite\_type: Quest ongoing
+
+- prerequisite\_quest\_id: [[Narrative data/Quest/Quest0010|Quest0010]]
+
+- prerequisite\_item\_id: none
+
+- skill\_check?: yes
+
+- skill\_type: artistry
+
+- multiple\_skill\_check\_attempt?: yes
+
+- item\_check?: none
+
+- item\_id: none
+
+- succeed\_outcome: [[Narrative data/Outcome/Outcome0016|Outcome0016]]
+
+- failed\_outcome: [[Narrative data/Outcome/Outcome0017|Outcome0017]]
+
+- neutral\_outcome: [[Narrative data/Outcome/Outcome0018|Outcome0018]]
+
+- tags: response
+
+- outcome\_id\_prerequisite: none
+
+- response\_completion\_status: null
+
+- quest\_id\_prerequisite\_relation: is
+
+- item\_id\_prerequisite\_relation: none
+
+- outcome\_id\_prerequisite\_relation: none
+
+- character\_id: [[Character/GuestD|GuestD]]

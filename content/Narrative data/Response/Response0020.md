@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-04T21:22:17.684+07:00
-modified: 2026-07-07T15:22:03.935+07:00
-published: 2026-07-07T15:22:03.935+07:00
+modified: 2026-07-16T17:04:03.890+07:00
+published: 2026-07-16T17:04:03.890+07:00
 tags:
   - response
 Response_ID: "[[Response0020]]"
@@ -28,6 +28,8 @@ Response_completion_status:
 Quest_ID_prerequisite_relation: none
 Item_ID_prerequisite_relation: is
 Outcome_ID_prerequisite_relation: none
+Character_ID:
+  - "[[GuestA]]"
 ---
 
 Response0020
@@ -77,3 +79,5 @@ Response0020
 - item\_id\_prerequisite\_relation: is
 
 - outcome\_id\_prerequisite\_relation: none
+
+- character\_id: [[Character/GuestA|GuestA]]

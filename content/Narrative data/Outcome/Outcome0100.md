@@ -1,8 +1,10 @@
 ---
 publish: true
 created: 2026-07-10T11:56:02.964+07:00
-modified: 2026-07-11T21:12:17.621+07:00
-published: 2026-07-11T21:12:17.621+07:00
+modified: 2026-07-16T17:48:57.469+07:00
+published: 2026-07-16T17:48:57.469+07:00
+tags:
+  - outcome
 Outcome_ID: "[[Outcome0100]]"
 Response_ID:
   - "[[Response0070]]"
@@ -27,41 +29,54 @@ Condition_dice_3_influenced_skill_type:
 Special_dice_face_1_addition:
 Special_dice_face_2_addition:
 Special_dice_face_3_addition:
-tags:
 ---
 
 Outcome0100
 
-```datacorejsx
+- outcome\_id: [[Narrative data/Outcome/Outcome0100|Outcome0100]]
 
-return function View() {
+- response\_id: [[Narrative data/Response/Response0070|Response0070]]
 
-const file = dc.useCurrentFile();
+- outcome\_name: He lets you prove yourself
 
-const hiddenKeys = ["dg-publish", "publish"];
+- outcome\_type: Any response
 
-  
+- outcome\_response: He's not fully believed you but give you chance to prove your innocence
 
-if(!file) return <p>loading</p>;
+- exp\_gain: 6
 
-  
+- add\_item\_id: null
 
-const KUMPULAN = file.$frontmatter;
+- subtract\_item\_id: null
 
-  
+- condition\_target\_1: null
 
-const items = Object.entries(KUMPULAN)
+- condition\_dice\_1\_type\_modification: null
 
-    .filter(([key]) => !key.startsWith("__") && !hiddenKeys.includes(key))
+- condition\_dice\_1\_id: null
 
-    .map(([key, field]) => {return `${key}: ${field?.value}`;}
+- condition\_dice\_1\_influenced\_skill\_type: null
 
-);
+- condition\_target\_2: null
 
-    return <dc.List rows={items} />;
+- condition\_dice\_2\_type\_modification: null
 
-}
+- condition\_dice\_2\_id: null
 
-  
+- condition\_dice\_2\_influenced\_skill\_type: null
 
-```
+- condition\_target\_3: null
+
+- condition\_dice\_3\_id: null
+
+- condition\_dice 3\_type\_modification: null
+
+- condition\_dice\_3\_influenced\_skill\_type: null
+
+- special\_dice\_face\_1\_addition: null
+
+- special\_dice\_face\_2\_addition: null
+
+- special\_dice\_face\_3\_addition: null
+
+- tags: outcome

@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-04T15:03:01.199+07:00
-modified: 2026-07-07T15:21:54.117+07:00
-published: 2026-07-07T15:21:54.117+07:00
+modified: 2026-07-16T17:03:23.256+07:00
+published: 2026-07-16T17:03:23.256+07:00
 tags:
   - response
 Response_ID: "[[Response0014]]"
@@ -28,16 +28,11 @@ Response_completion_status:
 Quest_ID_prerequisite_relation: none
 Item_ID_prerequisite_relation: none
 Outcome_ID_prerequisite_relation: is
+Character_ID:
+  - "[[GroupGuestB]]"
 ---
 
-```datacorejsx
-return function TitleHeader() { 
-const file = dc.useCurrentFile(); 
-if (!file) return null; 
-// file.$name contains the clean string of the note title 
-return <h1>{file.$name}</h1>; }
-
-```
+Response0014
 
 - response\_id: [[Narrative data/Response/Response0014|Response0014]]
 
@@ -84,3 +79,5 @@ return <h1>{file.$name}</h1>; }
 - item\_id\_prerequisite\_relation: none
 
 - outcome\_id\_prerequisite\_relation: is
+
+- character\_id: [[Character/GroupGuestB|GroupGuestB]]

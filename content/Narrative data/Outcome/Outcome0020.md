@@ -33,3 +33,51 @@ dg-publish: true
 ---
 
 Outcome0020
+
+- outcome\_id: [[Narrative data/Outcome/Outcome0020|Outcome0020]]
+
+- response\_id: [[Narrative data/Response/Response0014|Response0014]]
+
+- outcome\_name: Lose condition dice
+
+- outcome\_type: Any response
+
+- outcome\_response: You're no longer have those conditions
+
+- exp\_gain: 3
+
+- add\_item\_id: none
+
+- condition\_target\_1: Player
+
+- condition\_dice\_1\_type\_modification: subtraction
+
+- condition\_dice\_1\_id: all dice
+
+- condition\_target\_2: Player
+
+- condition\_dice\_2\_type\_modification: subtraction
+
+- condition\_dice\_2\_id: all dice
+
+- condition\_target\_3: Opponent
+
+- condition\_dice 3\_type\_modification: addition
+
+- condition\_dice\_3\_id: [[Dice/ConditionDice/DeceptionBuffsample|DeceptionBuffsample]]
+
+- tags: outcome
+
+- condition\_dice\_1\_influenced\_skill\_type: any skill
+
+- condition\_dice\_2\_influenced\_skill\_type: any skill
+
+- condition\_dice\_3\_influenced\_skill\_type: deception
+
+- special\_dice\_face\_1\_addition: low integer
+
+- special\_dice\_face\_2\_addition: none
+
+- special\_dice\_face\_3\_addition: none
+
+- subtract\_item\_id: none

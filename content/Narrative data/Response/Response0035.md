@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-07T12:30:12.687+07:00
-modified: 2026-07-07T22:54:43.124+07:00
-published: 2026-07-07T22:54:43.124+07:00
+modified: 2026-07-16T17:05:48.102+07:00
+published: 2026-07-16T17:05:48.102+07:00
 tags:
   - response
 Response_ID:
@@ -32,6 +32,8 @@ Response_completion_status:
 Quest_ID_prerequisite_relation: is
 Item_ID_prerequisite_relation: none
 Outcome_ID_prerequisite_relation: none
+Character_ID:
+  - "[[MaleToiletDoor]]"
 ---
 
 Response0035
@@ -81,3 +83,5 @@ Response0035
 - item\_id\_prerequisite\_relation: none
 
 - outcome\_id\_prerequisite\_relation: none
+
+- character\_id: [[Character/MaleToiletDoor|MaleToiletDoor]]

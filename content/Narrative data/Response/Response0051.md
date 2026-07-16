@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-10T11:45:41.588+07:00
-modified: 2026-07-11T01:09:59.888+07:00
-published: 2026-07-11T01:09:59.888+07:00
+modified: 2026-07-16T17:07:28.243+07:00
+published: 2026-07-16T17:07:28.243+07:00
 tags:
   - response
 Response_ID:
@@ -32,6 +32,8 @@ Item_Id: none
 Succeed_outcome: "[[Outcome0083]]"
 Failed_outcome: "[[Outcome0084]]"
 Neutral_outcome: "[[Outcome0085]]"
+Character_ID:
+  - "[[Vlogger]]"
 ---
 
 Response0051
@@ -81,3 +83,5 @@ Response0051
 - neutral\_outcome: [[Narrative data/Outcome/Outcome0085|Outcome0085]]
 
 - tags: response
+
+- character\_id: [[Character/Vlogger|Vlogger]]

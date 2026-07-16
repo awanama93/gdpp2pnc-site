@@ -1,29 +1,29 @@
 ---
 publish: true
 created: 2026-07-06T21:03:50.315+07:00
-modified: 2026-07-11T16:07:49.787+07:00
-published: 2026-07-11T16:07:49.787+07:00
+modified: 2026-07-16T17:47:49.149+07:00
+published: 2026-07-16T17:47:49.149+07:00
 tags:
   - character
-Dialogue_position:
+Dialogue_position: Left
 Character_ID: "[[Musician]]"
 Mesh: Musician
 Narrative_data:
   - "[[Narrative0034]]"
 dg-publish: true
-DiceStrength:
-DiceReflex:
-DiceArtistry:
-DiceDeception:
-DiceKnowledge:
-DiceObservation:
+DiceStrength: "[[SDSubstantial]]"
+DiceReflex: "[[SDLight]]"
+DiceArtistry: "[[SDStrong]]"
+DiceDeception: "[[SDFirm]]"
+DiceKnowledge: "[[SDMid]]"
+DiceObservation: "[[SDWeak]]"
 ---
 
 Musician
 
 - tags: character
 
-- dialogue\_position: null
+- dialogue\_position: Left
 
 - character\_id: [[Character/Musician|Musician]]
 
@@ -31,14 +31,14 @@ Musician
 
 - narrative\_data: [[Narrative data/Narrative/Narrative0034|Narrative0034]]
 
-- dicestrength: null
+- dicestrength: [[Dice/StartingDice/SDSubstantial|SDSubstantial]]
 
-- dicereflex: null
+- dicereflex: [[Dice/StartingDice/SDLight|SDLight]]
 
-- diceartistry: null
+- diceartistry: [[Dice/StartingDice/SDStrong|SDStrong]]
 
-- dicedeception: null
+- dicedeception: [[Dice/StartingDice/SDFirm|SDFirm]]
 
-- diceknowledge: null
+- diceknowledge: [[Dice/StartingDice/SDMid|SDMid]]
 
-- diceobservation: null
+- diceobservation: [[Dice/StartingDice/SDWeak|SDWeak]]

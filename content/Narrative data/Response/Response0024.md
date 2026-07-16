@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-07T10:25:47.549+07:00
-modified: 2026-07-07T15:22:07.179+07:00
-published: 2026-07-07T15:22:07.179+07:00
+modified: 2026-07-16T17:04:42.827+07:00
+published: 2026-07-16T17:04:42.827+07:00
 tags:
   - response
 Response_ID:
@@ -28,6 +28,8 @@ Response_completion_status:
 Quest_ID_prerequisite_relation: is
 Item_ID_prerequisite_relation: none
 Outcome_ID_prerequisite_relation: none
+Character_ID:
+  - "[[TheWeeb]]"
 ---
 
 Response0024
@@ -77,3 +79,5 @@ Response0024
 - item\_id\_prerequisite\_relation: none
 
 - outcome\_id\_prerequisite\_relation: none
+
+- character\_id: [[Character/TheWeeb|TheWeeb]]

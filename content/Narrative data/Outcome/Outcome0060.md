@@ -32,3 +32,51 @@ Special_dice_face_3_addition:
 ---
 
 Outcome0060
+
+- outcome\_id: [[Narrative data/Outcome/Outcome0060|Outcome0060]]
+
+- response\_id: [[Narrative data/Response/Response0038|Response0038]]
+
+- outcome\_name: What makes this japanese culture great
+
+- outcome\_type: Any response
+
+- outcome\_response: You love this because it gives you sense of community, sense of purpose
+
+- exp\_gain: 3
+
+- add\_item\_id: null
+
+- subtract\_item\_id: null
+
+- condition\_target\_1: null
+
+- condition\_dice\_1\_type\_modification: null
+
+- condition\_dice\_1\_id: null
+
+- condition\_dice\_1\_influenced\_skill\_type: null
+
+- condition\_target\_2: null
+
+- condition\_dice\_2\_type\_modification: null
+
+- condition\_dice\_2\_id: null
+
+- condition\_dice\_2\_influenced\_skill\_type: null
+
+- condition\_target\_3: null
+
+- condition\_dice\_3\_id: null
+
+- condition\_dice 3\_type\_modification: null
+
+- condition\_dice\_3\_influenced\_skill\_type: null
+
+- special\_dice\_face\_1\_addition: null
+
+- special\_dice\_face\_2\_addition: null
+
+- special\_dice\_face\_3\_addition: null
+
+- tags: outcome

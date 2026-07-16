@@ -1,29 +1,29 @@
 ---
 publish: true
 created: 2026-07-09T19:57:42.251+07:00
-modified: 2026-07-11T16:10:04.057+07:00
-published: 2026-07-11T16:10:04.057+07:00
+modified: 2026-07-16T17:47:45.252+07:00
+published: 2026-07-16T17:47:45.252+07:00
 tags:
   - character
-Dialogue_position:
+Dialogue_position: Left
 Character_ID: "[[GroupMangaAfficionadoA]]"
 Mesh: 5 character mesh based on extras A and Extras B with guest texture variation
 Narrative_data:
   - "[[Narrative0029]]"
 dg-publish: true
-DiceStrength:
-DiceReflex:
-DiceArtistry:
-DiceDeception:
-DiceKnowledge:
-DiceObservation:
+DiceStrength: "[[SDSubstantial]]"
+DiceReflex: "[[SDWeak]]"
+DiceArtistry: "[[SDSubstantial]]"
+DiceDeception: "[[SDWeak]]"
+DiceKnowledge: "[[SDWeak]]"
+DiceObservation: "[[SDWeak]]"
 ---
 
 GroupMangaAfficionadoA
 
 - tags: character
 
-- dialogue\_position: null
+- dialogue\_position: Left
 
 - character\_id: [[Character/GroupMangaAfficionadoA|GroupMangaAfficionadoA]]
 
@@ -31,14 +31,14 @@ GroupMangaAfficionadoA
 
 - narrative\_data: [[Narrative data/Narrative/Narrative0029|Narrative0029]]
 
-- dicestrength: null
+- dicestrength: [[Dice/StartingDice/SDSubstantial|SDSubstantial]]
 
-- dicereflex: null
+- dicereflex: [[Dice/StartingDice/SDWeak|SDWeak]]
 
-- diceartistry: null
+- diceartistry: [[Dice/StartingDice/SDSubstantial|SDSubstantial]]
 
-- dicedeception: null
+- dicedeception: [[Dice/StartingDice/SDWeak|SDWeak]]
 
-- diceknowledge: null
+- diceknowledge: [[Dice/StartingDice/SDWeak|SDWeak]]
 
-- diceobservation: null
+- diceobservation: [[Dice/StartingDice/SDWeak|SDWeak]]

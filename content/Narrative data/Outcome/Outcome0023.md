@@ -33,3 +33,51 @@ dg-publish: true
 ---
 
 Outcome0023
+
+- outcome\_id: [[Narrative data/Outcome/Outcome0023|Outcome0023]]
+
+- response\_id: [[Narrative data/Response/Response0017|Response0017]]
+
+- outcome\_name: How to make special dice
+
+- outcome\_type: Any response
+
+- outcome\_response: In special dice tab drag & drop special dice ticket then click gacha button
+
+- exp\_gain: 1
+
+- add\_item\_id: none
+
+- condition\_target\_1: none
+
+- condition\_dice\_1\_type\_modification: none
+
+- condition\_dice\_1\_id: none
+
+- condition\_dice\_1\_influenced\_skill\_type: none
+
+- condition\_target\_2: none
+
+- condition\_dice\_2\_type\_modification: none
+
+- condition\_dice\_2\_id: none
+
+- condition\_dice\_2\_influenced\_skill\_type: none
+
+- condition\_target\_3: none
+
+- condition\_dice 3\_type\_modification: none
+
+- condition\_dice\_3\_id: none
+
+- condition\_dice\_3\_influenced\_skill\_type: none
+
+- special\_dice\_face\_1\_addition: none
+
+- special\_dice\_face\_2\_addition: none
+
+- special\_dice\_face\_3\_addition: none
+
+- tags: outcome
+
+- subtract\_item\_id: none

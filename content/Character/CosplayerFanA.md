@@ -1,29 +1,29 @@
 ---
 publish: true
 created: 2026-07-09T20:12:20.367+07:00
-modified: 2026-07-11T16:10:44.034+07:00
-published: 2026-07-11T16:10:44.034+07:00
+modified: 2026-07-16T17:47:39.519+07:00
+published: 2026-07-16T17:47:39.519+07:00
 tags:
   - character
-Dialogue_position:
+Dialogue_position: Left
 Character_ID: "[[CosplayerFanA]]"
 Mesh: ExtrasA with guest texture variant
 Narrative_data:
   - "[[Narrative0024]]"
 dg-publish: true
-DiceStrength:
-DiceReflex:
-DiceArtistry:
-DiceDeception:
-DiceKnowledge:
-DiceObservation:
+DiceStrength: "[[SDWeak]]"
+DiceReflex: "[[SDWeak]]"
+DiceArtistry: "[[SDWeak]]"
+DiceDeception: "[[SDSubstantial]]"
+DiceKnowledge: "[[SDFirm]]"
+DiceObservation: "[[SDSubstantial]]"
 ---
 
 CosplayerFanA
 
 - tags: character
 
-- dialogue\_position: null
+- dialogue\_position: Left
 
 - character\_id: [[Character/CosplayerFanA|CosplayerFanA]]
 
@@ -31,14 +31,14 @@ CosplayerFanA
 
 - narrative\_data: [[Narrative data/Narrative/Narrative0024|Narrative0024]]
 
-- dicestrength: null
+- dicestrength: [[Dice/StartingDice/SDWeak|SDWeak]]
 
-- dicereflex: null
+- dicereflex: [[Dice/StartingDice/SDWeak|SDWeak]]
 
-- diceartistry: null
+- diceartistry: [[Dice/StartingDice/SDWeak|SDWeak]]
 
-- dicedeception: null
+- dicedeception: [[Dice/StartingDice/SDSubstantial|SDSubstantial]]
 
-- diceknowledge: null
+- diceknowledge: [[Dice/StartingDice/SDFirm|SDFirm]]
 
-- diceobservation: null
+- diceobservation: [[Dice/StartingDice/SDSubstantial|SDSubstantial]]

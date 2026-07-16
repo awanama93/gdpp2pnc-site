@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-04T21:09:48.195+07:00
-modified: 2026-07-07T15:22:02.611+07:00
-published: 2026-07-07T15:22:02.611+07:00
+modified: 2026-07-16T17:03:56.780+07:00
+published: 2026-07-16T17:03:56.780+07:00
 tags:
   - response
 Response_ID: "[[Response0019]]"
@@ -28,16 +28,11 @@ Response_completion_status:
 Quest_ID_prerequisite_relation: is
 Item_ID_prerequisite_relation: none
 Outcome_ID_prerequisite_relation: none
+Character_ID:
+  - "[[GuestD]]"
 ---
 
-```datacorejsx
-return function TitleHeader() { 
-const file = dc.useCurrentFile(); 
-if (!file) return null; 
-// file.$name contains the clean string of the note title 
-return <h1>{file.$name}</h1>; }
-
-```
+Response0019
 
 - response\_id: [[Narrative data/Response/Response0019|Response0019]]
 
@@ -84,3 +79,5 @@ return <h1>{file.$name}</h1>; }
 - item\_id\_prerequisite\_relation: none
 
 - outcome\_id\_prerequisite\_relation: none
+
+- character\_id: [[Character/GuestD|GuestD]]

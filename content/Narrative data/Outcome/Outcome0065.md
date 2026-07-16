@@ -33,3 +33,51 @@ Special_dice_face_3_addition:
 ---
 
 Outcome0065
+
+- outcome\_id: [[Narrative data/Outcome/Outcome0065|Outcome0065]]
+
+- response\_id: [[Narrative data/Response/Response0041|Response0041]],[[Narrative data/Response/Response0042|Response0042]]
+
+- outcome\_name: CosplayerFanA gives side eye
+
+- outcome\_type: Failed response
+
+- outcome\_response: CosplayerFanA just gives you side eyes
+
+- exp\_gain: 1
+
+- add\_item\_id: null
+
+- subtract\_item\_id: null
+
+- condition\_target\_1: null
+
+- condition\_dice\_1\_type\_modification: null
+
+- condition\_dice\_1\_id: null
+
+- condition\_dice\_1\_influenced\_skill\_type: null
+
+- condition\_target\_2: null
+
+- condition\_dice\_2\_type\_modification: null
+
+- condition\_dice\_2\_id: null
+
+- condition\_dice\_2\_influenced\_skill\_type: null
+
+- condition\_target\_3: null
+
+- condition\_dice\_3\_id: null
+
+- condition\_dice 3\_type\_modification: null
+
+- condition\_dice\_3\_influenced\_skill\_type: null
+
+- special\_dice\_face\_1\_addition: null
+
+- special\_dice\_face\_2\_addition: null
+
+- special\_dice\_face\_3\_addition: null
+
+- tags: outcome

@@ -1,29 +1,29 @@
 ---
 publish: true
 created: 2026-07-09T18:03:37.790+07:00
-modified: 2026-07-11T16:11:41.398+07:00
-published: 2026-07-11T16:11:41.398+07:00
+modified: 2026-07-16T17:47:44.468+07:00
+published: 2026-07-16T17:47:44.468+07:00
 tags:
   - character
-Dialogue_position:
+Dialogue_position: Left
 Character_ID: "[[Mangaka]]"
 Mesh: Mangaka
 Narrative_data:
   - "[[Narrative0028]]"
 dg-publish: true
-DiceStrength:
-DiceReflex:
-DiceArtistry:
-DiceDeception:
-DiceKnowledge:
-DiceObservation:
+DiceStrength: "[[SDMid]]"
+DiceReflex: "[[SDLight]]"
+DiceArtistry: "[[SDStrong]]"
+DiceDeception: "[[SDWeak]]"
+DiceKnowledge: "[[SDSubstantial]]"
+DiceObservation: "[[SDFirm]]"
 ---
 
 Mangaka
 
 - tags: character
 
-- dialogue\_position: null
+- dialogue\_position: Left
 
 - character\_id: [[Character/Mangaka|Mangaka]]
 
@@ -31,14 +31,14 @@ Mangaka
 
 - narrative\_data: [[Narrative data/Narrative/Narrative0028|Narrative0028]]
 
-- dicestrength: null
+- dicestrength: [[Dice/StartingDice/SDMid|SDMid]]
 
-- dicereflex: null
+- dicereflex: [[Dice/StartingDice/SDLight|SDLight]]
 
-- diceartistry: null
+- diceartistry: [[Dice/StartingDice/SDStrong|SDStrong]]
 
-- dicedeception: null
+- dicedeception: [[Dice/StartingDice/SDWeak|SDWeak]]
 
-- diceknowledge: null
+- diceknowledge: [[Dice/StartingDice/SDSubstantial|SDSubstantial]]
 
-- diceobservation: null
+- diceobservation: [[Dice/StartingDice/SDFirm|SDFirm]]

@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-10T11:45:41.588+07:00
-modified: 2026-07-10T23:55:57.005+07:00
-published: 2026-07-10T23:55:57.005+07:00
+modified: 2026-07-16T17:06:45.276+07:00
+published: 2026-07-16T17:06:45.276+07:00
 tags:
   - response
 Response_ID:
@@ -32,6 +32,8 @@ Item_Id: none
 Succeed_outcome: "[[Outcome0075]]"
 Failed_outcome: "[[Outcome0074]]"
 Neutral_outcome: "[[Outcome0073]]"
+Character_ID:
+  - "[[StageHost]]"
 ---
 
 Response0045
@@ -81,3 +83,5 @@ Response0045
 - neutral\_outcome: [[Narrative data/Outcome/Outcome0073|Outcome0073]]
 
 - tags: response
+
+- character\_id: [[Character/StageHost|StageHost]]

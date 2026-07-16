@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-03T10:44:25.661+07:00
-modified: 2026-07-07T15:21:48.006+07:00
-published: 2026-07-07T15:21:48.006+07:00
+modified: 2026-07-16T17:02:32.531+07:00
+published: 2026-07-16T17:02:32.531+07:00
 tags:
   - response
 Response_ID: "[[Response0009]]"
@@ -28,6 +28,56 @@ Response_completion_status:
 Quest_ID_prerequisite_relation: is
 Item_ID_prerequisite_relation: none
 Outcome_ID_prerequisite_relation: none
+Character_ID:
+  - "[[GuestC]]"
 ---
 
 Response0009
+
+- response\_id: [[Narrative data/Response/Response0009|Response0009]]
+
+- narrative\_id: [[Narrative data/Narrative/Narrative0006|Narrative0006]]
+
+- player\_action\_description: Your knowledge skill
+
+- opponent\_action\_description: Ready to check your knowledge
+
+- skill\_check\_text: Can you succeed at this knowledge check?
+
+- response\_text: Do skill check with Guest C
+
+- response\_prerequisite\_type: Quest ongoing
+
+- prerequisite\_quest\_id: [[Narrative data/Quest/Quest0009|Quest0009]]
+
+- prerequisite\_item\_id: none
+
+- skill\_check?: yes
+
+- skill\_type: knowledge
+
+- multiple\_skill\_check\_attempt?: yes
+
+- item\_check?: none
+
+- item\_id: none
+
+- succeed\_outcome: [[Narrative data/Outcome/Outcome0013|Outcome0013]]
+
+- failed\_outcome: [[Narrative data/Outcome/Outcome0014|Outcome0014]]
+
+- neutral\_outcome: [[Narrative data/Outcome/Outcome0015|Outcome0015]]
+
+- tags: response
+
+- outcome\_id\_prerequisite: none
+
+- response\_completion\_status: null
+
+- quest\_id\_prerequisite\_relation: is
+
+- item\_id\_prerequisite\_relation: none
+
+- outcome\_id\_prerequisite\_relation: none
+
+- character\_id: [[Character/GuestC|GuestC]]

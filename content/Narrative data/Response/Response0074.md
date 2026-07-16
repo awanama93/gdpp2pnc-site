@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-10T11:52:06.730+07:00
-modified: 2026-07-10T12:25:36.591+07:00
-published: 2026-07-10T12:25:36.591+07:00
+modified: 2026-07-16T16:59:55.689+07:00
+published: 2026-07-16T16:59:55.689+07:00
 Response_ID:
   - "[[Response0074]]"
 Narrative_ID:
@@ -27,6 +27,7 @@ Succeed_outcome:
 Failed_outcome:
 Neutral_outcome:
 tags:
+Character_ID:
 ---
 
 Response0074
@@ -76,3 +77,5 @@ Response0074
 - neutral\_outcome: null
 
 - tags: null
+
+- character\_id: null

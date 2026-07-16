@@ -32,3 +32,51 @@ dg-publish: true
 ---
 
 Outcome0013
+
+- outcome\_id: [[Narrative data/Outcome/Outcome0013|Outcome0013]]
+
+- response\_id: [[Narrative data/Response/Response0009|Response0009]]
+
+- outcome\_name: knowledge check succeed with Guest C
+
+- outcome\_type: Succeed response
+
+- outcome\_response: You're succeed to check knowledge with Guest C
+
+- exp\_gain: 3
+
+- add\_item\_id: none
+
+- condition\_dice\_1\_type\_modification: none
+
+- condition\_dice\_1\_id: none
+
+- condition\_dice\_2\_type\_modification: none
+
+- condition\_dice\_2\_id: none
+
+- tags: outcome
+
+- condition\_target\_1: none
+
+- condition\_target\_2: none
+
+- condition\_target\_3: none
+
+- condition\_dice 3\_type\_modification: none
+
+- condition\_dice\_3\_id: none
+
+- condition\_dice\_1\_influenced\_skill\_type: none
+
+- condition\_dice\_2\_influenced\_skill\_type: none
+
+- condition\_dice\_3\_influenced\_skill\_type: none
+
+- special\_dice\_face\_1\_addition: low sanity
+
+- special\_dice\_face\_2\_addition: none
+
+- special\_dice\_face\_3\_addition: none
+
+- subtract\_item\_id: none

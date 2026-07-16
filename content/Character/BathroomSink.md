@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-07T21:47:24.012+07:00
-modified: 2026-07-11T16:05:27.380+07:00
-published: 2026-07-11T16:05:27.380+07:00
+modified: 2026-07-16T17:38:43.436+07:00
+published: 2026-07-16T17:38:43.436+07:00
 tags:
   - character
 Dialogue_position: Left
@@ -11,12 +11,12 @@ Mesh: Seluruh mesh wastafel & cermin di toilet laki-laki
 Narrative_data:
   - "[[Narrative0022]]"
 dg-publish: true
-DiceStrength:
-DiceReflex:
-DiceArtistry:
-DiceDeception:
-DiceKnowledge:
-DiceObservation:
+DiceStrength: "[[SDMid]]"
+DiceReflex: "[[SDMid]]"
+DiceArtistry: "[[SDMid]]"
+DiceDeception: "[[SDFirm]]"
+DiceKnowledge: "[[SDFirm]]"
+DiceObservation: "[[SDFirm]]"
 ---
 
 BathroomSink
@@ -31,14 +31,14 @@ BathroomSink
 
 - narrative\_data: [[Narrative data/Narrative/Narrative0022|Narrative0022]]
 
-- dicestrength: null
+- dicestrength: [[Dice/StartingDice/SDMid|SDMid]]
 
-- dicereflex: null
+- dicereflex: [[Dice/StartingDice/SDMid|SDMid]]
 
-- diceartistry: null
+- diceartistry: [[Dice/StartingDice/SDMid|SDMid]]
 
-- dicedeception: null
+- dicedeception: [[Dice/StartingDice/SDFirm|SDFirm]]
 
-- diceknowledge: null
+- diceknowledge: [[Dice/StartingDice/SDFirm|SDFirm]]
 
-- diceobservation: null
+- diceobservation: [[Dice/StartingDice/SDFirm|SDFirm]]

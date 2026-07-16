@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-06T21:03:52.103+07:00
-modified: 2026-07-07T21:48:13.466+07:00
-published: 2026-07-07T21:48:13.466+07:00
+modified: 2026-07-16T17:47:15.582+07:00
+published: 2026-07-16T17:47:15.582+07:00
 tags:
   - character
 Dialogue_position: Left
@@ -11,12 +11,12 @@ Mesh: StageHost & Musician
 Narrative_data:
   - "[[Narrative0016]]"
 dg-publish: true
-DiceStrength:
-DiceReflex:
-DiceArtistry:
-DiceDeception:
-DiceKnowledge:
-DiceObservation:
+DiceStrength: "[[SDSubstantial]]"
+DiceReflex: "[[SDWeak]]"
+DiceArtistry: "[[SDWeak]]"
+DiceDeception: "[[SDSubstantial]]"
+DiceKnowledge: "[[SDWeak]]"
+DiceObservation: "[[SDWeak]]"
 ---
 
 StageHost-Musician
@@ -31,14 +31,14 @@ StageHost-Musician
 
 - narrative\_data: [[Narrative data/Narrative/Narrative0016|Narrative0016]]
 
-- dicestrength: null
+- dicestrength: [[Dice/StartingDice/SDSubstantial|SDSubstantial]]
 
-- dicereflex: null
+- dicereflex: [[Dice/StartingDice/SDWeak|SDWeak]]
 
-- diceartistry: null
+- diceartistry: [[Dice/StartingDice/SDWeak|SDWeak]]
 
-- dicedeception: null
+- dicedeception: [[Dice/StartingDice/SDSubstantial|SDSubstantial]]
 
-- diceknowledge: null
+- diceknowledge: [[Dice/StartingDice/SDWeak|SDWeak]]
 
-- diceobservation: null
+- diceobservation: [[Dice/StartingDice/SDWeak|SDWeak]]

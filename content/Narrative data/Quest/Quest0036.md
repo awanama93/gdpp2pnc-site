@@ -30,3 +30,51 @@ Starter_Narrative_ID: none
 ---
 
 Quest0036
+
+- quest\_id: [[Narrative data/Quest/Quest0036|Quest0036]]
+
+- quest\_name: null
+
+- quest\_type: null
+
+- status: null
+
+- quest\_description: null
+
+- hints: null
+
+- starter\_prerequisite\_type: null
+
+- starter\_item\_id: null
+
+- starter\_quest\_id: null
+
+- starter\_response\_id: null
+
+- completion\_prerequisite\_type: null
+
+- completion\_quest\_id: null
+
+- completion\_quest\_id\_relation: null
+
+- completion\_item\_id: null
+
+- completion\_item\_id\_relation: null
+
+- completion\_outcome\_id: null
+
+- completion\_outcome\_id\_relation: null
+
+- completion\_response\_id: null
+
+- completion\_response\_id\_relation: null
+
+- skill\_check\_result: null
+
+- narrative\_id: null
+
+- narrative\_id\_relation: null
+
+- tags: null
+
+- starter\_narrative\_id: none

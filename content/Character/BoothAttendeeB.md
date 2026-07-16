@@ -1,29 +1,29 @@
 ---
 publish: true
 created: 2026-07-09T19:58:38.134+07:00
-modified: 2026-07-11T16:11:36.600+07:00
-published: 2026-07-11T16:11:36.600+07:00
+modified: 2026-07-16T17:47:47.407+07:00
+published: 2026-07-16T17:47:47.407+07:00
 tags:
   - character
-Dialogue_position:
+Dialogue_position: Left
 Character_ID: "[[BoothAttendeeB]]"
 Mesh: ExtrasA with booth attendee texture variant
 Narrative_data:
   - "[[Narrative0032]]"
 dg-publish: true
-DiceStrength:
-DiceReflex:
-DiceArtistry:
-DiceDeception:
-DiceKnowledge:
-DiceObservation:
+DiceStrength: "[[SDWeak]]"
+DiceReflex: "[[SDWeak]]"
+DiceArtistry: "[[SDFirm]]"
+DiceDeception: "[[SDMid]]"
+DiceKnowledge: "[[SDFirm]]"
+DiceObservation: "[[SDMid]]"
 ---
 
 BoothAttendeeB
 
 - tags: character
 
-- dialogue\_position: null
+- dialogue\_position: Left
 
 - character\_id: [[Character/BoothAttendeeB|BoothAttendeeB]]
 
@@ -31,14 +31,14 @@ BoothAttendeeB
 
 - narrative\_data: [[Narrative data/Narrative/Narrative0032|Narrative0032]]
 
-- dicestrength: null
+- dicestrength: [[Dice/StartingDice/SDWeak|SDWeak]]
 
-- dicereflex: null
+- dicereflex: [[Dice/StartingDice/SDWeak|SDWeak]]
 
-- diceartistry: null
+- diceartistry: [[Dice/StartingDice/SDFirm|SDFirm]]
 
-- dicedeception: null
+- dicedeception: [[Dice/StartingDice/SDMid|SDMid]]
 
-- diceknowledge: null
+- diceknowledge: [[Dice/StartingDice/SDFirm|SDFirm]]
 
-- diceobservation: null
+- diceobservation: [[Dice/StartingDice/SDMid|SDMid]]

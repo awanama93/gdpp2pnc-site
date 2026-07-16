@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-04T15:57:50.688+07:00
-modified: 2026-07-06T13:46:51.607+07:00
-published: 2026-07-06T13:46:51.607+07:00
+modified: 2026-07-16T16:07:39.163+07:00
+published: 2026-07-16T16:07:39.163+07:00
 tags:
   - dice
 Dice_ID: ObservationBuffSample
@@ -17,11 +17,11 @@ Face_2_value: "1"
 Face_3_type: integer
 Face_3_value: "1"
 Face_4_type: "null"
-Face_4_value:
+Face_4_value: "0"
 Face_5_type: "null"
-Face_5_value:
+Face_5_value: "0"
 Face_6_type: "null"
-Face_6_value:
+Face_6_value: "0"
 dg-publish: true
 ---
 
@@ -51,12 +51,12 @@ ObservationBuffSample
 
 - face\_4\_type: null
 
-- face\_4\_value: null
+- face\_4\_value: 0
 
 - face\_5\_type: null
 
-- face\_5\_value: null
+- face\_5\_value: 0
 
 - face\_6\_type: null
 
-- face\_6\_value: null
+- face\_6\_value: 0

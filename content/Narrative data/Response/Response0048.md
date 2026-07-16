@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-10T11:45:41.588+07:00
-modified: 2026-07-11T00:24:07.736+07:00
-published: 2026-07-11T00:24:07.736+07:00
+modified: 2026-07-16T17:07:05.713+07:00
+published: 2026-07-16T17:07:05.713+07:00
 tags:
   - response
 Response_ID:
@@ -32,6 +32,8 @@ Item_Id: none
 Succeed_outcome: "[[Outcome0077]]"
 Failed_outcome: "[[Outcome0079]]"
 Neutral_outcome: "[[Outcome0078]]"
+Character_ID:
+  - "[[TheWeeb]]"
 ---
 
 Response0048
@@ -81,3 +83,5 @@ Response0048
 - neutral\_outcome: [[Narrative data/Outcome/Outcome0078|Outcome0078]]
 
 - tags: response
+
+- character\_id: [[Character/TheWeeb|TheWeeb]]

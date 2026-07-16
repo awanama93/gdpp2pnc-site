@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-10T11:45:41.588+07:00
-modified: 2026-07-10T23:43:04.576+07:00
-published: 2026-07-10T23:43:04.576+07:00
+modified: 2026-07-16T17:06:33.707+07:00
+published: 2026-07-16T17:06:33.707+07:00
 tags:
   - response
 Response_ID:
@@ -32,6 +32,8 @@ Item_Id: none
 Succeed_outcome: "[[Outcome0069]]"
 Failed_outcome: "[[Outcome0072]]"
 Neutral_outcome: "[[Outcome0071]]"
+Character_ID:
+  - "[[OrganizerA]]"
 ---
 
 Response0043
@@ -81,3 +83,5 @@ Response0043
 - neutral\_outcome: [[Narrative data/Outcome/Outcome0071|Outcome0071]]
 
 - tags: response
+
+- character\_id: [[Character/OrganizerA|OrganizerA]]

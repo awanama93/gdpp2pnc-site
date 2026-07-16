@@ -43,20 +43,54 @@ Starter_Narrative_ID: none
 
 Quest0013
 
-```datacorejsx
-return function View() {
-const file = dc.useCurrentFile();
-const hiddenKeys = ["dg-publish", "publish"];
+- quest\_id: [[Narrative data/Quest/Quest0013|Quest0013]]
 
-if(!file) return <p>loading</p>;
+- quest\_name: Learn about special dice
 
-const KUMPULAN = file.$frontmatter;
+- quest\_type: main quest
 
-const items = Object.entries(KUMPULAN)
-	.filter(([key]) => !key.startsWith("__") && !hiddenKeys.includes(key))
-	.map(([key, field]) => {return `${key}: ${field?.value}`;}
-);
-	return <dc.List rows={items} />;
-}
+- status: null
 
-```
+- quest\_description: Other than skill and condition dice, along the way you will have special dice. Learn about that
+
+- hints: [[Narrative data/Hint/Hint0017|Hint0017]],[[Narrative data/Hint/Hint0018|Hint0018]],[[Narrative data/Hint/Hint0019|Hint0019]]
+
+- starter\_prerequisite\_type: Quest completion
+
+- starter\_item\_id: none
+
+- starter\_quest\_id: [[Narrative data/Quest/Quest0012|Quest0012]]
+
+- starter\_response\_id: none
+
+- completion\_prerequisite\_type: Skill check result
+
+- completion\_quest\_id: none
+
+- completion\_item\_id: none
+
+- skill\_check\_result: Any
+
+- completion\_response\_id: [[Narrative data/Response/Response0018|Response0018]]
+
+- tags: quest
+
+- canvas: [[Plot/_General Plot.canvas|_General Plot.canvas]]
+
+- \_general plot: [[Narrative data/Quest/Quest0014|Quest0014]],[[Narrative data/LocationChanger/LC0006|LC0006]]
+
+- completion\_quest\_id\_relation: none
+
+- completion\_item\_id\_relation: none
+
+- completion\_response\_id\_relation: is
+
+- completion\_outcome\_id\_relation: none
+
+- completion\_outcome\_id: none
+
+- narrative\_id: none
+
+- narrative\_id\_relation: none
+
+- starter\_narrative\_id: none

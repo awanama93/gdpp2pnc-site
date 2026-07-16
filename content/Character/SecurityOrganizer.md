@@ -1,43 +1,47 @@
 ---
 publish: true
 created: 2026-07-09T19:42:14.902+07:00
-modified: 2026-07-11T16:12:01.726+07:00
-published: 2026-07-11T16:12:01.726+07:00
+modified: 2026-07-16T17:47:49.974+07:00
+published: 2026-07-16T17:47:49.974+07:00
 tags:
   - character
-Dialogue_position:
+Dialogue_position: Left
 Character_ID: "[[SecurityOrganizer]]"
 Mesh: SecurityOrganizer
 Narrative_data:
+  - "[[Narrative0035]]"
+  - "[[Narrative0041]]"
+  - "[[Narrative0042]]"
+  - "[[Narrative0044]]"
 dg-publish: true
-DiceStrength:
-DiceReflex:
-DiceArtistry:
-DiceDeception:
-DiceKnowledge:
-DiceObservation:
+DiceStrength: "[[SDStrong]]"
+DiceReflex: "[[SDSubstantial]]"
+DiceArtistry: "[[SDWeak]]"
+DiceDeception: "[[SDMid]]"
+DiceKnowledge: "[[SDFirm]]"
+DiceObservation: "[[SDLight]]"
 ---
 
 SecurityOrganizer
 
 - tags: character
 
-- dialogue\_position: null
+- dialogue\_position: Left
 
 - character\_id: [[Character/SecurityOrganizer|SecurityOrganizer]]
 
 - mesh: SecurityOrganizer
 
-- narrative\_data: null
+- narrative\_data: [[Narrative data/Narrative/Narrative0035|Narrative0035]],[[Narrative data/Narrative/Narrative0041|Narrative0041]],[[Narrative data/Narrative/Narrative0042|Narrative0042]],[[Narrative data/Narrative/Narrative0044|Narrative0044]]
 
-- dicestrength: null
+- dicestrength: [[Dice/StartingDice/SDStrong|SDStrong]]
 
-- dicereflex: null
+- dicereflex: [[Dice/StartingDice/SDSubstantial|SDSubstantial]]
 
-- diceartistry: null
+- diceartistry: [[Dice/StartingDice/SDWeak|SDWeak]]
 
-- dicedeception: null
+- dicedeception: [[Dice/StartingDice/SDMid|SDMid]]
 
-- diceknowledge: null
+- diceknowledge: [[Dice/StartingDice/SDFirm|SDFirm]]
 
-- diceobservation: null
+- diceobservation: [[Dice/StartingDice/SDLight|SDLight]]

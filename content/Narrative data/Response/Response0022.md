@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-07T09:40:51.242+07:00
-modified: 2026-07-07T15:22:05.805+07:00
-published: 2026-07-07T15:22:05.805+07:00
+modified: 2026-07-16T17:04:30.569+07:00
+published: 2026-07-16T17:04:30.569+07:00
 tags:
   - response
 Response_ID: "[[Response0022]]"
@@ -27,6 +27,8 @@ Response_completion_status:
 Quest_ID_prerequisite_relation: is
 Item_ID_prerequisite_relation: none
 Outcome_ID_prerequisite_relation: none
+Character_ID:
+  - "[[Vlogger]]"
 ---
 
 Response0022
@@ -76,3 +78,5 @@ Response0022
 - item\_id\_prerequisite\_relation: none
 
 - outcome\_id\_prerequisite\_relation: none
+
+- character\_id: [[Character/Vlogger|Vlogger]]

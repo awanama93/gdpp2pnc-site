@@ -1,11 +1,11 @@
 ---
 publish: true
 created: 2026-07-06T13:14:46.437+07:00
-modified: 2026-07-06T15:47:23.483+07:00
-published: 2026-07-06T15:47:23.483+07:00
+modified: 2026-07-16T17:48:08.495+07:00
+published: 2026-07-16T17:48:08.495+07:00
 tags:
   - character
-Dialogue_position:
+Dialogue_position: Left
 Character_ID: "[[PlayerCharacter]]"
 Mesh: PlayerCharacter
 Narrative_data:
@@ -25,7 +25,7 @@ PlayerCharacter
 
 - tags: character
 
-- dialogue\_position: null
+- dialogue\_position: Left
 
 - character\_id: [[Character/PlayerCharacter|PlayerCharacter]]
 
