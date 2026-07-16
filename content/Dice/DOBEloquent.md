@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-16T15:31:05.214+07:00
-modified: 2026-07-16T16:07:59.105+07:00
-published: 2026-07-16T16:07:59.105+07:00
+modified: 2026-07-16T22:10:01.868+07:00
+published: 2026-07-16T22:10:01.868+07:00
 tags:
   - dice
 Dice_ID: "[[DOBEloquent]]"
@@ -23,6 +23,7 @@ Face_5_type: health
 Face_5_value: "1"
 Face_6_type: "null"
 Face_6_value: "0"
+Condition_type: Buff
 ---
 
 DOBEloquent
@@ -60,3 +61,5 @@ DOBEloquent
 - face\_6\_value: 0
 
 - tags: dice
+
+- condition\_type: Buff

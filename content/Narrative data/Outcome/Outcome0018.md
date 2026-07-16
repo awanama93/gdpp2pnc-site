@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-03T17:37:12.990+07:00
-modified: 2026-07-07T09:51:21.395+07:00
-published: 2026-07-07T09:51:21.395+07:00
+modified: 2026-07-17T00:41:34.534+07:00
+published: 2026-07-17T00:41:34.534+07:00
 tags:
   - outcome
 Outcome_ID: "[[Outcome0018]]"
@@ -15,6 +15,7 @@ Outcome_type: Neutral response
 Outcome_response: No one win between you and Guest D
 EXP_gain: "1"
 Add_item_ID: none
+Subtract_item_ID: none
 Condition_dice_1_type_modification: none
 Condition_dice_1_ID: none
 Condition_dice_2_type_modification: none
@@ -30,7 +31,6 @@ Condition_dice_3_influenced_skill_type: none
 Special_dice_face_1_addition: reroll
 Special_dice_face_2_addition: none
 Special_dice_face_3_addition: none
-Subtract_item_ID: none
 dg-publish: true
 ---
 
@@ -50,6 +50,8 @@ Outcome0018
 
 - add\_item\_id: none
 
+- subtract\_item\_id: none
+
 - condition\_dice\_1\_type\_modification: none
 
 - condition\_dice\_1\_id: none
@@ -57,8 +59,6 @@ Outcome0018
 - condition\_dice\_2\_type\_modification: none
 
 - condition\_dice\_2\_id: none
-
-- tags: outcome
 
 - condition\_target\_1: none
 
@@ -82,4 +82,4 @@ Outcome0018
 
 - special\_dice\_face\_3\_addition: none
 
-- subtract\_item\_id: none
+- tags: outcome

@@ -4,15 +4,12 @@ filters:
 views:
   - type: table
     name: Table
-    filters:
-      and:
-        - Outcome_type == "Succeed response"
     order:
       - file.name
-      - Outcome_ID
-      - Response_ID
-      - Outcome_name
       - Outcome_type
+      - Response_ID
+      - Outcome_ID
+      - Outcome_name
       - Outcome_response
       - EXP_gain
       - Add_item_ID

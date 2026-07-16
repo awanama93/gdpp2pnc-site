@@ -16,17 +16,3 @@ Response_ID_relation: or
 ---
 
 Narrative0014
-
-- narrative\_id: [[Narrative data/Narrative/Narrative0014|Narrative0014]]
-
-- narrative\_name: [[Character/Vlogger|Vlogger]]
-
-- exposition: Vlogger is frustratingly messing around with his camera
-
-- narrative\_completion\_status: null
-
-- responses: [[Narrative data/Response/Response0021|Response0021]],[[Narrative data/Response/Response0022|Response0022]]
-
-- tags: narrativebeat
-
-- response\_id\_relation: or

@@ -18,17 +18,3 @@ Response_ID_relation: or
 ---
 
 Narrative0025
-
-- narrative\_id: [[Narrative data/Narrative/Narrative0025|Narrative0025]]
-
-- narrative\_name: [[Character/OrganizerA|OrganizerA]]
-
-- exposition: The Organizer is monitoring the event
-
-- narrative\_completion\_status: null
-
-- responses: [[Narrative data/Response/Response0043|Response0043]],[[Narrative data/Response/Response0044|Response0044]]
-
-- response\_id\_relation: or
-
-- tags: narrativebeat

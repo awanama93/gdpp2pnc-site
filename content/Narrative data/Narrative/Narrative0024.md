@@ -18,17 +18,3 @@ Response_ID_relation: or
 ---
 
 Narrative0024
-
-- narrative\_id: [[Narrative data/Narrative/Narrative0024|Narrative0024]]
-
-- narrative\_name: [[Character/CosplayerFanA|CosplayerFanA]]
-
-- exposition: The Cosplayer Fan is talking to the Cosplayer
-
-- narrative\_completion\_status: null
-
-- responses: [[Narrative data/Response/Response0041|Response0041]],[[Narrative data/Response/Response0042|Response0042]]
-
-- response\_id\_relation: or
-
-- tags: narrativebeat

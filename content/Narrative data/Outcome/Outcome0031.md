@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-07T10:53:45.606+07:00
-modified: 2026-07-16T18:25:26.884+07:00
-published: 2026-07-16T18:25:26.884+07:00
+modified: 2026-07-17T01:32:11.940+07:00
+published: 2026-07-17T01:32:11.940+07:00
 tags:
   - outcome
 Outcome_ID: "[[Outcome0031]]"
@@ -17,18 +17,18 @@ Subtract_item_ID: none
 Condition_target_1: Player
 Condition_dice_1_type_modification: addition
 Condition_dice_1_ID: "[[DPBStrategic]]"
-Condition_dice_1_influenced_skill_type:
+Condition_dice_1_influenced_skill_type: observation
 Condition_target_2: Opponent
 Condition_dice_2_type_modification: addition
-Condition_dice_2_ID: "[[DONFading]]"
-Condition_dice_2_influenced_skill_type:
-Condition_target_3:
-Condition_dice_3_ID:
-Condition_dice 3_type_modification:
-Condition_dice_3_influenced_skill_type:
-Special_dice_face_1_addition:
-Special_dice_face_2_addition:
-Special_dice_face_3_addition:
+Condition_dice_2_ID: "[[DONDistracted]]"
+Condition_dice_2_influenced_skill_type: strength
+Condition_target_3: Player
+Condition_dice 3_type_modification: subtraction
+Condition_dice_3_ID: "null"
+Condition_dice_3_influenced_skill_type: any dice containing deception nerf
+Special_dice_face_1_addition: sanity
+Special_dice_face_2_addition: none
+Special_dice_face_3_addition: none
 ---
 
 Outcome0031
@@ -55,28 +55,28 @@ Outcome0031
 
 - condition\_dice\_1\_id: [[Dice/DPBStrategic|DPBStrategic]]
 
-- condition\_dice\_1\_influenced\_skill\_type: null
+- condition\_dice\_1\_influenced\_skill\_type: observation
 
 - condition\_target\_2: Opponent
 
 - condition\_dice\_2\_type\_modification: addition
 
-- condition\_dice\_2\_id: [[Dice/DONFading|DONFading]]
+- condition\_dice\_2\_id: [[Dice/DONDistracted|DONDistracted]]
 
-- condition\_dice\_2\_influenced\_skill\_type: null
+- condition\_dice\_2\_influenced\_skill\_type: strength
 
-- condition\_target\_3: null
+- condition\_target\_3: Player
+
+- condition\_dice 3\_type\_modification: subtraction
 
 - condition\_dice\_3\_id: null
 
-- condition\_dice 3\_type\_modification: null
+- condition\_dice\_3\_influenced\_skill\_type: any dice containing deception nerf
 
-- condition\_dice\_3\_influenced\_skill\_type: null
+- special\_dice\_face\_1\_addition: sanity
 
-- special\_dice\_face\_1\_addition: null
+- special\_dice\_face\_2\_addition: none
 
-- special\_dice\_face\_2\_addition: null
-
-- special\_dice\_face\_3\_addition: null
+- special\_dice\_face\_3\_addition: none
 
 - tags: outcome

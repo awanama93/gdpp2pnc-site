@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-16T15:31:05.214+07:00
-modified: 2026-07-16T16:08:25.144+07:00
-published: 2026-07-16T16:08:25.144+07:00
+modified: 2026-07-16T22:10:30.671+07:00
+published: 2026-07-16T22:10:30.671+07:00
 tags:
   - dice
 Dice_ID: "[[DPBUnshakable]]"
@@ -22,4 +22,5 @@ Face_5_type: "null"
 Face_5_value: "0"
 Face_6_type: "null"
 Face_6_value: "0"
+Condition_type: Buff
 ---

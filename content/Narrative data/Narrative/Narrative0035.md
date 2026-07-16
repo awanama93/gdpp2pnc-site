@@ -16,17 +16,3 @@ Response_ID_relation: is
 ---
 
 Narrative0035
-
-- narrative\_id: [[Narrative data/Narrative/Narrative0035|Narrative0035]]
-
-- narrative\_name: [[Character/SecurityOrganizer|SecurityOrganizer]]
-
-- exposition: The security organizer is doing security check on people
-
-- narrative\_completion\_status: null
-
-- responses: null
-
-- response\_id\_relation: is
-
-- tags: narrativebeat

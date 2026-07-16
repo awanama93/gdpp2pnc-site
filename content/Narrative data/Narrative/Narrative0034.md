@@ -16,17 +16,3 @@ Response_ID_relation:
 ---
 
 Narrative0034
-
-- narrative\_id: [[Narrative data/Narrative/Narrative0034|Narrative0034]]
-
-- narrative\_name: [[Character/Musician|Musician]]
-
-- exposition: The Musician seems to have something in his mind
-
-- narrative\_completion\_status: null
-
-- responses: null
-
-- response\_id\_relation: null
-
-- tags: narrativebeat

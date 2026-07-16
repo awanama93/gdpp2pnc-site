@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-10T11:45:41.588+07:00
-modified: 2026-07-16T17:07:30.126+07:00
-published: 2026-07-16T17:07:30.126+07:00
+modified: 2026-07-16T23:52:18.221+07:00
+published: 2026-07-16T23:52:18.221+07:00
 tags:
   - response
 Response_ID:
@@ -30,8 +30,8 @@ Multiple_skill_check_attempt?: no
 Item_check?: none
 Item_Id: none
 Succeed_outcome: "[[Outcome0083]]"
-Failed_outcome: "[[Outcome0084]]"
-Neutral_outcome: "[[Outcome0085]]"
+Failed_outcome: "[[Outcome0085]]"
+Neutral_outcome: "[[Outcome0084]]"
 Character_ID:
   - "[[Vlogger]]"
 ---
@@ -78,9 +78,9 @@ Response0052
 
 - succeed\_outcome: [[Narrative data/Outcome/Outcome0083|Outcome0083]]
 
-- failed\_outcome: [[Narrative data/Outcome/Outcome0084|Outcome0084]]
+- failed\_outcome: [[Narrative data/Outcome/Outcome0085|Outcome0085]]
 
-- neutral\_outcome: [[Narrative data/Outcome/Outcome0085|Outcome0085]]
+- neutral\_outcome: [[Narrative data/Outcome/Outcome0084|Outcome0084]]
 
 - tags: response
 

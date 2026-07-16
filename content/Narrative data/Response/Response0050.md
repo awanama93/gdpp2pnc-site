@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-10T11:45:41.588+07:00
-modified: 2026-07-16T17:07:22.208+07:00
-published: 2026-07-16T17:07:22.208+07:00
+modified: 2026-07-16T23:51:30.036+07:00
+published: 2026-07-16T23:51:30.036+07:00
 tags:
   - response
 Response_ID:
@@ -30,8 +30,8 @@ Multiple_skill_check_attempt?: no
 Item_check?: none
 Item_Id: none
 Succeed_outcome: "[[Outcome0080]]"
-Failed_outcome: "[[Outcome0081]]"
-Neutral_outcome: "[[Outcome0082]]"
+Failed_outcome: "[[Outcome0082]]"
+Neutral_outcome: "[[Outcome0081]]"
 Character_ID:
   - "[[GroupMangaAfficionadoA]]"
 ---
@@ -78,9 +78,9 @@ Response0050
 
 - succeed\_outcome: [[Narrative data/Outcome/Outcome0080|Outcome0080]]
 
-- failed\_outcome: [[Narrative data/Outcome/Outcome0081|Outcome0081]]
+- failed\_outcome: [[Narrative data/Outcome/Outcome0082|Outcome0082]]
 
-- neutral\_outcome: [[Narrative data/Outcome/Outcome0082|Outcome0082]]
+- neutral\_outcome: [[Narrative data/Outcome/Outcome0081|Outcome0081]]
 
 - tags: response
 

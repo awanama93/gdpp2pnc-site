@@ -14,17 +14,3 @@ tags:
 ---
 
 Narrative0051
-
-- narrative\_id: [[Narrative data/Narrative/Narrative0051|Narrative0051]]
-
-- narrative\_name: null
-
-- exposition: null
-
-- narrative\_completion\_status: null
-
-- responses: null
-
-- response\_id\_relation: null
-
-- tags: null

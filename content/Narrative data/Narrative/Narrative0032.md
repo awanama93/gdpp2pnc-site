@@ -18,17 +18,3 @@ Response_ID_relation: is
 ---
 
 Narrative0032
-
-- narrative\_id: [[Narrative data/Narrative/Narrative0032|Narrative0032]]
-
-- narrative\_name: [[Character/BoothAttendeeB|BoothAttendeeB]],[[Character/BoothAttendeeA|BoothAttendeeA]]
-
-- exposition: The booth attendee seems to enjoy the event
-
-- narrative\_completion\_status: null
-
-- responses: [[Narrative data/Response/Response0054|Response0054]]
-
-- response\_id\_relation: is
-
-- tags: narrativebeat

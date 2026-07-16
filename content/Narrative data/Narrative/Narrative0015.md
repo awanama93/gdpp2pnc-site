@@ -15,17 +15,3 @@ Response_ID_relation: or
 ---
 
 Narrative0015
-
-- narrative\_id: [[Narrative data/Narrative/Narrative0015|Narrative0015]]
-
-- narrative\_name: [[Character/TheWeeb|TheWeeb]]
-
-- exposition: TheWeeb is discussing about The Convention, anime, and manga with the people
-
-- narrative\_completion\_status: null
-
-- responses: [[Narrative data/Response/Response0024|Response0024]]
-
-- tags: narrativebeat
-
-- response\_id\_relation: or

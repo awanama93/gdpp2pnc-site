@@ -16,17 +16,3 @@ Response_ID_relation: or
 ---
 
 Narrative0018
-
-- narrative\_id: [[Narrative data/Narrative/Narrative0018|Narrative0018]]
-
-- narrative\_name: [[Character/GuestC|GuestC]]
-
-- exposition: GuestC seems to be relax even though who knows they wait for how long
-
-- narrative\_completion\_status: null
-
-- responses: [[Narrative data/Response/Response0031|Response0031]],[[Narrative data/Response/Response0032|Response0032]]
-
-- tags: narrativebeat
-
-- response\_id\_relation: or

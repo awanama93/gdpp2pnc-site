@@ -19,17 +19,3 @@ Response_ID_relation: is
 ---
 
 Narrative0036
-
-- narrative\_id: [[Narrative data/Narrative/Narrative0036|Narrative0036]]
-
-- narrative\_name: [[Character/OrganizerC|OrganizerC]],[[Character/OrganizerD|OrganizerD]],[[Character/OrganizerE|OrganizerE]]
-
-- exposition: The organizer is watching the people
-
-- narrative\_completion\_status: null
-
-- responses: [[Narrative data/Response/Response0056|Response0056]]
-
-- response\_id\_relation: is
-
-- tags: narrativebeat

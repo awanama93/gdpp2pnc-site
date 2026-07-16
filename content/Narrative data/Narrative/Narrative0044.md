@@ -17,17 +17,3 @@ Response_ID_relation: is
 ---
 
 Narrative0044
-
-- narrative\_id: [[Narrative data/Narrative/Narrative0044|Narrative0044]]
-
-- narrative\_name: [[Character/SecurityOrganizer|SecurityOrganizer]]
-
-- exposition: The Security Organizer looks at you after he listened to the Stage Host
-
-- narrative\_completion\_status: null
-
-- responses: [[Narrative data/Response/Response0070|Response0070]]
-
-- response\_id\_relation: is
-
-- tags: narrativebeat

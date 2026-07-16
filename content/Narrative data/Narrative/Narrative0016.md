@@ -16,17 +16,3 @@ Response_ID_relation: or
 ---
 
 Narrative0016
-
-- narrative\_id: [[Narrative data/Narrative/Narrative0016|Narrative0016]]
-
-- narrative\_name: [[Character/StageHost-Musician|StageHost-Musician]]
-
-- exposition: Stage Host and Musician seem to be discussing things privately
-
-- narrative\_completion\_status: null
-
-- responses: [[Narrative data/Response/Response0025|Response0025]],[[Narrative data/Response/Response0026|Response0026]]
-
-- tags: narrativebeat
-
-- response\_id\_relation: or

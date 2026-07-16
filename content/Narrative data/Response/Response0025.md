@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-07T11:15:28.758+07:00
-modified: 2026-07-16T17:04:50.359+07:00
-published: 2026-07-16T17:04:50.359+07:00
+modified: 2026-07-16T23:29:58.669+07:00
+published: 2026-07-16T23:29:58.669+07:00
 tags:
   - response
 Response_ID:
@@ -22,8 +22,8 @@ Multiple_skill_check_attempt?: no
 Item_check?: none
 Item_Id: none
 Succeed_outcome: "[[Outcome0035]]"
-Failed_outcome: "[[Outcome0038]]"
-Neutral_outcome: "[[Outcome0037]]"
+Failed_outcome: "[[Outcome0037]]"
+Neutral_outcome: "[[Outcome0038]]"
 Response_completion_status:
 Quest_ID_prerequisite_relation: is
 Item_ID_prerequisite_relation: none
@@ -66,9 +66,9 @@ Response0025
 
 - succeed\_outcome: [[Narrative data/Outcome/Outcome0035|Outcome0035]]
 
-- failed\_outcome: [[Narrative data/Outcome/Outcome0038|Outcome0038]]
+- failed\_outcome: [[Narrative data/Outcome/Outcome0037|Outcome0037]]
 
-- neutral\_outcome: [[Narrative data/Outcome/Outcome0037|Outcome0037]]
+- neutral\_outcome: [[Narrative data/Outcome/Outcome0038|Outcome0038]]
 
 - tags: response
 

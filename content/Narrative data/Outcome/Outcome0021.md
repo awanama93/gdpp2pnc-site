@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-04T17:14:07.409+07:00
-modified: 2026-07-07T09:51:26.343+07:00
-published: 2026-07-07T09:51:26.343+07:00
+modified: 2026-07-17T01:33:06.039+07:00
+published: 2026-07-17T01:33:06.039+07:00
 tags:
   - outcome
 Outcome_ID: "[[Outcome0021]]"
@@ -25,7 +25,7 @@ Condition_target_3: none
 Condition_dice 3_type_modification: none
 Condition_dice_3_ID: none
 Condition_dice_3_influenced_skill_type: none
-Special_dice_face_1_addition: low integer
+Special_dice_face_1_addition: integer
 Special_dice_face_2_addition: none
 Special_dice_face_3_addition: none
 Subtract_item_ID: none
@@ -74,7 +74,7 @@ Outcome0021
 
 - tags: outcome
 
-- special\_dice\_face\_1\_addition: low integer
+- special\_dice\_face\_1\_addition: integer
 
 - special\_dice\_face\_2\_addition: none
 

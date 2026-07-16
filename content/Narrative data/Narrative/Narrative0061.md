@@ -13,7 +13,21 @@ Response_ID_relation:
 tags:
 ---
 
-Narrative0061
+```datacorejsx
+
+return function TitleHeader() {
+
+const file = dc.useCurrentFile();
+
+if (!file) return null;
+
+// file.$name contains the clean string of the note title
+
+return <h1>{file.$name}</h1>; }
+
+  
+
+```
 
 - narrative\_id: [[Narrative data/Narrative/Narrative0061|Narrative0061]]
 

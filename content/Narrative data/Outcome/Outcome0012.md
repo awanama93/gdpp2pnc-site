@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-02T23:02:58.866+07:00
-modified: 2026-07-07T09:51:11.059+07:00
-published: 2026-07-07T09:51:11.059+07:00
+modified: 2026-07-17T01:32:50.436+07:00
+published: 2026-07-17T01:32:50.436+07:00
 tags:
   - outcome
 Outcome_ID: "[[Outcome0012]]"
@@ -24,7 +24,7 @@ Condition_dice_3_ID: none
 Condition_dice_1_influenced_skill_type: none
 Condition_dice_2_influenced_skill_type: none
 Condition_dice_3_influenced_skill_type: none
-Special_dice_face_1_addition: low health
+Special_dice_face_1_addition: health
 Special_dice_face_2_addition: none
 Special_dice_face_3_addition: none
 Subtract_item_ID: none
@@ -73,7 +73,7 @@ Outcome0012
 
 - condition\_dice\_3\_influenced\_skill\_type: none
 
-- special\_dice\_face\_1\_addition: low health
+- special\_dice\_face\_1\_addition: health
 
 - special\_dice\_face\_2\_addition: none
 

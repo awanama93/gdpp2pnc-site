@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-04T15:57:50.688+07:00
-modified: 2026-07-16T16:07:39.163+07:00
-published: 2026-07-16T16:07:39.163+07:00
+modified: 2026-07-16T22:10:47.038+07:00
+published: 2026-07-16T22:10:47.038+07:00
 tags:
   - dice
 Dice_ID: ObservationBuffSample
@@ -23,6 +23,7 @@ Face_5_value: "0"
 Face_6_type: "null"
 Face_6_value: "0"
 dg-publish: true
+Condition_type: Buff
 ---
 
 ObservationBuffSample
@@ -60,3 +61,5 @@ ObservationBuffSample
 - face\_6\_type: null
 
 - face\_6\_value: 0
+
+- condition\_type: Buff

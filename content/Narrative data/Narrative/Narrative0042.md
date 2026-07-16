@@ -19,17 +19,3 @@ Response_ID_relation: or
 ---
 
 Narrative0042
-
-- narrative\_id: [[Narrative data/Narrative/Narrative0042|Narrative0042]]
-
-- narrative\_name: [[Character/SecurityOrganizer|SecurityOrganizer]]
-
-- exposition: The Security Organizer looks at you in disgust
-
-- narrative\_completion\_status: null
-
-- responses: [[Narrative data/Response/Response0064|Response0064]],[[Narrative data/Response/Response0065|Response0065]],[[Narrative data/Response/Response0066|Response0066]]
-
-- response\_id\_relation: or
-
-- tags: narrativebeat

@@ -18,17 +18,3 @@ Response_ID_relation: or
 ---
 
 Narrative0030
-
-- narrative\_id: [[Narrative data/Narrative/Narrative0030|Narrative0030]]
-
-- narrative\_name: [[Character/Vlogger|Vlogger]]
-
-- exposition: The Vlogger is recording the moment
-
-- narrative\_completion\_status: null
-
-- responses: [[Narrative data/Response/Response0051|Response0051]],[[Narrative data/Response/Response0052|Response0052]]
-
-- response\_id\_relation: or
-
-- tags: narrativebeat

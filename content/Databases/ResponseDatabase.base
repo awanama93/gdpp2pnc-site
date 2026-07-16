@@ -11,8 +11,7 @@ views:
     name: Table
     filters:
       and:
-        - note["Skill_check?"] == "yes"
-        - Skill_type == "observation"
+        - note["Skill_check?"] == "no"
     order:
       - file.name
       - Response_ID

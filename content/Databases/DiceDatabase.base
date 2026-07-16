@@ -5,13 +5,22 @@ views:
   - type: table
     name: Table
     filters:
-      and:
-        - or:
-            - Dice_name.startsWith("DON")
-            - Dice_name.startsWith("DPB")
-        - or:
-            - Influenced_skill.contains("Any skill")
-            - Influenced_skill.contains("observation")
+      or:
+        - and:
+            - Dice_name.contains("DPB")
+            - or:
+                - Influenced_skill.contains("Any skill")
+                - Influenced_skill.contains("Strength")
+        - and:
+            - Dice_name.contains("DON")
+            - or:
+                - Influenced_skill.contains("Any skill")
+                - Influenced_skill.contains("Knowledge")
+        - and:
+            - Dice_name.contains("DOB")
+            - or:
+                - Influenced_skill.contains("Any skill")
+                - Influenced_skill.contains("Artistry")
     order:
       - file.name
       - Dice_ID
@@ -44,6 +53,7 @@ views:
       - Dice_ID
       - Dice_name
       - Dice_type
+      - Condition_type
       - Influenced_skill
       - Face_1_type
       - Face_1_value

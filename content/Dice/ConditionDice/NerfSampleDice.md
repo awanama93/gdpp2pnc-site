@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-03T18:53:06.868+07:00
-modified: 2026-07-06T13:46:47.570+07:00
-published: 2026-07-06T13:46:47.570+07:00
+modified: 2026-07-16T22:10:44.907+07:00
+published: 2026-07-16T22:10:44.907+07:00
 tags:
   - dice
 Dice_ID: NerfSampleDice
@@ -23,6 +23,7 @@ Face_5_value: "0"
 Face_6_type: "null"
 Face_6_value: "0"
 dg-publish: true
+Condition_type: Nerf
 ---
 
 NerfSampleDice
@@ -60,3 +61,5 @@ NerfSampleDice
 - face\_6\_type: null
 
 - face\_6\_value: 0
+
+- condition\_type: Nerf

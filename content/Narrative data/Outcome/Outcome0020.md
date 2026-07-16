@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-04T15:10:05.598+07:00
-modified: 2026-07-07T09:51:24.753+07:00
-published: 2026-07-07T09:51:24.753+07:00
+modified: 2026-07-17T01:33:01.015+07:00
+published: 2026-07-17T01:33:01.015+07:00
 tags:
   - outcome
 Outcome_ID: "[[Outcome0020]]"
@@ -25,7 +25,7 @@ Condition_dice_3_ID: "[[DeceptionBuffsample]]"
 Condition_dice_1_influenced_skill_type: any skill
 Condition_dice_2_influenced_skill_type: any skill
 Condition_dice_3_influenced_skill_type: deception
-Special_dice_face_1_addition: low integer
+Special_dice_face_1_addition: integer
 Special_dice_face_2_addition: none
 Special_dice_face_3_addition: none
 Subtract_item_ID: none
@@ -74,7 +74,7 @@ Outcome0020
 
 - condition\_dice\_3\_influenced\_skill\_type: deception
 
-- special\_dice\_face\_1\_addition: low integer
+- special\_dice\_face\_1\_addition: integer
 
 - special\_dice\_face\_2\_addition: none
 

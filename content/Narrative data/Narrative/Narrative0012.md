@@ -16,17 +16,3 @@ Response_ID_relation: is
 ---
 
 Narrative0012
-
-- narrative\_id: [[Narrative data/Narrative/Narrative0012|Narrative0012]]
-
-- narrative\_name: [[Character/GuestD|GuestD]]
-
-- exposition: Guest D wants to give you something
-
-- narrative\_completion\_status: null
-
-- responses: [[Narrative data/Response/Response0019|Response0019]]
-
-- tags: narrativebeat
-
-- response\_id\_relation: is

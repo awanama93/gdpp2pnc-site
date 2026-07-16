@@ -14,17 +14,3 @@ tags:
 ---
 
 Narrative0048
-
-- narrative\_id: [[Narrative data/Narrative/Narrative0048|Narrative0048]]
-
-- narrative\_name: null
-
-- exposition: null
-
-- narrative\_completion\_status: null
-
-- responses: null
-
-- response\_id\_relation: null
-
-- tags: null

@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-16T15:31:05.214+07:00
-modified: 2026-07-16T16:08:11.999+07:00
-published: 2026-07-16T16:08:11.999+07:00
+modified: 2026-07-16T22:10:18.931+07:00
+published: 2026-07-16T22:10:18.931+07:00
 tags:
   - dice
 Dice_ID: "[[DONStrained]]"
@@ -22,40 +22,7 @@ Face_5_type: integer
 Face_5_value: "1"
 Face_6_type: "null"
 Face_6_value: "0"
+Condition_type: Nerf
 ---
 
 DONStrained
-
-- dice\_id: [[Dice/DONStrained|DONStrained]]
-
-- dice\_name: [[Dice/DONStrained|DONStrained]]
-
-- dice\_type: Condition dice
-
-- influenced\_skill: Any skill
-
-- face\_1\_type: integer
-
-- face\_1\_value: -1
-
-- face\_2\_type: integer
-
-- face\_2\_value: -1
-
-- face\_3\_type: integer
-
-- face\_3\_value: -1
-
-- face\_4\_type: health
-
-- face\_4\_value: 1
-
-- face\_5\_type: integer
-
-- face\_5\_value: 1
-
-- face\_6\_type: null
-
-- face\_6\_value: 0
-
-- tags: dice
