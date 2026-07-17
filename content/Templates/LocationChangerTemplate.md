@@ -1,0 +1,84 @@
+---
+publish: true
+created: 2026-07-04T22:16:06.594+07:00
+modified: 2026-07-06T13:51:38.435+07:00
+published: 2026-07-06T13:51:38.435+07:00
+tags:
+  - locationchanger
+Quest_ID_trigger: none
+dg-publish: true
+canvas:
+  - "[[_General Plot.canvas]]"
+_General Plot:
+  - "[[Quest0006]]"
+LC1CharacterID: "[[PlayerCharacter]]"
+LC1Area: "[[AreaToiletCorridorSample.png]]"
+LC1NewLocation: ToiletCorridor02
+LC1Animation: any standing animation
+LC2CharacterID: "[[GuestA]]"
+LC2Area: "[[AreaToiletCorridorSample.png]]"
+LC2NewLocation: ToiletCorridor01
+LC2Animation: any sit animation
+LC3CharacterID:
+LC3Area:
+LC3NewLocation:
+LC3Animation:
+LC4CharacterID:
+LC4Area:
+LC4NewLocation:
+LC4Animation:
+LC5CharacterID:
+LC5Area:
+LC5NewLocation:
+LC5Animation:
+---
+
+LocationChangerTemplate
+
+- tags: locationchanger
+
+- quest\_id\_trigger: none
+
+- canvas: [[Plot/_General Plot.canvas|_General Plot.canvas]]
+
+- \_general plot: [[Narrative data/Quest/Quest0006|Quest0006]]
+
+- lc1characterid: [[Character/PlayerCharacter|PlayerCharacter]]
+
+- lc1area: [[Asset/AreaToiletCorridorSample.png|AreaToiletCorridorSample.png]]
+
+- lc1newlocation: ToiletCorridor02
+
+- lc1animation: any standing animation
+
+- lc2characterid: [[Character/GuestA|GuestA]]
+
+- lc2area: [[Asset/AreaToiletCorridorSample.png|AreaToiletCorridorSample.png]]
+
+- lc2newlocation: ToiletCorridor01
+
+- lc2animation: any sit animation
+
+- lc3characterid: null
+
+- lc3area: null
+
+- lc3newlocation: null
+
+- lc3animation: null
+
+- lc4characterid: null
+
+- lc4area: null
+
+- lc4newlocation: null
+
+- lc4animation: null
+
+- lc5characterid: null
+
+- lc5area: null
+
+- lc5newlocation: null
+
+- lc5animation: null

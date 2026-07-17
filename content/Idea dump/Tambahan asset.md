@@ -1,0 +1,16 @@
+---
+dg-publish: true
+publish: true
+---
+
+- Papan LED yang menunjukkan live chat
+  - Untuk nunjukin persepsi publik tentang event
+  - Akan dipake untuk story beat ketika orang2 ngejelek2in event (di late game)
+- implementasi fitur update quest, hint, item tapi tanpa notifikasi
+  - Utamanya untuk masukin item ke inventory pemain diem2, untuk keperluan blackmailing
+- Implementasi fitur dan asset untuk menghalangi player ke area "di luar batas"
+- Asset animasi pose sedang menyorotkan hape
+  - Untuk dipake menunjukkan ada orang yang lagi foto2, ngerekam, ngevlog, dan seterusnya
+  - Salah satunya justifikasi kenapa stage host bisa keliling2 event
+- Asset animasi pose sedang joget/puter lightstick ala fans JKT48
+-

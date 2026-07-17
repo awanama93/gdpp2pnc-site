@@ -1,0 +1,21 @@
+---
+publish: true
+created: 2026-07-10T12:08:02.787+07:00
+modified: 2026-07-11T20:20:33.862+07:00
+published: 2026-07-11T20:20:33.862+07:00
+tags:
+  - narrativebeat
+Narrative_ID:
+  - "[[Narrative0041]]"
+Narrative_name:
+  - "[[SecurityOrganizer]]"
+Exposition: The Security Organizer is looking at you furiously
+Narrative_completion_status:
+Responses:
+  - "[[Response0061]]"
+  - "[[Response0062]]"
+  - "[[Response0063]]"
+Response_ID_relation: and
+---
+
+Narrative0041

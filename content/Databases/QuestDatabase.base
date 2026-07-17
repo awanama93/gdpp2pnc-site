@@ -1,0 +1,39 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.inFolder("Narrative data/Quest")
+    order:
+      - file.name
+      - Quest_ID
+      - Quest_name
+      - Quest_type
+      - Status
+      - Quest_description
+      - Hints
+      - Starter_prerequisite_type
+      - Starter_item_ID
+      - Starter_quest_ID
+      - Starter_response_ID
+      - Starter_Narrative_ID
+      - Completion_prerequisite_type
+      - Completion_quest_ID
+      - Completion_quest_ID_relation
+      - Completion_item_ID
+      - Completion_item_ID_relation
+      - Completion_outcome_ID
+      - Completion_outcome_ID_relation
+      - Completion_response_ID
+      - Completion_response_ID_relation
+      - Skill_check_result
+      - Narrative_ID
+      - Narrative_ID_relation
+      - tags
+    sort: []
+    columnSize:
+      note.Quest_name: 352
+      note.Hints: 242
+      note.Narrative_ID: 341
+  - type: table
+    name: View

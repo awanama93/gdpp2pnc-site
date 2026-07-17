@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Quartz 5
+  pageTitle: GDPP2 PNC Site
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
@@ -10,8 +10,6 @@ configuration:
   baseUrl: awanama93.github.io/gdpp2pnc-site
   ignorePatterns:
     - private
-    - templates
-    - .obsidian
   theme:
     fontOrigin: googleFonts
     cdnCaching: true
@@ -51,7 +49,7 @@ plugins:
         - filesystem
     order: 10
   - source: github:quartz-community/syntax-highlighting
-    enabled: true
+    enabled: false
     options:
       theme:
         light: github-light
@@ -244,12 +242,14 @@ plugins:
   - source: github:quartz-community/note-properties
     enabled: true
     options:
-      includeAll: false
+      includeAll: true
       includedProperties:
         - description
         - tags
         - aliases
-      excludedProperties: []
+      excludedProperties:
+        - publish
+        - dg-publish
       hidePropertiesView: false
       delimiters: ---
       language: yaml

@@ -1,0 +1,39 @@
+filters:
+  and:
+    - file.inFolder("Narrative data/LocationChanger")
+views:
+  - type: table
+    name: Table
+    order:
+      - file.name
+      - Quest_ID_trigger
+      - LC1CharacterID
+      - LC1Area
+      - LC1NewLocation
+      - LC1Animation
+      - LC2CharacterID
+      - LC2Area
+      - LC2NewLocation
+      - LC2Animation
+      - LC3CharacterID
+      - LC3Area
+      - LC3NewLocation
+      - LC3Animation
+      - LC4CharacterID
+      - LC4Area
+      - LC4NewLocation
+      - LC4Animation
+      - LC5CharacterID
+      - LC5Area
+      - LC5NewLocation
+      - LC5Animation
+      - tags
+    sort: []
+    columnSize:
+      file.name: 130
+      note.LC3CharacterID: 169
+      note.LC3Area: 217
+      note.LC4Area: 212
+      note.LC4Animation: 155
+      note.LC5Area: 217
+      note.LC5NewLocation: 180

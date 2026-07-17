@@ -1,0 +1,41 @@
+filters:
+  and:
+    - file.inFolder("Narrative data/DoorTeleporter")
+views:
+  - type: table
+    name: Table
+    order:
+      - file.name
+      - Quest_ID_trigger
+      - DT1DoorName
+      - DT1DoorNewStatus
+      - D1TeleporterName
+      - D1TeleporterNewStatus
+      - D2DoorName
+      - D2DoorNewStatus
+      - D2TeleporterName
+      - D2TeleporterNewStatus
+      - D3DoorName
+      - D3DoorNewStatus
+      - D3TeleporterName
+      - D3TeleporterNewStatus
+      - D4DoorName
+      - D4DoorNewStatus
+      - D4TeleporterName
+      - D4TeleporterNewStatus
+      - D5DoorName
+      - D5DoorNewStatus
+      - D5TeleporterName
+      - D5TeleporterNewStatus
+      - D6DoorName
+      - D6DoorNewStatus
+      - D6TeleporterName
+      - D6TeleporterNewStatus
+      - D7DoorName
+      - D7DoorNewStatus
+      - D7TeleporterName
+      - D7TeleporterNewStatus
+      - tags
+    columnSize:
+      file.name: 134
+      note.DT1DoorName: 228

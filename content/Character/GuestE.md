@@ -1,0 +1,44 @@
+---
+publish: true
+created: 2026-07-06T21:03:54.287+07:00
+modified: 2026-07-16T17:42:16.655+07:00
+published: 2026-07-16T17:42:16.655+07:00
+tags:
+  - character
+Dialogue_position: Left
+Character_ID: "[[GuestE]]"
+Mesh: ExtrasA
+Narrative_data:
+  - "[[Narrative0020]]"
+dg-publish: true
+DiceStrength: "[[SDWeak]]"
+DiceReflex: "[[SDWeak]]"
+DiceArtistry: "[[SDWeak]]"
+DiceDeception: "[[SDWeak]]"
+DiceKnowledge: "[[SDWeak]]"
+DiceObservation: "[[SDWeak]]"
+---
+
+GuestE
+
+- tags: character
+
+- dialogue\_position: Left
+
+- character\_id: [[Character/GuestE|GuestE]]
+
+- mesh: ExtrasA
+
+- narrative\_data: [[Narrative data/Narrative/Narrative0020|Narrative0020]]
+
+- dicestrength: [[Dice/StartingDice/SDWeak|SDWeak]]
+
+- dicereflex: [[Dice/StartingDice/SDWeak|SDWeak]]
+
+- diceartistry: [[Dice/StartingDice/SDWeak|SDWeak]]
+
+- dicedeception: [[Dice/StartingDice/SDWeak|SDWeak]]
+
+- diceknowledge: [[Dice/StartingDice/SDWeak|SDWeak]]
+
+- diceobservation: [[Dice/StartingDice/SDWeak|SDWeak]]

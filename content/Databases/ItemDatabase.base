@@ -1,0 +1,12 @@
+filters:
+  and:
+    - file.inFolder("Narrative data/Item")
+views:
+  - type: table
+    name: Table
+    order:
+      - file.name
+      - Item_Id
+      - Item_name
+      - Item_description
+      - tags

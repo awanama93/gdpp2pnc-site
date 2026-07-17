@@ -1,0 +1,24 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.inFolder("Character")
+    order:
+      - file.name
+      - Character_ID
+      - Narrative_data
+      - Dialogue_position
+      - DiceStrength
+      - DiceReflex
+      - DiceArtistry
+      - DiceDeception
+      - DiceKnowledge
+      - DiceObservation
+      - tags
+    sort:
+      - property: Narrative_data
+        direction: ASC
+    columnSize:
+      note.Character_ID: 177
+      note.Narrative_data: 568
