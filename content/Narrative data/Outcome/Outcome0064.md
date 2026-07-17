@@ -32,3 +32,51 @@ Special_dice_face_3_addition: none
 ---
 
 Outcome0064
+
+- outcome\_id: [[Narrative data/Outcome/Outcome0064|Outcome0064]]
+
+- response\_id: [[Narrative data/Response/Response0040|Response0040]]
+
+- outcome\_name: Cosplayer appreciate you
+
+- outcome\_type: Succeed response
+
+- outcome\_response: She bows lightly and thank you for your support
+
+- exp\_gain: 4
+
+- add\_item\_id: none
+
+- subtract\_item\_id: none
+
+- condition\_target\_1: Player
+
+- condition\_dice\_1\_type\_modification: addition
+
+- condition\_dice\_1\_id: [[Dice/DPBSubtle|DPBSubtle]]
+
+- condition\_dice\_1\_influenced\_skill\_type: deception
+
+- condition\_target\_2: Opponent
+
+- condition\_dice\_2\_type\_modification: addition
+
+- condition\_dice\_2\_id: [[Dice/DONBlatant|DONBlatant]]
+
+- condition\_dice\_2\_influenced\_skill\_type: reflex
+
+- condition\_target\_3: Player
+
+- condition\_dice 3\_type\_modification: subtraction
+
+- condition\_dice\_3\_id: null
+
+- condition\_dice\_3\_influenced\_skill\_type: any dice containing knowledge nerf
+
+- special\_dice\_face\_1\_addition: sanity
+
+- special\_dice\_face\_2\_addition: none
+
+- special\_dice\_face\_3\_addition: none
+
+- tags: outcome

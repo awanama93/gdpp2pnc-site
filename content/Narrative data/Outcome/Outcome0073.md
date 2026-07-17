@@ -33,3 +33,51 @@ Special_dice_face_3_addition:
 ---
 
 Outcome0073
+
+- outcome\_id: [[Narrative data/Outcome/Outcome0073|Outcome0073]]
+
+- response\_id: [[Narrative data/Response/Response0045|Response0045]],[[Narrative data/Response/Response0046|Response0046]]
+
+- outcome\_name: Stage Host talks calmly
+
+- outcome\_type: Neutral response
+
+- outcome\_response: Stage Host talks about that calmly
+
+- exp\_gain: 2
+
+- add\_item\_id: none
+
+- subtract\_item\_id: none
+
+- condition\_target\_1: Player
+
+- condition\_dice\_1\_type\_modification: subtraction
+
+- condition\_dice\_1\_id: null
+
+- condition\_dice\_1\_influenced\_skill\_type: any dice containing artistry buff
+
+- condition\_target\_2: Opponent
+
+- condition\_dice\_2\_type\_modification: addition
+
+- condition\_dice\_2\_id: [[Dice/DONStrained|DONStrained]]
+
+- condition\_dice\_2\_influenced\_skill\_type: observation
+
+- condition\_target\_3: Opponent
+
+- condition\_dice 3\_type\_modification: subtraction
+
+- condition\_dice\_3\_id: null
+
+- condition\_dice\_3\_influenced\_skill\_type: any dice containing reflex buff
+
+- special\_dice\_face\_1\_addition: null
+
+- special\_dice\_face\_2\_addition: null
+
+- special\_dice\_face\_3\_addition: null
+
+- tags: outcome

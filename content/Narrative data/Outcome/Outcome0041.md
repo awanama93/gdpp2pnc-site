@@ -33,3 +33,51 @@ Special_dice_face_3_addition: none
 ---
 
 Outcome0041
+
+- outcome\_id: [[Narrative data/Outcome/Outcome0041|Outcome0041]]
+
+- response\_id: [[Narrative data/Response/Response0028|Response0028]],[[Narrative data/Response/Response0027|Response0027]]
+
+- outcome\_name: Guest A lets you go first
+
+- outcome\_type: Succeed response
+
+- outcome\_response: Guest A is impacted by your words, they let you go first
+
+- exp\_gain: 4
+
+- add\_item\_id: none
+
+- subtract\_item\_id: none
+
+- condition\_target\_1: Player
+
+- condition\_dice\_1\_type\_modification: addition
+
+- condition\_dice\_1\_id: [[Dice/DPBStrategic|DPBStrategic]]
+
+- condition\_dice\_1\_influenced\_skill\_type: knowledge
+
+- condition\_target\_2: Opponent
+
+- condition\_dice\_2\_type\_modification: addition
+
+- condition\_dice\_2\_id: [[Dice/DONStrained|DONStrained]]
+
+- condition\_dice\_2\_influenced\_skill\_type: artistry
+
+- condition\_target\_3: Player
+
+- condition\_dice 3\_type\_modification: subtraction
+
+- condition\_dice\_3\_id: null
+
+- condition\_dice\_3\_influenced\_skill\_type: any dice containing observation nerf
+
+- special\_dice\_face\_1\_addition: reroll
+
+- special\_dice\_face\_2\_addition: none
+
+- special\_dice\_face\_3\_addition: none
+
+- tags: outcome

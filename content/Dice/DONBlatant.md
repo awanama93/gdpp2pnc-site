@@ -27,3 +27,39 @@ Condition_type: Nerf
 ---
 
 DONBlatant
+
+- dice\_id: [[Dice/DONBlatant|DONBlatant]]
+
+- dice\_name: [[Dice/DONBlatant|DONBlatant]]
+
+- dice\_type: Condition dice
+
+- influenced\_skill: Reflex,deception
+
+- face\_1\_type: integer
+
+- face\_1\_value: -1
+
+- face\_2\_type: integer
+
+- face\_2\_value: -1
+
+- face\_3\_type: integer
+
+- face\_3\_value: -2
+
+- face\_4\_type: health
+
+- face\_4\_value: 1
+
+- face\_5\_type: integer
+
+- face\_5\_value: 1
+
+- face\_6\_type: sanity
+
+- face\_6\_value: 1
+
+- tags: dice
+
+- condition\_type: Nerf

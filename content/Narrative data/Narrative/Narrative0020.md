@@ -20,3 +20,21 @@ _General Plot:
 ---
 
 Narrative0020
+
+- narrative\_id: [[Narrative data/Narrative/Narrative0020|Narrative0020]]
+
+- narrative\_name: [[Character/GuestE|GuestE]]
+
+- exposition: GuestE seems to be angry at the queue
+
+- narrative\_completion\_status: null
+
+- responses: [[Narrative data/Response/Response0033|Response0033]],[[Narrative data/Response/Response0034|Response0034]]
+
+- tags: narrativebeat
+
+- response\_id\_relation: and
+
+- canvas: [[Plot/_General Plot.canvas|_General Plot.canvas]]
+
+- \_general plot: [[Narrative data/Quest/Quest0015|Quest0015]]

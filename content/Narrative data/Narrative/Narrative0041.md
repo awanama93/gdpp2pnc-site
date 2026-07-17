@@ -19,3 +19,17 @@ Response_ID_relation: and
 ---
 
 Narrative0041
+
+- narrative\_id: [[Narrative data/Narrative/Narrative0041|Narrative0041]]
+
+- narrative\_name: [[Character/SecurityOrganizer|SecurityOrganizer]]
+
+- exposition: The Security Organizer is looking at you furiously
+
+- narrative\_completion\_status: null
+
+- responses: [[Narrative data/Response/Response0061|Response0061]],[[Narrative data/Response/Response0062|Response0062]],[[Narrative data/Response/Response0063|Response0063]]
+
+- response\_id\_relation: and
+
+- tags: narrativebeat

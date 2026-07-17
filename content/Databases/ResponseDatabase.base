@@ -8,7 +8,7 @@ properties:
     displayName: Item_ID_prerequisite
 views:
   - type: table
-    name: Table
+    name: FilteredView
     filters:
       and:
         - note["Skill_check?"] == "no"
@@ -45,3 +45,31 @@ views:
       note.Prerequisite_quest_ID: 193
       note.Multiple_skill_check_attempt?: 95
       note.Item_Id: 120
+  - type: table
+    name: BaseView
+    order:
+      - file.name
+      - Response_ID
+      - Narrative_ID
+      - Character_ID
+      - Response_completion_status
+      - Response_text
+      - Player_action_description
+      - Opponent_action_description
+      - Skill_check_text
+      - Response_prerequisite_type
+      - Prerequisite_quest_ID
+      - Quest_ID_prerequisite_relation
+      - Outcome_ID_prerequisite
+      - Outcome_ID_prerequisite_relation
+      - Prerequisite_item_ID
+      - Item_ID_prerequisite_relation
+      - Item_check?
+      - Item_Id
+      - Skill_check?
+      - Skill_type
+      - Multiple_skill_check_attempt?
+      - Succeed_outcome
+      - Neutral_outcome
+      - Failed_outcome
+      - tags

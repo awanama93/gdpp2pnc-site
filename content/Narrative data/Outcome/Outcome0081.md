@@ -33,3 +33,51 @@ Special_dice_face_3_addition:
 ---
 
 Outcome0081
+
+- outcome\_id: [[Narrative data/Outcome/Outcome0081|Outcome0081]]
+
+- response\_id: [[Narrative data/Response/Response0049|Response0049]],[[Narrative data/Response/Response0050|Response0050]]
+
+- outcome\_name: Pass despite the effort
+
+- outcome\_type: Neutral response
+
+- outcome\_response: Despite your effort, the crowd cleared out by themselves
+
+- exp\_gain: 2
+
+- add\_item\_id: null
+
+- subtract\_item\_id: null
+
+- condition\_target\_1: Player
+
+- condition\_dice\_1\_type\_modification: subtraction
+
+- condition\_dice\_1\_id: null
+
+- condition\_dice\_1\_influenced\_skill\_type: any dice containing artistry buff
+
+- condition\_target\_2: Opponent
+
+- condition\_dice\_2\_type\_modification: addition
+
+- condition\_dice\_2\_id: [[Dice/DONFading|DONFading]]
+
+- condition\_dice\_2\_influenced\_skill\_type: observation
+
+- condition\_target\_3: Opponent
+
+- condition\_dice 3\_type\_modification: subtraction
+
+- condition\_dice\_3\_id: null
+
+- condition\_dice\_3\_influenced\_skill\_type: any dice containing reflex buff
+
+- special\_dice\_face\_1\_addition: null
+
+- special\_dice\_face\_2\_addition: null
+
+- special\_dice\_face\_3\_addition: null
+
+- tags: outcome

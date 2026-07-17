@@ -27,3 +27,39 @@ Condition_type: Buff
 ---
 
 DPBResolute
+
+- dice\_id: [[Dice/DPBResolute|DPBResolute]]
+
+- dice\_name: [[Dice/DPBResolute|DPBResolute]]
+
+- dice\_type: Condition dice
+
+- influenced\_skill: Strength,observation
+
+- face\_1\_type: health
+
+- face\_1\_value: 2
+
+- face\_2\_type: sanity
+
+- face\_2\_value: 2
+
+- face\_3\_type: integer
+
+- face\_3\_value: 3
+
+- face\_4\_type: integer
+
+- face\_4\_value: -1
+
+- face\_5\_type: integer
+
+- face\_5\_value: -1
+
+- face\_6\_type: null
+
+- face\_6\_value: 0
+
+- tags: dice
+
+- condition\_type: Buff

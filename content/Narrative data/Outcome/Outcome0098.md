@@ -34,3 +34,51 @@ Special_dice_face_3_addition:
 ---
 
 Outcome0098
+
+- outcome\_id: [[Narrative data/Outcome/Outcome0098|Outcome0098]]
+
+- response\_id: [[Narrative data/Response/Response0067|Response0067]],[[Narrative data/Response/Response0068|Response0068]],[[Narrative data/Response/Response0069|Response0069]]
+
+- outcome\_name: She helps you
+
+- outcome\_type: Neutral response
+
+- outcome\_response: She helps you by telling him that you are innocent
+
+- exp\_gain: 4
+
+- add\_item\_id: none
+
+- subtract\_item\_id: none
+
+- condition\_target\_1: Player
+
+- condition\_dice\_1\_type\_modification: subtraction
+
+- condition\_dice\_1\_id: null
+
+- condition\_dice\_1\_influenced\_skill\_type: any dice containing deception buff
+
+- condition\_target\_2: Opponent
+
+- condition\_dice\_2\_type\_modification: addition
+
+- condition\_dice\_2\_id: [[Dice/DONBlatant|DONBlatant]]
+
+- condition\_dice\_2\_influenced\_skill\_type: reflex
+
+- condition\_target\_3: Opponent
+
+- condition\_dice 3\_type\_modification: subtraction
+
+- condition\_dice\_3\_id: null
+
+- condition\_dice\_3\_influenced\_skill\_type: any dice containing knowledge buff
+
+- special\_dice\_face\_1\_addition: null
+
+- special\_dice\_face\_2\_addition: null
+
+- special\_dice\_face\_3\_addition: null
+
+- tags: outcome

@@ -18,3 +18,17 @@ Response_ID_relation: is
 ---
 
 Narrative0040
+
+- narrative\_id: [[Narrative data/Narrative/Narrative0040|Narrative0040]]
+
+- narrative\_name: [[Character/GuestG|GuestG]],[[Character/GuestH|GuestH]]
+
+- exposition: The guest is grunting about the line
+
+- narrative\_completion\_status: null
+
+- responses: [[Narrative data/Response/Response0058|Response0058]]
+
+- response\_id\_relation: is
+
+- tags: narrativebeat

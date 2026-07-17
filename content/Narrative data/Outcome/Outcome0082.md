@@ -33,3 +33,51 @@ Special_dice_face_3_addition:
 ---
 
 Outcome0082
+
+- outcome\_id: [[Narrative data/Outcome/Outcome0082|Outcome0082]]
+
+- response\_id: [[Narrative data/Response/Response0049|Response0049]],[[Narrative data/Response/Response0050|Response0050]]
+
+- outcome\_name: Pass after push
+
+- outcome\_type: Failed response
+
+- outcome\_response: The crowd really push you, but you're finally moved past them
+
+- exp\_gain: 1
+
+- add\_item\_id: none
+
+- subtract\_item\_id: none
+
+- condition\_target\_1: Player
+
+- condition\_dice\_1\_type\_modification: addition
+
+- condition\_dice\_1\_id: [[Dice/DPNDrained|DPNDrained]]
+
+- condition\_dice\_1\_influenced\_skill\_type: artistry
+
+- condition\_target\_2: Opponent
+
+- condition\_dice\_2\_type\_modification: addition
+
+- condition\_dice\_2\_id: [[Dice/DOBDominant|DOBDominant]]
+
+- condition\_dice\_2\_influenced\_skill\_type: observation
+
+- condition\_target\_3: Player
+
+- condition\_dice 3\_type\_modification: subtraction
+
+- condition\_dice\_3\_id: null
+
+- condition\_dice\_3\_influenced\_skill\_type: any dice containing reflex buff
+
+- special\_dice\_face\_1\_addition: null
+
+- special\_dice\_face\_2\_addition: null
+
+- special\_dice\_face\_3\_addition: null
+
+- tags: outcome

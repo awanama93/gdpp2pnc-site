@@ -14,3 +14,17 @@ tags:
 ---
 
 Narrative0050
+
+- narrative\_id: [[Narrative data/Narrative/Narrative0050|Narrative0050]]
+
+- narrative\_name: null
+
+- exposition: null
+
+- narrative\_completion\_status: null
+
+- responses: null
+
+- response\_id\_relation: null
+
+- tags: null

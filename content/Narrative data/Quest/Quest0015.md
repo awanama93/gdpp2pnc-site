@@ -43,3 +43,55 @@ Starter_Narrative_ID: none
 ---
 
 Quest0015
+
+- tags: quest
+
+- quest\_id: [[Narrative data/Quest/Quest0015|Quest0015]]
+
+- status: null
+
+- quest\_type: main quest
+
+- quest\_name: Find a way to enter the toilet
+
+- quest\_description: Before going home, it's better you go to the toilet first. Just in case...
+
+- hints: [[Narrative data/Hint/Hint0028|Hint0028]],[[Narrative data/Hint/Hint0029|Hint0029]],[[Narrative data/Hint/Hint0030|Hint0030]]
+
+- starter\_prerequisite\_type: Quest completion
+
+- starter\_item\_id: none
+
+- starter\_quest\_id: [[Narrative data/Quest/Quest0006|Quest0006]]
+
+- starter\_response\_id: none
+
+- completion\_prerequisite\_type: Narrative completion
+
+- completion\_item\_id: none
+
+- completion\_quest\_id: none
+
+- completion\_response\_id: none
+
+- skill\_check\_result: none
+
+- canvas: [[Plot/_General Plot.canvas|_General Plot.canvas]]
+
+- \_general plot: [[Narrative data/Quest/Quest0016|Quest0016]],[[Narrative data/Quest/Quest0017|Quest0017]],[[Narrative data/LocationChanger/LC0009|LC0009]]
+
+- completion\_quest\_id\_relation: none
+
+- completion\_item\_id\_relation: none
+
+- completion\_response\_id\_relation: none
+
+- completion\_outcome\_id\_relation: none
+
+- completion\_outcome\_id: none
+
+- narrative\_id: [[Narrative data/Narrative/Narrative0020|Narrative0020]]
+
+- narrative\_id\_relation: is
+
+- starter\_narrative\_id: none

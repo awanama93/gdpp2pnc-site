@@ -32,3 +32,51 @@ Special_dice_face_3_addition:
 ---
 
 Outcome0057
+
+- outcome\_id: [[Narrative data/Outcome/Outcome0057|Outcome0057]]
+
+- response\_id: [[Narrative data/Response/Response0035|Response0035]]
+
+- outcome\_name: Just finish your business
+
+- outcome\_type: Neutral response
+
+- outcome\_response: You urinated. What's new
+
+- exp\_gain: 2
+
+- add\_item\_id: none
+
+- subtract\_item\_id: none
+
+- condition\_target\_1: Player
+
+- condition\_dice\_1\_type\_modification: subtraction
+
+- condition\_dice\_1\_id: null
+
+- condition\_dice\_1\_influenced\_skill\_type: any dice containing reflex buff
+
+- condition\_target\_2: Opponent
+
+- condition\_dice\_2\_type\_modification: addition
+
+- condition\_dice\_2\_id: [[Dice/DONFading|DONFading]]
+
+- condition\_dice\_2\_influenced\_skill\_type: deception
+
+- condition\_target\_3: Opponent
+
+- condition\_dice 3\_type\_modification: subtraction
+
+- condition\_dice\_3\_id: null
+
+- condition\_dice\_3\_influenced\_skill\_type: any dice containing strength buff
+
+- special\_dice\_face\_1\_addition: null
+
+- special\_dice\_face\_2\_addition: null
+
+- special\_dice\_face\_3\_addition: null
+
+- tags: outcome

@@ -33,3 +33,51 @@ Special_dice_face_3_addition:
 ---
 
 Outcome0085
+
+- outcome\_id: [[Narrative data/Outcome/Outcome0085|Outcome0085]]
+
+- response\_id: [[Narrative data/Response/Response0051|Response0051]],[[Narrative data/Response/Response0052|Response0052]]
+
+- outcome\_name: Vlogger assure you
+
+- outcome\_type: Failed response
+
+- outcome\_response: Vlogger assures you that he will make something interesting out of The Convention and Mangaka work
+
+- exp\_gain: 1
+
+- add\_item\_id: none
+
+- subtract\_item\_id: none
+
+- condition\_target\_1: Player
+
+- condition\_dice\_1\_type\_modification: addition
+
+- condition\_dice\_1\_id: [[Dice/DPNVulnerable|DPNVulnerable]]
+
+- condition\_dice\_1\_influenced\_skill\_type: deception
+
+- condition\_target\_2: Opponent
+
+- condition\_dice\_2\_type\_modification: addition
+
+- condition\_dice\_2\_id: [[Dice/DOBMasterful|DOBMasterful]]
+
+- condition\_dice\_2\_influenced\_skill\_type: reflex
+
+- condition\_target\_3: Player
+
+- condition\_dice 3\_type\_modification: subtraction
+
+- condition\_dice\_3\_id: null
+
+- condition\_dice\_3\_influenced\_skill\_type: any dice containing knowledge buff
+
+- special\_dice\_face\_1\_addition: null
+
+- special\_dice\_face\_2\_addition: null
+
+- special\_dice\_face\_3\_addition: null
+
+- tags: outcome

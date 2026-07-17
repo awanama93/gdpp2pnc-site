@@ -30,7 +30,9 @@ views:
       - Special_dice_face_2_addition
       - Special_dice_face_3_addition
       - tags
-    sort: []
+    sort:
+      - property: file.name
+        direction: ASC
     columnSize:
       note.Outcome_ID: 175
       note.Outcome_name: 341

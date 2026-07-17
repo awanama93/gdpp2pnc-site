@@ -32,3 +32,51 @@ Special_dice_face_3_addition:
 ---
 
 Outcome0058
+
+- outcome\_id: [[Narrative data/Outcome/Outcome0058|Outcome0058]]
+
+- response\_id: [[Narrative data/Response/Response0036|Response0036]]
+
+- outcome\_name: One of the best moments in your life
+
+- outcome\_type: Any response
+
+- outcome\_response: This is your first time at The Convention. But it will be not your last
+
+- exp\_gain: 3
+
+- add\_item\_id: none
+
+- subtract\_item\_id: none
+
+- condition\_target\_1: none
+
+- condition\_dice\_1\_type\_modification: none
+
+- condition\_dice\_1\_id: none
+
+- condition\_dice\_1\_influenced\_skill\_type: none
+
+- condition\_target\_2: none
+
+- condition\_dice\_2\_type\_modification: none
+
+- condition\_dice\_2\_id: none
+
+- condition\_dice\_2\_influenced\_skill\_type: none
+
+- condition\_target\_3: none
+
+- condition\_dice\_3\_id: none
+
+- condition\_dice 3\_type\_modification: none
+
+- condition\_dice\_3\_influenced\_skill\_type: none
+
+- special\_dice\_face\_1\_addition: integer
+
+- special\_dice\_face\_2\_addition: null
+
+- special\_dice\_face\_3\_addition: null
+
+- tags: outcome

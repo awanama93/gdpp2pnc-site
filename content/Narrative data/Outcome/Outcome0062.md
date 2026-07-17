@@ -33,3 +33,51 @@ Special_dice_face_3_addition:
 ---
 
 Outcome0062
+
+- outcome\_id: [[Narrative data/Outcome/Outcome0062|Outcome0062]]
+
+- response\_id: [[Narrative data/Response/Response0039|Response0039]],[[Narrative data/Response/Response0040|Response0040]]
+
+- outcome\_name: Cosplayer feels moved
+
+- outcome\_type: Neutral response
+
+- outcome\_response: You can see in her eyes that she's moved, but she only smiles and nod
+
+- exp\_gain: 2
+
+- add\_item\_id: none
+
+- subtract\_item\_id: none
+
+- condition\_target\_1: Player
+
+- condition\_dice\_1\_type\_modification: subtraction
+
+- condition\_dice\_1\_id: null
+
+- condition\_dice\_1\_influenced\_skill\_type: any dice containing deception buff
+
+- condition\_target\_2: Opponent
+
+- condition\_dice\_2\_type\_modification: addition
+
+- condition\_dice\_2\_id: [[Dice/DONBlatant|DONBlatant]]
+
+- condition\_dice\_2\_influenced\_skill\_type: reflex
+
+- condition\_target\_3: Opponent
+
+- condition\_dice 3\_type\_modification: subtraction
+
+- condition\_dice\_3\_id: null
+
+- condition\_dice\_3\_influenced\_skill\_type: any dice containing knowledge buff
+
+- special\_dice\_face\_1\_addition: null
+
+- special\_dice\_face\_2\_addition: null
+
+- special\_dice\_face\_3\_addition: null
+
+- tags: outcome

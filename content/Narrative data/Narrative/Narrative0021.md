@@ -16,3 +16,17 @@ Response_ID_relation: is
 ---
 
 Narrative0021
+
+- narrative\_id: [[Narrative data/Narrative/Narrative0021|Narrative0021]]
+
+- narrative\_name: [[Character/MaleToiletDoor|MaleToiletDoor]]
+
+- exposition: The toilet stall is waiting to be open
+
+- narrative\_completion\_status: null
+
+- responses: [[Narrative data/Response/Response0035|Response0035]]
+
+- response\_id\_relation: is
+
+- tags: narrativebeat

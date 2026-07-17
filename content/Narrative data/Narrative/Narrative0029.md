@@ -18,3 +18,17 @@ Response_ID_relation: or
 ---
 
 Narrative0029
+
+- narrative\_id: [[Narrative data/Narrative/Narrative0029|Narrative0029]]
+
+- narrative\_name: [[Character/GroupMangaAfficionadoA|GroupMangaAfficionadoA]]
+
+- exposition: The group is asking questions enthusiastically
+
+- narrative\_completion\_status: null
+
+- responses: [[Narrative data/Response/Response0049|Response0049]],[[Narrative data/Response/Response0050|Response0050]]
+
+- response\_id\_relation: or
+
+- tags: narrativebeat

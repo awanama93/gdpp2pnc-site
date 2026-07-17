@@ -18,3 +18,17 @@ Response_ID_relation: and
 ---
 
 Narrative0007
+
+- narrative\_id: [[Narrative data/Narrative/Narrative0007|Narrative0007]]
+
+- narrative\_name: [[Character/GuestD|GuestD]]
+
+- exposition: Guest D is ready to check you on various options
+
+- narrative\_completion\_status: null
+
+- responses: [[Narrative data/Response/Response0010|Response0010]],[[Narrative data/Response/Response0011|Response0011]],[[Narrative data/Response/Response0012|Response0012]]
+
+- tags: narrativebeat
+
+- response\_id\_relation: and

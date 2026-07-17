@@ -16,3 +16,17 @@ Response_ID_relation: is
 ---
 
 Narrative0006
+
+- narrative\_id: [[Narrative data/Narrative/Narrative0006|Narrative0006]]
+
+- narrative\_name: [[Character/GuestC|GuestC]]
+
+- exposition: Guest C is preparing to skill check with you
+
+- narrative\_completion\_status: null
+
+- responses: [[Narrative data/Response/Response0009|Response0009]]
+
+- tags: narrativebeat
+
+- response\_id\_relation: is

@@ -18,3 +18,17 @@ Response_ID_relation: is
 ---
 
 Narrative0038
+
+- narrative\_id: [[Narrative data/Narrative/Narrative0038|Narrative0038]]
+
+- narrative\_name: [[Character/GuestI|GuestI]],[[Character/GuestJ|GuestJ]]
+
+- exposition: The guest is muttering to themselves
+
+- narrative\_completion\_status: null
+
+- responses: [[Narrative data/Response/Response0057|Response0057]]
+
+- response\_id\_relation: is
+
+- tags: narrativebeat

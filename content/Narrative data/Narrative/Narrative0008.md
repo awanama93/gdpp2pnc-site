@@ -16,3 +16,17 @@ Response_ID_relation: is
 ---
 
 Narrative0008
+
+- narrative\_id: [[Narrative data/Narrative/Narrative0008|Narrative0008]]
+
+- narrative\_name: [[Character/GuestA|GuestA]]
+
+- exposition: Guest A is preparing to give you condition
+
+- narrative\_completion\_status: null
+
+- responses: [[Narrative data/Response/Response0013|Response0013]]
+
+- tags: narrativebeat
+
+- response\_id\_relation: is

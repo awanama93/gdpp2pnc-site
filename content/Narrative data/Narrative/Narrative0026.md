@@ -18,3 +18,17 @@ Response_ID_relation: or
 ---
 
 Narrative0026
+
+- narrative\_id: [[Narrative data/Narrative/Narrative0026|Narrative0026]]
+
+- narrative\_name: [[Character/StageHost|StageHost]]
+
+- exposition: The Stage Host is watching the crowd intensely
+
+- narrative\_completion\_status: null
+
+- responses: [[Narrative data/Response/Response0045|Response0045]],[[Narrative data/Response/Response0046|Response0046]]
+
+- response\_id\_relation: or
+
+- tags: narrativebeat

@@ -32,3 +32,51 @@ Special_dice_face_3_addition: none
 ---
 
 Outcome0076
+
+- outcome\_id: [[Narrative data/Outcome/Outcome0076|Outcome0076]]
+
+- response\_id: [[Narrative data/Response/Response0046|Response0046]]
+
+- outcome\_name: Stage Host talks differently obviously
+
+- outcome\_type: Succeed response
+
+- outcome\_response: You notice there is slight different in tone on her words
+
+- exp\_gain: 4
+
+- add\_item\_id: none
+
+- subtract\_item\_id: none
+
+- condition\_target\_1: Player
+
+- condition\_dice\_1\_type\_modification: addition
+
+- condition\_dice\_1\_id: [[Dice/DPBProfound|DPBProfound]]
+
+- condition\_dice\_1\_influenced\_skill\_type: artistry
+
+- condition\_target\_2: Opponent
+
+- condition\_dice\_2\_type\_modification: addition
+
+- condition\_dice\_2\_id: [[Dice/DONReckless|DONReckless]]
+
+- condition\_dice\_2\_influenced\_skill\_type: observation
+
+- condition\_target\_3: Player
+
+- condition\_dice 3\_type\_modification: subtraction
+
+- condition\_dice\_3\_id: null
+
+- condition\_dice\_3\_influenced\_skill\_type: any dice containing reflex nerf
+
+- special\_dice\_face\_1\_addition: sanity
+
+- special\_dice\_face\_2\_addition: none
+
+- special\_dice\_face\_3\_addition: none
+
+- tags: outcome

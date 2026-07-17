@@ -34,3 +34,51 @@ Special_dice_face_3_addition: none
 ---
 
 Outcome0094
+
+- outcome\_id: [[Narrative data/Outcome/Outcome0094|Outcome0094]]
+
+- response\_id: [[Narrative data/Response/Response0064|Response0064]],[[Narrative data/Response/Response0065|Response0065]],[[Narrative data/Response/Response0066|Response0066]]
+
+- outcome\_name: He still doesn't believe you
+
+- outcome\_type: Succeed response
+
+- outcome\_response: He still doesn't believe you
+
+- exp\_gain: 6
+
+- add\_item\_id: none
+
+- subtract\_item\_id: none
+
+- condition\_target\_1: Player
+
+- condition\_dice\_1\_type\_modification: addition
+
+- condition\_dice\_1\_id: [[Dice/DPBResolute|DPBResolute]]
+
+- condition\_dice\_1\_influenced\_skill\_type: observation
+
+- condition\_target\_2: Opponent
+
+- condition\_dice\_2\_type\_modification: subtraction
+
+- condition\_dice\_2\_id: [[Dice/DONRigid|DONRigid]]
+
+- condition\_dice\_2\_influenced\_skill\_type: strength
+
+- condition\_target\_3: Player
+
+- condition\_dice 3\_type\_modification: subtraction
+
+- condition\_dice\_3\_id: null
+
+- condition\_dice\_3\_influenced\_skill\_type: any dice containing deception nerf
+
+- special\_dice\_face\_1\_addition: sanity
+
+- special\_dice\_face\_2\_addition: none
+
+- special\_dice\_face\_3\_addition: none
+
+- tags: outcome

@@ -18,3 +18,17 @@ Response_ID_relation: or
 ---
 
 Narrative0027
+
+- narrative\_id: [[Narrative data/Narrative/Narrative0027|Narrative0027]]
+
+- narrative\_name: [[Character/TheWeeb|TheWeeb]]
+
+- exposition: The Weeb is having a lively discussion
+
+- narrative\_completion\_status: null
+
+- responses: [[Narrative data/Response/Response0047|Response0047]],[[Narrative data/Response/Response0048|Response0048]]
+
+- response\_id\_relation: or
+
+- tags: narrativebeat

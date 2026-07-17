@@ -18,3 +18,17 @@ Response_ID_relation: and
 ---
 
 Narrative0011
+
+- narrative\_id: [[Narrative data/Narrative/Narrative0011|Narrative0011]]
+
+- narrative\_name: [[Character/GuestC|GuestC]]
+
+- exposition: Guest C is ready to teach you about special dice
+
+- narrative\_completion\_status: null
+
+- responses: [[Narrative data/Response/Response0016|Response0016]],[[Narrative data/Response/Response0017|Response0017]],[[Narrative data/Response/Response0018|Response0018]]
+
+- tags: narrativebeat
+
+- response\_id\_relation: and

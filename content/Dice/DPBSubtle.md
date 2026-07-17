@@ -27,3 +27,39 @@ Condition_type: Buff
 ---
 
 DPBSubtle
+
+- dice\_id: [[Dice/DPBSubtle|DPBSubtle]]
+
+- dice\_name: [[Dice/DPBSubtle|DPBSubtle]]
+
+- dice\_type: Condition dice
+
+- influenced\_skill: Reflex,deception
+
+- face\_1\_type: health
+
+- face\_1\_value: 2
+
+- face\_2\_type: sanity
+
+- face\_2\_value: 1
+
+- face\_3\_type: integer
+
+- face\_3\_value: 2
+
+- face\_4\_type: integer
+
+- face\_4\_value: 3
+
+- face\_5\_type: integer
+
+- face\_5\_value: -2
+
+- face\_6\_type: null
+
+- face\_6\_value: 0
+
+- tags: dice
+
+- condition\_type: Buff

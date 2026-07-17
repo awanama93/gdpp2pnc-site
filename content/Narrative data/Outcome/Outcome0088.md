@@ -32,3 +32,51 @@ Special_dice_face_3_addition: none
 ---
 
 Outcome0088
+
+- outcome\_id: [[Narrative data/Outcome/Outcome0088|Outcome0088]]
+
+- response\_id: [[Narrative data/Response/Response0055|Response0055]]
+
+- outcome\_name: Join from the last line
+
+- outcome\_type: Any response
+
+- outcome\_response: People tell you to join from the last place on the line
+
+- exp\_gain: 2
+
+- add\_item\_id: [[Narrative data/Item/Item0003|Item0003]]
+
+- subtract\_item\_id: none
+
+- condition\_target\_1: none
+
+- condition\_dice\_1\_type\_modification: none
+
+- condition\_dice\_1\_id: none
+
+- condition\_dice\_1\_influenced\_skill\_type: none
+
+- condition\_target\_2: none
+
+- condition\_dice\_2\_type\_modification: none
+
+- condition\_dice\_2\_id: none
+
+- condition\_dice\_2\_influenced\_skill\_type: none
+
+- condition\_target\_3: none
+
+- condition\_dice\_3\_id: none
+
+- condition\_dice 3\_type\_modification: none
+
+- condition\_dice\_3\_influenced\_skill\_type: none
+
+- special\_dice\_face\_1\_addition: integer
+
+- special\_dice\_face\_2\_addition: none
+
+- special\_dice\_face\_3\_addition: none
+
+- tags: outcome

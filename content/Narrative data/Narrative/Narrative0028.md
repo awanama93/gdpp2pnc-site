@@ -16,3 +16,17 @@ Response_ID_relation:
 ---
 
 Narrative0028
+
+- narrative\_id: [[Narrative data/Narrative/Narrative0028|Narrative0028]]
+
+- narrative\_name: [[Character/Mangaka|Mangaka]]
+
+- exposition: The Mangaka is answering questions
+
+- narrative\_completion\_status: null
+
+- responses: null
+
+- response\_id\_relation: null
+
+- tags: narrativebeat

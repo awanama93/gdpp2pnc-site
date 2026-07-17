@@ -32,3 +32,51 @@ Special_dice_face_3_addition: none
 ---
 
 Outcome0055
+
+- outcome\_id: [[Narrative data/Outcome/Outcome0055|Outcome0055]]
+
+- response\_id: [[Narrative data/Response/Response0035|Response0035]]
+
+- outcome\_name: Urinate silently
+
+- outcome\_type: Succeed response
+
+- outcome\_response: You answered the call of nature solemnly
+
+- exp\_gain: 4
+
+- add\_item\_id: none
+
+- subtract\_item\_id: none
+
+- condition\_target\_1: Player
+
+- condition\_dice\_1\_type\_modification: addition
+
+- condition\_dice\_1\_id: [[Dice/DPBSubtle|DPBSubtle]]
+
+- condition\_dice\_1\_influenced\_skill\_type: reflex
+
+- condition\_target\_2: Opponent
+
+- condition\_dice\_2\_type\_modification: addition
+
+- condition\_dice\_2\_id: [[Dice/DONStrained|DONStrained]]
+
+- condition\_dice\_2\_influenced\_skill\_type: deception
+
+- condition\_target\_3: Player
+
+- condition\_dice 3\_type\_modification: subtraction
+
+- condition\_dice\_3\_id: null
+
+- condition\_dice\_3\_influenced\_skill\_type: any dice containing strength nerf
+
+- special\_dice\_face\_1\_addition: health
+
+- special\_dice\_face\_2\_addition: none
+
+- special\_dice\_face\_3\_addition: none
+
+- tags: outcome

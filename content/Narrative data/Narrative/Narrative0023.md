@@ -18,3 +18,17 @@ Response_ID_relation: or
 ---
 
 Narrative0023
+
+- narrative\_id: [[Narrative data/Narrative/Narrative0023|Narrative0023]]
+
+- narrative\_name: [[Character/Cosplayer|Cosplayer]]
+
+- exposition: The Cosplayer is greeting guests
+
+- narrative\_completion\_status: null
+
+- responses: [[Narrative data/Response/Response0039|Response0039]],[[Narrative data/Response/Response0040|Response0040]]
+
+- response\_id\_relation: or
+
+- tags: narrativebeat

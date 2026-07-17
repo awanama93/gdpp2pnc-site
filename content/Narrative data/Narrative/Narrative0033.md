@@ -16,3 +16,17 @@ Response_ID_relation:
 ---
 
 Narrative0033
+
+- narrative\_id: [[Narrative data/Narrative/Narrative0033|Narrative0033]]
+
+- narrative\_name: [[Character/GroupWeaboosA|GroupWeaboosA]]
+
+- exposition: This group of people seems to have a lively discussion about The Mangaka and The Cosplayer
+
+- narrative\_completion\_status: null
+
+- responses: null
+
+- response\_id\_relation: null
+
+- tags: narrativebeat

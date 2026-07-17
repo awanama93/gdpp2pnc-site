@@ -27,3 +27,39 @@ Condition_type: Nerf
 ---
 
 DONSuperficial
+
+- dice\_id: [[Dice/DONSuperficial|DONSuperficial]]
+
+- dice\_name: [[Dice/DONSuperficial|DONSuperficial]]
+
+- dice\_type: Condition dice
+
+- influenced\_skill: Artistry,Knowledge
+
+- face\_1\_type: integer
+
+- face\_1\_value: -1
+
+- face\_2\_type: integer
+
+- face\_2\_value: -1
+
+- face\_3\_type: integer
+
+- face\_3\_value: -2
+
+- face\_4\_type: health
+
+- face\_4\_value: 1
+
+- face\_5\_type: integer
+
+- face\_5\_value: 1
+
+- face\_6\_type: sanity
+
+- face\_6\_value: 1
+
+- tags: dice
+
+- condition\_type: Nerf

@@ -16,3 +16,17 @@ Response_ID_relation: is
 ---
 
 Narrative0009
+
+- narrative\_id: [[Narrative data/Narrative/Narrative0009|Narrative0009]]
+
+- narrative\_name: [[Character/GroupGuestB|GroupGuestB]]
+
+- exposition: Guest B is preparing to take away your condition
+
+- narrative\_completion\_status: null
+
+- responses: [[Narrative data/Response/Response0014|Response0014]]
+
+- tags: narrativebeat
+
+- response\_id\_relation: is

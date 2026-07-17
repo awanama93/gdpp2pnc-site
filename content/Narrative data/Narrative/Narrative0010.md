@@ -16,3 +16,17 @@ Response_ID_relation: is
 ---
 
 Narrative0010
+
+- narrative\_id: [[Narrative data/Narrative/Narrative0010|Narrative0010]]
+
+- narrative\_name: [[Character/GroupGuestB|GroupGuestB]]
+
+- exposition: Guest B is preparing to teach you about your stat
+
+- narrative\_completion\_status: null
+
+- responses: [[Narrative data/Response/Response0015|Response0015]]
+
+- tags: narrativebeat
+
+- response\_id\_relation: is
