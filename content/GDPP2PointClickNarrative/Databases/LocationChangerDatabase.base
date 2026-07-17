@@ -1,0 +1,28 @@
+filters:
+  and:
+    - file.inFolder("Narrative data/LocationChanger")
+views:
+  - type: table
+    name: Table
+    order:
+      - file.name
+      - Quest ID trigger
+      - CharacterData1
+      - CharacterData2
+      - CharacterData3
+      - CharacterData4
+      - CharacterData5
+      - CharacterData6
+      - CharacterData7
+      - CharacterData8
+      - CharacterData9
+      - CharacterData10
+      - CharacterData11
+      - CharacterData12
+      - CharacterData13
+      - CharacterData15
+      - CharacterData14
+      - tags
+    sort: []
+    columnSize:
+      file.name: 130

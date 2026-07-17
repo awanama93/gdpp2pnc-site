@@ -1,0 +1,23 @@
+filters:
+  and:
+    - file.inFolder("Narrative data/Hint")
+views:
+  - type: table
+    name: Table
+    order:
+      - file.name
+      - Hint ID
+      - Quest ID relation
+      - Hint description
+      - Status
+      - Hint prerequisite type
+      - Item Id
+      - Quest ID prerequisite
+      - Outcome ID prerequisite
+      - tags
+    sort:
+      - property: Quest ID
+        direction: ASC
+    columnSize:
+      note.Hint description: 552
+      note.Item Id: 110
