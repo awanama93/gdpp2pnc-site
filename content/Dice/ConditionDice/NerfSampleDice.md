@@ -27,3 +27,39 @@ Condition_type: Nerf
 ---
 
 NerfSampleDice
+
+- tags: dice
+
+- dice\_id: NerfSampleDice
+
+- dice\_name: Nerf sample dice
+
+- dice\_type: Condition dice
+
+- influenced\_skill: Any skill
+
+- face\_1\_type: integer
+
+- face\_1\_value: -2
+
+- face\_2\_type: integer
+
+- face\_2\_value: -1
+
+- face\_3\_type: integer
+
+- face\_3\_value: -1
+
+- face\_4\_type: null
+
+- face\_4\_value: 0
+
+- face\_5\_type: null
+
+- face\_5\_value: 0
+
+- face\_6\_type: null
+
+- face\_6\_value: 0
+
+- condition\_type: Nerf

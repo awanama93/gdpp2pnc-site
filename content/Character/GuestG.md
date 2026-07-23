@@ -1,14 +1,21 @@
 ---
 publish: true
 created: 2026-07-11T16:55:53.269+07:00
-modified: 2026-07-21T23:47:11.318+07:00
-published: 2026-07-21T23:47:11.318+07:00
+modified: 2026-07-24T06:17:52.532+07:00
+published: 2026-07-24T06:17:52.532+07:00
 tags:
   - character
 Character_ID: "[[GuestG]]"
-Mesh:
+Mesh: ExtrasB with guest texture variant
 Narrative_data:
   - "[[Narrative0037]]"
+  - "[[Narrative0040]]"
+  - "[[Narrative0057]]"
+  - "[[Narrative0063]]"
+  - "[[Narrative0076]]"
+  - "[[Narrative0091]]"
+  - "[[Narrative0102]]"
+  - "[[Narrative0108]]"
 Dialogue_position: Left
 DiceStrength: "[[SDLight]]"
 DiceReflex: "[[SDLight]]"
@@ -22,9 +29,9 @@ GuestG
 
 - character\_id: [[Character/GuestG|GuestG]]
 
-- mesh: null
+- mesh: ExtrasB with guest texture variant
 
-- narrative\_data: [[Narrative data/Narrative/Narrative0037|Narrative0037]]
+- narrative\_data: [[Narrative data/Narrative/Narrative0037|Narrative0037]],[[Narrative data/Narrative/Narrative0040|Narrative0040]],[[Narrative data/Narrative/Narrative0057|Narrative0057]],[[Narrative data/Narrative/Narrative0063|Narrative0063]],[[Narrative data/Narrative/Narrative0076|Narrative0076]],[[Narrative data/Narrative/Narrative0091|Narrative0091]],[[Narrative data/Narrative/Narrative0102|Narrative0102]],[[Narrative data/Narrative/Narrative0108|Narrative0108]]
 
 - dialogue\_position: Left
 

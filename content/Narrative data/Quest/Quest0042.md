@@ -29,44 +29,48 @@ Quest_ID: "[[Quest0042]]"
 Quest_description: Security Organizer believes that it's Musician who did it. Find him
 ---
 
-Quest0042
+```datacorejsx
 
-- quest\_name: Find Musician
+return function TitleHeader() {
 
-- completion\_prerequisite\_type: Narrative completion
+const file = dc.useCurrentFile();
 
-- completion\_item\_id: null
+if (!file) return null;
 
-- completion\_item\_id\_relation: null
+// file.$name contains the clean string of the note title
 
-- completion\_outcome\_id: null
+return <h1>{file.$name}</h1>; }
 
-- completion\_outcome\_id\_relation: null
+```
 
-- completion\_quest\_id: null
+```datacorejsx
 
-- completion\_quest\_id\_relation: null
+return function View() {
 
-- completion\_response\_id: null
+const file = dc.useCurrentFile();
 
-- completion\_response\_id\_relation: null
+const hiddenKeys = ["dg-publish", "publish"];
 
-- narrative\_id: [[Narrative data/Narrative/Narrative0096|Narrative0096]]
+  
 
-- narrative\_id\_relation: is
+if(!file) return <p>loading</p>;
 
-- starter\_prerequisite\_type: Quest completion
+  
 
-- starter\_quest\_id: [[Narrative data/Quest/Quest0041|Quest0041]]
+const KUMPULAN = file.$frontmatter;
 
-- canvas: [[Plot/_General Plot.canvas|_General Plot.canvas]]
+  
 
-- \_general plot: [[Location/LocationChanger/LC0031|LC0031]]
+const items = Object.entries(KUMPULAN)
 
-- quest\_type: main quest
+    .filter(([key]) => !key.startsWith("__") && !hiddenKeys.includes(key))
 
-- quest\_id: [[Narrative data/Quest/Quest0042|Quest0042]]
+    .map(([key, field]) => {return `${key}: ${field?.value}`;}
 
-- quest\_description: Security Organizer believes that it's Musician who did it. Find him
+);
 
-- tags: quest
+    return <dc.List rows={items} />;
+
+}
+
+```

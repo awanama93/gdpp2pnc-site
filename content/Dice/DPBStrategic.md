@@ -28,3 +28,39 @@ Condition_type: Buff
 ---
 
 DPBStrategic
+
+- dice\_id: [[Dice/DPBStrategic|DPBStrategic]]
+
+- dice\_name: [[Dice/DPBStrategic|DPBStrategic]]
+
+- dice\_type: Condition dice
+
+- influenced\_skill: observation,Knowledge,deception
+
+- face\_1\_type: integer
+
+- face\_1\_value: 1
+
+- face\_2\_type: integer
+
+- face\_2\_value: 2
+
+- face\_3\_type: sanity
+
+- face\_3\_value: 1
+
+- face\_4\_type: sanity
+
+- face\_4\_value: 1
+
+- face\_5\_type: null
+
+- face\_5\_value: 0
+
+- face\_6\_type: null
+
+- face\_6\_value: 0
+
+- tags: dice
+
+- condition\_type: Buff

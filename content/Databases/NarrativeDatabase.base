@@ -6,7 +6,7 @@ views:
     name: Table
     filters:
       and:
-        - file.inFolder("Narrative data/Narrative")
+        - Narrative_name.contains(link("VendorB"))
     order:
       - file.name
       - Narrative_ID

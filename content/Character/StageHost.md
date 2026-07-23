@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-06T21:03:48.587+07:00
-modified: 2026-07-21T23:47:11.645+07:00
-published: 2026-07-21T23:47:11.645+07:00
+modified: 2026-07-24T05:58:25.865+07:00
+published: 2026-07-24T05:58:25.865+07:00
 tags:
   - character
 Dialogue_position: Left
@@ -11,6 +11,12 @@ Mesh: StageHost
 Narrative_data:
   - "[[Narrative0026]]"
   - "[[Narrative0043]]"
+  - "[[Narrative0058]]"
+  - "[[Narrative0067]]"
+  - "[[Narrative0097]]"
+  - "[[Narrative0099]]"
+  - "[[Narrative0111]]"
+  - "[[Narrative0119]]"
 dg-publish: true
 DiceStrength: "[[SDMid]]"
 DiceReflex: "[[SDFirm]]"
@@ -30,7 +36,7 @@ StageHost
 
 - mesh: StageHost
 
-- narrative\_data: [[Narrative data/Narrative/Narrative0026|Narrative0026]],[[Narrative data/Narrative/Narrative0043|Narrative0043]]
+- narrative\_data: [[Narrative data/Narrative/Narrative0026|Narrative0026]],[[Narrative data/Narrative/Narrative0043|Narrative0043]],[[Narrative data/Narrative/Narrative0058|Narrative0058]],[[Narrative data/Narrative/Narrative0067|Narrative0067]],[[Narrative data/Narrative/Narrative0097|Narrative0097]],[[Narrative data/Narrative/Narrative0099|Narrative0099]],[[Narrative data/Narrative/Narrative0111|Narrative0111]],[[Narrative data/Narrative/Narrative0119|Narrative0119]]
 
 - dicestrength: [[Dice/StartingDice/SDMid|SDMid]]
 

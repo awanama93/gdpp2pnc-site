@@ -32,56 +32,16 @@ Health_Modifier: "+1"
 Sanity_Modifier:
 ---
 
-Outcome0262
+```datacorejsx
 
-- outcome\_id: null
+return function TitleHeader() {
 
-- outcome\_type: Succeed or neutral response
+const file = dc.useCurrentFile();
 
-- response\_id: [[Narrative data/Response/Response0186|Response0186]]
+if (!file) return null;
 
-- outcome\_name: Accept demand
+// file.$name contains the clean string of the note title
 
-- outcome\_response: She accepts the demand to do something about the Convention
+return <h1>{file.$name}</h1>; }
 
-- exp\_gain: 5
-
-- add\_item\_id: null
-
-- subtract\_item\_id: null
-
-- condition\_target\_1: Player
-
-- condition\_dice\_1\_type\_modification: addition
-
-- condition\_dice\_1\_id: [[Dice/DPBEffortless|DPBEffortless]]
-
-- condition\_dice\_1\_influenced\_skill\_type: strength
-
-- condition\_target\_2: Opponent
-
-- condition\_dice\_2\_type\_modification: addition
-
-- condition\_dice\_2\_id: [[Dice/DONFading|DONFading]]
-
-- condition\_dice\_2\_influenced\_skill\_type: knowledge
-
-- condition\_target\_3: Opponent
-
-- condition\_dice\_3\_id: null
-
-- condition\_dice 3\_type\_modification: subtraction
-
-- condition\_dice\_3\_influenced\_skill\_type: any dice containing artistry buff
-
-- special\_dice\_face\_1\_addition: null
-
-- special\_dice\_face\_2\_addition: null
-
-- special\_dice\_face\_3\_addition: null
-
-- tags: null
-
-- health\_modifier: +1
-
-- sanity\_modifier: null
+```

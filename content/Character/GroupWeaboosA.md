@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-09T19:57:40.388+07:00
-modified: 2026-07-21T23:47:11.152+07:00
-published: 2026-07-21T23:47:11.152+07:00
+modified: 2026-07-24T06:00:44.779+07:00
+published: 2026-07-24T06:00:44.779+07:00
 tags:
   - character
 Dialogue_position: Left
@@ -10,6 +10,9 @@ Character_ID: "[[GroupWeaboosA]]"
 Mesh: 3 character mesh based on extras A and Extras B with guest texture variation
 Narrative_data:
   - "[[Narrative0033]]"
+  - "[[Narrative0054]]"
+  - "[[Narrative0072]]"
+  - "[[Narrative0090]]"
 dg-publish: true
 DiceStrength: "[[SDWeak]]"
 DiceReflex: "[[SDWeak]]"
@@ -29,7 +32,7 @@ GroupWeaboosA
 
 - mesh: 3 character mesh based on extras A and Extras B with guest texture variation
 
-- narrative\_data: [[Narrative data/Narrative/Narrative0033|Narrative0033]]
+- narrative\_data: [[Narrative data/Narrative/Narrative0033|Narrative0033]],[[Narrative data/Narrative/Narrative0054|Narrative0054]],[[Narrative data/Narrative/Narrative0072|Narrative0072]],[[Narrative data/Narrative/Narrative0090|Narrative0090]]
 
 - dicestrength: [[Dice/StartingDice/SDWeak|SDWeak]]
 

@@ -27,42 +27,48 @@ Quest_type: main quest
 Quest_description: Bring the truth
 ---
 
-Quest0045
+```datacorejsx
 
-- quest\_name: Bring the truth
+return function TitleHeader() {
 
-- completion\_prerequisite\_type: Response selection
+const file = dc.useCurrentFile();
 
-- completion\_item\_id: null
+if (!file) return null;
 
-- completion\_item\_id\_relation: null
+// file.$name contains the clean string of the note title
 
-- completion\_outcome\_id: null
+return <h1>{file.$name}</h1>; }
 
-- completion\_outcome\_id\_relation: null
+```
 
-- completion\_quest\_id: null
+```datacorejsx
 
-- completion\_quest\_id\_relation: null
+return function View() {
 
-- completion\_response\_id: [[Narrative data/Response/Response0168|Response0168]]
+const file = dc.useCurrentFile();
 
-- completion\_response\_id\_relation: is
+const hiddenKeys = ["dg-publish", "publish"];
 
-- narrative\_id: null
+  
 
-- narrative\_id\_relation: null
+if(!file) return <p>loading</p>;
 
-- quest\_id: [[Narrative data/Quest/Quest0045|Quest0045]]
+  
 
-- starter\_prerequisite\_type: Quest completion
+const KUMPULAN = file.$frontmatter;
 
-- starter\_quest\_id: [[Narrative data/Quest/Quest0043|Quest0043]]
+  
 
-- canvas: [[Plot/_General Plot.canvas|_General Plot.canvas]]
+const items = Object.entries(KUMPULAN)
 
-- \_general plot: [[Location/LocationChanger/LC0033|LC0033]]
+    .filter(([key]) => !key.startsWith("__") && !hiddenKeys.includes(key))
 
-- quest\_type: main quest
+    .map(([key, field]) => {return `${key}: ${field?.value}`;}
 
-- quest\_description: Bring the truth
+);
+
+    return <dc.List rows={items} />;
+
+}
+
+```

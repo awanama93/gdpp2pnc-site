@@ -27,42 +27,48 @@ Quest_type: main quest
 Quest_description: Find Food Vendor for the complicit prove
 ---
 
-Quest0048
+```datacorejsx
 
-- quest\_name: Find Food Vendor for the complicit prove
+return function TitleHeader() {
 
-- completion\_prerequisite\_type: Narrative completion
+const file = dc.useCurrentFile();
 
-- completion\_item\_id: null
+if (!file) return null;
 
-- completion\_item\_id\_relation: null
+// file.$name contains the clean string of the note title
 
-- completion\_outcome\_id: null
+return <h1>{file.$name}</h1>; }
 
-- completion\_outcome\_id\_relation: null
+```
 
-- completion\_quest\_id: null
+```datacorejsx
 
-- completion\_quest\_id\_relation: null
+return function View() {
 
-- completion\_response\_id: null
+const file = dc.useCurrentFile();
 
-- completion\_response\_id\_relation: null
+const hiddenKeys = ["dg-publish", "publish"];
 
-- narrative\_id: [[Narrative data/Narrative/Narrative0105|Narrative0105]]
+  
 
-- narrative\_id\_relation: is
+if(!file) return <p>loading</p>;
 
-- quest\_id: [[Narrative data/Quest/Quest0048|Quest0048]]
+  
 
-- canvas: [[Plot/_General Plot.canvas|_General Plot.canvas]]
+const KUMPULAN = file.$frontmatter;
 
-- \_general plot: [[Location/DoorTeleporter/DT0025|DT0025]]
+  
 
-- starter\_prerequisite\_type: Quest completion
+const items = Object.entries(KUMPULAN)
 
-- starter\_quest\_id: [[Narrative data/Quest/Quest0045|Quest0045]]
+    .filter(([key]) => !key.startsWith("__") && !hiddenKeys.includes(key))
 
-- quest\_type: main quest
+    .map(([key, field]) => {return `${key}: ${field?.value}`;}
 
-- quest\_description: Find Food Vendor for the complicit prove
+);
+
+    return <dc.List rows={items} />;
+
+}
+
+```

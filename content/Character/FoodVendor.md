@@ -1,21 +1,28 @@
 ---
 publish: true
 created: 2026-07-22T15:13:46.571+07:00
-modified: 2026-07-06T14:14:47.943+07:00
-published: 2026-07-06T14:14:47.943+07:00
+modified: 2026-07-24T06:26:46.497+07:00
+published: 2026-07-24T06:26:46.497+07:00
 tags:
   - character
 Dialogue_position:
 Character_ID:
-Mesh:
+Mesh: FoodVendor
 Narrative_data:
+  - "[[Narrative0062]]"
+  - "[[Narrative0063]]"
+  - "[[Narrative0073]]"
+  - "[[Narrative0086]]"
+  - "[[Narrative0100]]"
+  - "[[Narrative0105]]"
+  - "[[Narrative0116]]"
 dg-publish: true
-DiceStrength:
-DiceReflex:
-DiceArtistry:
-DiceDeception:
-DiceKnowledge:
-DiceObservation:
+DiceStrength: "[[SDSubstantial]]"
+DiceReflex: "[[SDStrong]]"
+DiceArtistry: "[[SDWeak]]"
+DiceDeception: "[[SDMid]]"
+DiceKnowledge: "[[SDLight]]"
+DiceObservation: "[[SDFirm]]"
 ---
 
 FoodVendor
@@ -26,18 +33,18 @@ FoodVendor
 
 - character\_id: null
 
-- mesh: null
+- mesh: FoodVendor
 
-- narrative\_data: null
+- narrative\_data: [[Narrative data/Narrative/Narrative0062|Narrative0062]],[[Narrative data/Narrative/Narrative0063|Narrative0063]],[[Narrative data/Narrative/Narrative0073|Narrative0073]],[[Narrative data/Narrative/Narrative0086|Narrative0086]],[[Narrative data/Narrative/Narrative0100|Narrative0100]],[[Narrative data/Narrative/Narrative0105|Narrative0105]],[[Narrative data/Narrative/Narrative0116|Narrative0116]]
 
-- dicestrength: null
+- dicestrength: [[Dice/StartingDice/SDSubstantial|SDSubstantial]]
 
-- dicereflex: null
+- dicereflex: [[Dice/StartingDice/SDStrong|SDStrong]]
 
-- diceartistry: null
+- diceartistry: [[Dice/StartingDice/SDWeak|SDWeak]]
 
-- dicedeception: null
+- dicedeception: [[Dice/StartingDice/SDMid|SDMid]]
 
-- diceknowledge: null
+- diceknowledge: [[Dice/StartingDice/SDLight|SDLight]]
 
-- diceobservation: null
+- diceobservation: [[Dice/StartingDice/SDFirm|SDFirm]]

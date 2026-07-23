@@ -27,3 +27,39 @@ Condition_type: Nerf
 ---
 
 DPNOverwhelmed
+
+- dice\_id: [[Dice/DPNOverwhelmed|DPNOverwhelmed]]
+
+- dice\_name: [[Dice/DPNOverwhelmed|DPNOverwhelmed]]
+
+- dice\_type: Condition dice
+
+- influenced\_skill: Strength,observation
+
+- face\_1\_type: integer
+
+- face\_1\_value: -1
+
+- face\_2\_type: integer
+
+- face\_2\_value: -2
+
+- face\_3\_type: sanity
+
+- face\_3\_value: -2
+
+- face\_4\_type: integer
+
+- face\_4\_value: 2
+
+- face\_5\_type: null
+
+- face\_5\_value: 0
+
+- face\_6\_type: null
+
+- face\_6\_value: 0
+
+- tags: dice
+
+- condition\_type: Nerf

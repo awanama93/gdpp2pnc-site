@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-09T19:52:00.403+07:00
-modified: 2026-07-21T23:47:11.115+07:00
-published: 2026-07-21T23:47:11.115+07:00
+modified: 2026-07-24T05:56:39.761+07:00
+published: 2026-07-24T05:56:39.761+07:00
 tags:
   - character
 Dialogue_position: Left
@@ -10,6 +10,10 @@ Character_ID: "[[Cosplayer]]"
 Mesh: Cosplayer
 Narrative_data:
   - "[[Narrative0023]]"
+  - "[[Narrative0055]]"
+  - "[[Narrative0065]]"
+  - "[[Narrative0083]]"
+  - "[[Narrative0118]]"
 dg-publish: true
 DiceStrength: "[[SDWeak]]"
 DiceReflex: "[[SDFirm]]"
@@ -29,7 +33,7 @@ Cosplayer
 
 - mesh: Cosplayer
 
-- narrative\_data: [[Narrative data/Narrative/Narrative0023|Narrative0023]]
+- narrative\_data: [[Narrative data/Narrative/Narrative0023|Narrative0023]],[[Narrative data/Narrative/Narrative0055|Narrative0055]],[[Narrative data/Narrative/Narrative0065|Narrative0065]],[[Narrative data/Narrative/Narrative0083|Narrative0083]],[[Narrative data/Narrative/Narrative0118|Narrative0118]]
 
 - dicestrength: [[Dice/StartingDice/SDWeak|SDWeak]]
 

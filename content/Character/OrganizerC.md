@@ -1,14 +1,19 @@
 ---
 publish: true
 created: 2026-07-11T16:53:56.575+07:00
-modified: 2026-07-21T23:47:11.526+07:00
-published: 2026-07-21T23:47:11.526+07:00
+modified: 2026-07-24T06:18:32.958+07:00
+published: 2026-07-24T06:18:32.958+07:00
 tags:
   - character
 Character_ID: "[[OrganizerC]]"
-Mesh:
+Mesh: ExtrasB with organizer texture variant
 Narrative_data:
   - "[[Narrative0036]]"
+  - "[[Narrative0053]]"
+  - "[[Narrative0070]]"
+  - "[[Narrative0087]]"
+  - "[[Narrative0103]]"
+  - "[[Narrative0109]]"
 Dialogue_position: Left
 DiceStrength: "[[SDWeak]]"
 DiceReflex: "[[SDWeak]]"
@@ -22,9 +27,9 @@ OrganizerC
 
 - character\_id: [[Character/OrganizerC|OrganizerC]]
 
-- mesh: null
+- mesh: ExtrasB with organizer texture variant
 
-- narrative\_data: [[Narrative data/Narrative/Narrative0036|Narrative0036]]
+- narrative\_data: [[Narrative data/Narrative/Narrative0036|Narrative0036]],[[Narrative data/Narrative/Narrative0053|Narrative0053]],[[Narrative data/Narrative/Narrative0070|Narrative0070]],[[Narrative data/Narrative/Narrative0087|Narrative0087]],[[Narrative data/Narrative/Narrative0103|Narrative0103]],[[Narrative data/Narrative/Narrative0109|Narrative0109]]
 
 - dialogue\_position: Left
 

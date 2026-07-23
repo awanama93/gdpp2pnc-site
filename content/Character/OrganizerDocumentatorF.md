@@ -1,21 +1,25 @@
 ---
 publish: true
 created: 2026-07-22T15:54:15.776+07:00
-modified: 2026-07-06T14:14:47.943+07:00
-published: 2026-07-06T14:14:47.943+07:00
+modified: 2026-07-24T06:28:22.720+07:00
+published: 2026-07-24T06:28:22.720+07:00
 tags:
   - character
 Dialogue_position:
 Character_ID:
-Mesh:
+Mesh: ExtrasB with organizer texture variant
 Narrative_data:
+  - "[[Narrative0061]]"
+  - "[[Narrative0063]]"
+  - "[[Narrative0077]]"
+  - "[[Narrative0093]]"
 dg-publish: true
-DiceStrength:
-DiceReflex:
-DiceArtistry:
-DiceDeception:
-DiceKnowledge:
-DiceObservation:
+DiceStrength: "[[SDWeak]]"
+DiceReflex: "[[SDWeak]]"
+DiceArtistry: "[[SDFirm]]"
+DiceDeception: "[[SDWeak]]"
+DiceKnowledge: "[[SDMid]]"
+DiceObservation: "[[SDMid]]"
 ---
 
 OrganizerDocumentatorF
@@ -26,18 +30,18 @@ OrganizerDocumentatorF
 
 - character\_id: null
 
-- mesh: null
+- mesh: ExtrasB with organizer texture variant
 
-- narrative\_data: null
+- narrative\_data: [[Narrative data/Narrative/Narrative0061|Narrative0061]],[[Narrative data/Narrative/Narrative0063|Narrative0063]],[[Narrative data/Narrative/Narrative0077|Narrative0077]],[[Narrative data/Narrative/Narrative0093|Narrative0093]]
 
-- dicestrength: null
+- dicestrength: [[Dice/StartingDice/SDWeak|SDWeak]]
 
-- dicereflex: null
+- dicereflex: [[Dice/StartingDice/SDWeak|SDWeak]]
 
-- diceartistry: null
+- diceartistry: [[Dice/StartingDice/SDFirm|SDFirm]]
 
-- dicedeception: null
+- dicedeception: [[Dice/StartingDice/SDWeak|SDWeak]]
 
-- diceknowledge: null
+- diceknowledge: [[Dice/StartingDice/SDMid|SDMid]]
 
-- diceobservation: null
+- diceobservation: [[Dice/StartingDice/SDMid|SDMid]]
