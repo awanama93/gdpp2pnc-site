@@ -1,14 +1,17 @@
 ---
 publish: true
 created: 2026-07-10T11:52:06.730+07:00
-modified: 2026-07-16T16:59:55.930+07:00
-published: 2026-07-16T16:59:55.930+07:00
+modified: 2026-07-22T18:59:38.812+07:00
+published: 2026-07-22T18:59:38.812+07:00
+tags:
+  - response
 Response_ID:
   - "[[Response0085]]"
 Narrative_ID:
+  - "[[Narrative0045]]"
 Response_text:
 Response_completion_status:
-Player_action_description:
+Player_action_description: none
 Opponent_action_description:
 Skill_check_text:
 Response_prerequisite_type:
@@ -26,21 +29,21 @@ Item_Id:
 Succeed_outcome:
 Failed_outcome:
 Neutral_outcome:
-tags:
 Character_ID:
+  - "[[Mangaka]]"
 ---
 
 Response0085
 
 - response\_id: [[Narrative data/Response/Response0085|Response0085]]
 
-- narrative\_id: null
+- narrative\_id: [[Narrative data/Narrative/Narrative0045|Narrative0045]]
 
 - response\_text: null
 
 - response\_completion\_status: null
 
-- player\_action\_description: null
+- player\_action\_description: none
 
 - opponent\_action\_description: null
 
@@ -76,6 +79,6 @@ Response0085
 
 - neutral\_outcome: null
 
-- tags: null
+- tags: response
 
-- character\_id: null
+- character\_id: [[Character/Mangaka|Mangaka]]

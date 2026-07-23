@@ -1,6 +1,9 @@
 ---
-dg-publish: true
 publish: true
+created: 2026-06-20T19:55:19.085+07:00
+modified: 2026-07-21T18:10:47.315+07:00
+published: 2026-07-21T18:10:47.315+07:00
+dg-publish: true
 ---
 
 - Tutorial: antre dan masuk toilet
@@ -13,4 +16,6 @@ publish: true
     - ide kesembronoan: pas ada di booth, dia ngedorong dan ngejatuhin sesuatu, pas di tempat makan, dia ngejatohin barang orang,
 - Yang awalnya ramah ke player pas ada kasus adalah stage host, cosplayer, sama wibu
   - Khususnya keramahan cosplayer sama stage host, untuk setup lomba popularitas di mid story
-  -
+- Variasi texture extras
+- Variasi animasi
+-

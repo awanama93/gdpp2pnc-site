@@ -1,11 +1,14 @@
 ---
+publish: true
+created: 2026-07-01T21:59:55.908+07:00
+modified: 2026-07-23T19:11:56.381+07:00
+published: 2026-07-23T19:11:56.381+07:00
 canvas:
   - "[[_General Plot.canvas]]"
 _General Plot:
   - "[[Bagian 11 Opsi A]]"
   - "[[Bagian 11 Opsi B]]"
 dg-publish: true
-publish: true
 ---
 
 - Bagian 11 Ancaman Stage Host

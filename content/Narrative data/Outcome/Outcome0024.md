@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-04T20:05:16.159+07:00
-modified: 2026-07-07T09:51:31.624+07:00
-published: 2026-07-07T09:51:31.624+07:00
+modified: 2026-07-24T03:34:40.819+07:00
+published: 2026-07-24T03:34:40.819+07:00
 tags:
   - outcome
 Outcome_ID: "[[Outcome0024]]"
@@ -30,6 +30,8 @@ Special_dice_face_2_addition: none
 Special_dice_face_3_addition: none
 Subtract_item_ID: none
 dg-publish: true
+Health_Modifier:
+Sanity_Modifier:
 ---
 
 Outcome0024
@@ -81,3 +83,7 @@ Outcome0024
 - tags: outcome
 
 - subtract\_item\_id: none
+
+- health\_modifier: null
+
+- sanity\_modifier: null

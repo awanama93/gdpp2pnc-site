@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-10T11:56:02.964+07:00
-modified: 2026-07-17T00:59:59.656+07:00
-published: 2026-07-17T00:59:59.656+07:00
+modified: 2026-07-24T03:29:04.360+07:00
+published: 2026-07-24T03:29:04.360+07:00
 tags:
   - outcome
 Outcome_ID: "[[Outcome0098]]"
@@ -31,6 +31,8 @@ Condition_dice_3_influenced_skill_type: any dice containing knowledge buff
 Special_dice_face_1_addition:
 Special_dice_face_2_addition:
 Special_dice_face_3_addition:
+Health_Modifier:
+Sanity_Modifier:
 ---
 
 Outcome0098
@@ -82,3 +84,7 @@ Outcome0098
 - special\_dice\_face\_3\_addition: null
 
 - tags: outcome
+
+- health\_modifier: null
+
+- sanity\_modifier: null

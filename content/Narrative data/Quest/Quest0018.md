@@ -89,6 +89,6 @@ Quest0018
 
 - canvas: [[Plot/_General Plot.canvas|_General Plot.canvas]]
 
-- \_general plot: [[Narrative data/DoorTeleporter/DT0004|DT0004]]
+- \_general plot: [[Location/DoorTeleporter/DT0004|DT0004]]
 
 - starter\_narrative\_id: none

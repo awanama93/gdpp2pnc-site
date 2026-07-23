@@ -90,6 +90,6 @@ Quest0024
 
 - canvas: [[Plot/_General Plot.canvas|_General Plot.canvas]]
 
-- \_general plot: [[Narrative data/LocationChanger/LC0015|LC0015]]
+- \_general plot: [[Location/LocationChanger/LC0015|LC0015]]
 
 - starter\_narrative\_id: none

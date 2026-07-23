@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-10T11:56:02.964+07:00
-modified: 2026-07-17T00:07:38.391+07:00
-published: 2026-07-17T00:07:38.391+07:00
+modified: 2026-07-24T03:29:03.418+07:00
+published: 2026-07-24T03:29:03.418+07:00
 tags:
   - outcome
 Outcome_ID: "[[Outcome0082]]"
@@ -30,6 +30,8 @@ Condition_dice_3_influenced_skill_type: any dice containing reflex buff
 Special_dice_face_1_addition:
 Special_dice_face_2_addition:
 Special_dice_face_3_addition:
+Health_Modifier: "-1"
+Sanity_Modifier: "-1"
 ---
 
 Outcome0082
@@ -81,3 +83,7 @@ Outcome0082
 - special\_dice\_face\_3\_addition: null
 
 - tags: outcome
+
+- health\_modifier: -1
+
+- sanity\_modifier: -1

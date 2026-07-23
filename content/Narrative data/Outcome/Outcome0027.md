@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-07T09:50:41.198+07:00
-modified: 2026-07-17T01:32:10.511+07:00
-published: 2026-07-17T01:32:10.511+07:00
+modified: 2026-07-24T03:34:51.748+07:00
+published: 2026-07-24T03:34:51.748+07:00
 tags:
   - outcome
 Outcome_ID: "[[Outcome0027]]"
@@ -28,6 +28,8 @@ Condition_dice_3_influenced_skill_type: any dice containing observation nerf
 Special_dice_face_1_addition: integer
 Special_dice_face_2_addition: none
 Special_dice_face_3_addition: none
+Health_Modifier:
+Sanity_Modifier: "+1"
 ---
 
 Outcome0027
@@ -79,3 +81,7 @@ Outcome0027
 - special\_dice\_face\_3\_addition: none
 
 - tags: outcome
+
+- health\_modifier: null
+
+- sanity\_modifier: +1

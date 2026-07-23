@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-10T11:56:02.964+07:00
-modified: 2026-07-17T01:32:22.032+07:00
-published: 2026-07-17T01:32:22.032+07:00
+modified: 2026-07-24T03:37:24.363+07:00
+published: 2026-07-24T03:37:24.363+07:00
 tags:
   - outcome
 Outcome_ID: "[[Outcome0075]]"
@@ -29,6 +29,8 @@ Condition_dice_3_influenced_skill_type: any dice containing deception nerf
 Special_dice_face_1_addition: health
 Special_dice_face_2_addition: none
 Special_dice_face_3_addition: none
+Health_Modifier:
+Sanity_Modifier: "+1"
 ---
 
 Outcome0075
@@ -80,3 +82,7 @@ Outcome0075
 - special\_dice\_face\_3\_addition: none
 
 - tags: outcome
+
+- health\_modifier: null
+
+- sanity\_modifier: +1

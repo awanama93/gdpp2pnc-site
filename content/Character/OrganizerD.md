@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-11T16:53:56.575+07:00
-modified: 2026-07-16T17:47:58.036+07:00
-published: 2026-07-16T17:47:58.036+07:00
+modified: 2026-07-21T23:47:11.564+07:00
+published: 2026-07-21T23:47:11.564+07:00
 tags:
   - character
 Character_ID: "[[OrganizerD]]"

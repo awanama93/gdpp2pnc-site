@@ -1,3 +1,6 @@
+filters:
+  and:
+    - file.inFolder("Narrative data/Quest")
 views:
   - type: table
     name: Table
@@ -36,4 +39,28 @@ views:
       note.Hints: 242
       note.Narrative_ID: 341
   - type: table
-    name: View
+    name: StarterView
+    order:
+      - file.name
+      - Quest_name
+      - Starter_prerequisite_type
+      - Starter_item_ID
+      - Starter_Narrative_ID
+      - Starter_quest_ID
+      - Starter_response_ID
+  - type: table
+    name: CompletionView
+    order:
+      - file.name
+      - Quest_name
+      - Completion_prerequisite_type
+      - Completion_item_ID
+      - Completion_item_ID_relation
+      - Completion_outcome_ID
+      - Completion_outcome_ID_relation
+      - Completion_quest_ID
+      - Completion_quest_ID_relation
+      - Completion_response_ID
+      - Completion_response_ID_relation
+      - Narrative_ID
+      - Narrative_ID_relation

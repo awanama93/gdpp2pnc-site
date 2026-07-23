@@ -8,6 +8,7 @@ views:
       - file.name
       - Character_ID
       - Narrative_data
+      - Mesh
       - Dialogue_position
       - DiceStrength
       - DiceReflex

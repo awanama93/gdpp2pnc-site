@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-10T11:56:02.964+07:00
-modified: 2026-07-17T01:32:22.686+07:00
-published: 2026-07-17T01:32:22.686+07:00
+modified: 2026-07-24T03:37:35.895+07:00
+published: 2026-07-24T03:37:35.895+07:00
 tags:
   - outcome
 Outcome_ID: "[[Outcome0076]]"
@@ -29,6 +29,8 @@ Condition_dice_3_influenced_skill_type: any dice containing reflex nerf
 Special_dice_face_1_addition: sanity
 Special_dice_face_2_addition: none
 Special_dice_face_3_addition: none
+Health_Modifier: "+1"
+Sanity_Modifier:
 ---
 
 Outcome0076
@@ -80,3 +82,7 @@ Outcome0076
 - special\_dice\_face\_3\_addition: none
 
 - tags: outcome
+
+- health\_modifier: +1
+
+- sanity\_modifier: null

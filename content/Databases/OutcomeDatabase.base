@@ -6,12 +6,14 @@ views:
     name: Table
     order:
       - file.name
+      - Outcome_ID
       - Outcome_type
       - Response_ID
-      - Outcome_ID
       - Outcome_name
       - Outcome_response
       - EXP_gain
+      - Health_Modifier
+      - Sanity_Modifier
       - Add_item_ID
       - Subtract_item_ID
       - Condition_target_1
@@ -34,6 +36,124 @@ views:
       - property: file.name
         direction: ASC
     columnSize:
-      note.Outcome_ID: 175
+      note.Outcome_ID: 131
       note.Outcome_name: 341
       note.Outcome_response: 327
+  - type: table
+    name: ResponseConnectionView
+    order:
+      - file.name
+      - Outcome_type
+      - Response_ID
+    columnSize:
+      note.Outcome_type: 196
+  - type: table
+    name: EffectView
+    order:
+      - file.name
+      - Outcome_type
+      - Add_item_ID
+      - Subtract_item_ID
+      - Condition_dice 3_type_modification
+      - Condition_dice_1_ID
+      - Condition_dice_1_influenced_skill_type
+      - Condition_dice_1_type_modification
+      - Condition_dice_2_ID
+      - Condition_dice_2_influenced_skill_type
+      - Condition_dice_2_type_modification
+      - Condition_dice_3_ID
+      - Condition_dice_3_influenced_skill_type
+      - Condition_target_1
+      - Condition_target_2
+      - Condition_target_3
+      - EXP_gain
+      - Special_dice_face_1_addition
+      - Special_dice_face_2_addition
+      - Special_dice_face_3_addition
+  - type: table
+    name: OutcomeTextView
+    order:
+      - file.name
+      - Response_ID
+      - Outcome_type
+      - Outcome_name
+      - Outcome_response
+    sort: []
+    columnSize:
+      note.Response_ID: 147
+      note.Outcome_type: 196
+      note.Outcome_name: 190
+      note.Outcome_response: 327
+  - type: table
+    name: HealthSanityView
+    order:
+      - file.name
+      - Response_ID
+      - Health_Modifier
+      - Sanity_Modifier
+  - type: table
+    name: EXPDistributionView
+    order:
+      - file.name
+      - Outcome_type
+      - EXP_gain
+  - type: table
+    name: ConditionDiceView
+    filters:
+      and:
+        - Outcome_type == "Failed response"
+        - Condition_dice_2_influenced_skill_type == "observation"
+    order:
+      - file.name
+      - Outcome_type
+      - Condition_target_1
+      - Condition_dice_1_type_modification
+      - Condition_dice_1_influenced_skill_type
+      - Condition_dice_1_ID
+      - Condition_target_2
+      - Condition_dice_2_type_modification
+      - Condition_dice_2_influenced_skill_type
+      - Condition_dice_2_ID
+      - Condition_target_3
+      - Condition_dice 3_type_modification
+      - Condition_dice_3_influenced_skill_type
+      - Condition_dice_3_ID
+  - type: table
+    name: CustomConditionDiceView
+    filters:
+      or:
+        - or:
+            - file.name.contains("0056")
+            - file.name.contains("0079")
+            - file.name.contains("0148")
+            - file.name.contains("0155")
+            - file.name.contains("0289")
+            - file.name.contains("0068")
+            - file.name.contains("0070")
+            - file.name.contains("0075")
+            - file.name.contains("0090")
+            - file.name.contains("0091")
+            - file.name.contains("0094")
+            - file.name.contains("0097")
+            - file.name.contains("0117")
+            - file.name.contains("0158")
+            - file.name.contains("0164")
+            - file.name.contains("0166")
+            - file.name.contains("0178")
+            - file.name.contains("0196")
+            - file.name.contains("0205")
+            - file.name.contains("0207")
+            - file.name.contains("0212")
+            - file.name.contains("0280")
+            - file.name.contains("0286")
+    order:
+      - file.name
+      - Condition_target_1
+      - Condition_dice_1_type_modification
+      - Condition_dice_1_influenced_skill_type
+      - Condition_target_2
+      - Condition_dice_2_type_modification
+      - Condition_dice_2_influenced_skill_type
+      - Condition_target_3
+      - Condition_dice 3_type_modification
+      - Condition_dice_3_influenced_skill_type

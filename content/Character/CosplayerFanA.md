@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-09T20:12:20.367+07:00
-modified: 2026-07-16T17:47:39.519+07:00
-published: 2026-07-16T17:47:39.519+07:00
+modified: 2026-07-21T23:47:11.024+07:00
+published: 2026-07-21T23:47:11.024+07:00
 tags:
   - character
 Dialogue_position: Left

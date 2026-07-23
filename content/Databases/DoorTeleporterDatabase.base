@@ -1,6 +1,6 @@
 filters:
   and:
-    - file.inFolder("Narrative data/DoorTeleporter")
+    - file.inFolder("Location/DoorTeleporter")
 views:
   - type: table
     name: Table
@@ -36,6 +36,9 @@ views:
       - D7TeleporterName
       - D7TeleporterNewStatus
       - tags
+    sort:
+      - property: file.name
+        direction: ASC
     columnSize:
       file.name: 134
       note.DT1DoorName: 228

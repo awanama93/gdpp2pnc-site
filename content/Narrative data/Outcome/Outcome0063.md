@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-10T11:04:36.528+07:00
-modified: 2026-07-17T01:32:17.262+07:00
-published: 2026-07-17T01:32:17.262+07:00
+modified: 2026-07-24T03:36:38.702+07:00
+published: 2026-07-24T03:36:38.702+07:00
 tags:
   - outcome
 Outcome_ID: "[[Outcome0063]]"
@@ -29,6 +29,8 @@ Condition_dice_3_influenced_skill_type: any dice containing observation nerf
 Special_dice_face_1_addition: pin exp
 Special_dice_face_2_addition: none
 Special_dice_face_3_addition: none
+Health_Modifier:
+Sanity_Modifier: "+1"
 ---
 
 Outcome0063
@@ -80,3 +82,7 @@ Outcome0063
 - special\_dice\_face\_3\_addition: none
 
 - tags: outcome
+
+- health\_modifier: null
+
+- sanity\_modifier: +1

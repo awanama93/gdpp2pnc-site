@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-06-22T13:53:49.493+07:00
-modified: 2026-07-07T15:37:35.922+07:00
-published: 2026-07-07T15:37:35.922+07:00
+modified: 2026-07-21T12:52:28.995+07:00
+published: 2026-07-21T12:52:28.995+07:00
 dg-publish: true
 ---
 
@@ -32,7 +32,7 @@ dg-publish: true
   - The player pergi ke food court area untuk mencari tahu tentang insiden yang dibahas Vlogger.
   - Di sana orang-orang berdesas-desus tentang jaringan internet yang sangat buruk sehingga memperlambat proses pembayaran yang membuat antrean memanjang.
   - Selain antrean tersebut, ternyata juga ada kerumunan orang yang mengelilingi Cosplayer yang sedang istirahat makan. Orang-orang itu adalah fansnya. Vlogger sedang merekam momen itu.
-  - Di sana juga The player mendapatkan informasi dari Stage host kalau dia sempat mendapatkan kabar kalau ada orang yang sempat melihat SD card tergeletak di meja makan tidak lama sebelum Vlogger buat story itu.
+  - BIG HINT: Di sana juga The player mendapatkan informasi dari Stage host kalau dia sempat mendapatkan kabar kalau ada orang yang sempat melihat SD card tergeletak di meja makan tidak lama sebelum Vlogger buat story itu.
   - Food vendor tidak mendengar apa-apa soal SD card Vlogger. Sebab, dia fokus pada masalahnya sendiri, yaitu jaringan internet yang buruk yang membuat proses pelayanan pembeli jadi sangat lambat. Food vendor menyatakan dia sudah melapor pada organizer tentang ini. Dia juga sebenarnya sudah menyarankan pada Head organizer, yang adalah temannya, agar mempersiapkan lebih matang soal jaringan internet untuk eventnya. Sebab, di acara seperti ini internet pasti akan lumayan lambat kalau tidak diurus dengan baik. Tetapi, Head organizer tidak begitu mempedulikannya. Curhatannya tentang jaringan internet itu malah justru lebih didengarkan oleh Stage host.
   - Di tengah kerumunan terjadi insiden antrean makanan terlalu heboh sehingga mendorong kerumunan di sekeliling Cosplayer. Dampaknya, The player terdorong dan merusak properti milik Cosplayer. Fans Cosplayer marah pada The player maupun orang yang mengantre makan di tempat Food vendor.
   - Lalu, datang Security organizer yang mau menenangkan keributan. The player juga karena merasa bertanggung jawab, berusaha menenangkan. Tetapi kerumunan terlalu marah.
@@ -65,13 +65,13 @@ dg-publish: true
   - Sepanjang pembicaraan itu, The player menyampaikan bahwa Security organizer mencarinya. Head organizer bilang kalau Security organizer sangat bisa diandalkan. Ketika ada masalah, dia bisa handle masalah itu. Lalu, Head organizer mengatakan kalau Musician itu sangat keren dan berbakat. Tidak seperti orang tertentu yang hanya bisa bicara di atas panggung demi popularitas.
   - The player mengonfrontasinya dengan menyatakan bahwa Security organizer sebenarnya membutuhkan kehadiran Head organizer.
   - Pembicaraan itu membuat suasana menjadi canggung. Ketika itulah penampilan Musician selesai, dan Musician turun dari panggung. The player melihat Head organizer berpamitan mesra pada Musician, lalu Head organizer pergi, sementara Musician masih diam di pinggir panggung.
-  - Lalu The player bertanya pada Musician tentang apakah dia sempat melihat Vlogger mengotak-atik SD cardnya. Dia bilang dia tidak begitu memperthatikan. Tapi ada hal dari omongannya dan gesturnya yang kurang meyakinkan. Apalagi ketika The player membahas soal Stage host pada Musician. The player tidak bertanya lebih lanjut
+  - BIG HINT: Lalu The player bertanya pada Musician tentang apakah dia sempat melihat Vlogger mengotak-atik SD cardnya. Dia bilang dia tidak begitu memperthatikan. Tapi ada hal dari omongannya dan gesturnya yang kurang meyakinkan. Apalagi ketika The player membahas soal Stage host pada Musician. The player tidak bertanya lebih lanjut
   - Maka The player pergi dari situ untuk memberikan sampel exclusive merch ke Mangaka.
 
 - [[Bagian 8 the merch (part 2)]]
   - Di convention area, saat The player berjalan menuju booth Mangaka, dia merasakan tatapan negatif dan desas-desus sinis orang-orang. Desas-desus itu seperti "Itu kan orang yang bikin rusuh di food court" atau "Malu-maluin aja! Bikin ribut di acara orang." The player mengabaikan hal itu. Tapi saat dia berusaha menembus keramaian untuk masuk ke booth Mangaka, dia mendengar orang-orang berkata,"Gak usah bikin rusuh lagi!" Walaupun begitu, dia berhasil menghampiri Mangaka.
   - Mangaka berterima kasih pada The player. Dia menyatakan kalau kasihan juga Cosplayer jadi kena hujatan gara-gara persepsi orang. Dia juga menyatakan salah satu faktor terbesarnya memang gara-gara jaringan internet. Kalau orang bisa akses internet lebih lancar, akan lebih beragam lagi konten yang keluar bersamaan tentang The Convention sehingga tidak akan ada kesan Cosplayer dan Vlogger mengambil sorotan. Dia juga bilang ketika dia ke food court, dia sempat mengobrol lama dengan Vlogger yang sedang antre menunggu beli makan di food court yang berujung terjadi insiden itu. Semua itu gara-gara jaringan internet seperti mati total dalam waktu yang cukup lama.
-  - LAST HINT: Di momen itulah The player teringat pada informasi dari Stage host soal dia dapat kabar tentang SD card yang tergeletak di meja tidak lama sebelum Vlogger buat instagram story. Bagaimana dia bisa membuat story jika internet sedang mati total?
+  - LAST BIG HINT: Di momen itulah The player teringat pada informasi dari Stage host soal dia dapat kabar tentang SD card yang tergeletak di meja tidak lama sebelum Vlogger buat instagram story. Bagaimana dia bisa membuat story jika internet sedang mati total?
 
 - [[Bagian 9 Report]]
   - Maka The player segera mencari Security organizer. Ketika dia bertemu dengan Security organizer, dia meminta bicara di tempat yang aman. Maka mereka pergi ke organizer room.

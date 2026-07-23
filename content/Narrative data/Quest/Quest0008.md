@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-02T22:27:23.152+07:00
-modified: 2026-07-11T20:25:05.214+07:00
-published: 2026-07-11T20:25:05.214+07:00
+modified: 2026-07-22T15:25:10.217+07:00
+published: 2026-07-22T15:25:10.217+07:00
 tags:
   - quest
 Quest_ID: "[[Quest0008]]"
@@ -27,6 +27,7 @@ canvas:
   - "[[_General Plot.canvas]]"
 _General Plot:
   - "[[Quest0009]]"
+  - "[[LC0003]]"
   - "[[LC0003]]"
 dg-publish: true
 Completion_quest_ID_relation: none
@@ -76,7 +77,7 @@ Quest0008
 
 - canvas: [[Plot/_General Plot.canvas|_General Plot.canvas]]
 
-- \_general plot: [[Narrative data/Quest/Quest0009|Quest0009]],[[Narrative data/LocationChanger/LC0003|LC0003]]
+- \_general plot: [[Narrative data/Quest/Quest0009|Quest0009]],[[Location/LocationChanger/LC0003|LC0003]],[[Location/LocationChanger/LC0003|LC0003]]
 
 - completion\_quest\_id\_relation: none
 

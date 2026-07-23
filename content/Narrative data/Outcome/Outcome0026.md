@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-04T21:25:37.156+07:00
-modified: 2026-07-07T09:51:34.985+07:00
-published: 2026-07-07T09:51:34.985+07:00
+modified: 2026-07-24T04:01:33.270+07:00
+published: 2026-07-24T04:01:33.270+07:00
 tags:
   - outcome
 Outcome_ID: "[[Outcome0026]]"
@@ -11,7 +11,7 @@ Response_ID:
 Outcome_name: Give precious item
 Outcome_type: Any response
 Outcome_response: You give precious item to Guest A
-EXP_gain: 3
+EXP_gain: "1"
 Add_item_ID: none
 Condition_target_1: none
 Condition_dice_1_type_modification: none
@@ -30,6 +30,8 @@ Special_dice_face_2_addition: none
 Special_dice_face_3_addition: none
 Subtract_item_ID: "[[Item0002]]"
 dg-publish: true
+Health_Modifier:
+Sanity_Modifier:
 ---
 
 Outcome0026
@@ -44,7 +46,7 @@ Outcome0026
 
 - outcome\_response: You give precious item to Guest A
 
-- exp\_gain: 3
+- exp\_gain: 1
 
 - add\_item\_id: none
 
@@ -81,3 +83,7 @@ Outcome0026
 - tags: outcome
 
 - subtract\_item\_id: [[Narrative data/Item/Item0002|Item0002]]
+
+- health\_modifier: null
+
+- sanity\_modifier: null

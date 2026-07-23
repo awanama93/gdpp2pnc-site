@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-04T21:13:40.927+07:00
-modified: 2026-07-07T09:51:33.214+07:00
-published: 2026-07-07T09:51:33.214+07:00
+modified: 2026-07-24T04:01:38.298+07:00
+published: 2026-07-24T04:01:38.298+07:00
 tags:
   - outcome
 Outcome_ID: "[[Outcome0025]]"
@@ -11,7 +11,7 @@ Response_ID:
 Outcome_name: Get precious item
 Outcome_type: Any response
 Outcome_response: You get precious item from Guest D, check your inventory tab
-EXP_gain: 3
+EXP_gain: "1"
 Add_item_ID: "[[Item0002]]"
 Condition_target_1: none
 Condition_dice_1_type_modification: none
@@ -30,6 +30,8 @@ Special_dice_face_2_addition: none
 Special_dice_face_3_addition: none
 Subtract_item_ID: none
 dg-publish: true
+Health_Modifier:
+Sanity_Modifier:
 ---
 
 Outcome0025
@@ -44,7 +46,7 @@ Outcome0025
 
 - outcome\_response: You get precious item from Guest D, check your inventory tab
 
-- exp\_gain: 3
+- exp\_gain: 1
 
 - add\_item\_id: [[Narrative data/Item/Item0002|Item0002]]
 
@@ -81,3 +83,7 @@ Outcome0025
 - tags: outcome
 
 - subtract\_item\_id: none
+
+- health\_modifier: null
+
+- sanity\_modifier: null

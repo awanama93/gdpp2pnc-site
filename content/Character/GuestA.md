@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-02T18:56:39.582+07:00
-modified: 2026-07-11T16:14:02.410+07:00
-published: 2026-07-11T16:14:02.410+07:00
+modified: 2026-07-21T22:41:21.023+07:00
+published: 2026-07-21T22:41:21.023+07:00
 tags:
   - character
 Character_ID: "[[GuestA]]"

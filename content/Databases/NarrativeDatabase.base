@@ -18,7 +18,24 @@ views:
       - tags
     sort: []
     columnSize:
-      note.Narrative_ID: 126
-      note.Narrative_name: 209
+      note.Narrative_ID: 133
+      note.Narrative_name: 173
       note.Exposition: 434
       note.Responses: 334
+  - type: table
+    name: ResponseView
+    order:
+      - file.name
+      - Responses
+      - Response_ID_relation
+    columnSize:
+      note.Responses: 323
+  - type: table
+    name: ResponseExpositionView
+    order:
+      - file.name
+      - Responses
+      - Exposition
+    columnSize:
+      note.Responses: 319
+      note.Exposition: 434

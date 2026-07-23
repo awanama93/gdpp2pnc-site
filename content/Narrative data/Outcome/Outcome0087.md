@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-10T11:56:02.964+07:00
-modified: 2026-07-17T01:24:16.772+07:00
-published: 2026-07-17T01:24:16.772+07:00
+modified: 2026-07-24T03:29:03.754+07:00
+published: 2026-07-24T03:29:03.754+07:00
 tags:
   - outcome
 Outcome_ID: "[[Outcome0087]]"
@@ -29,6 +29,8 @@ Condition_dice_3_influenced_skill_type: none
 Special_dice_face_1_addition: sanity
 Special_dice_face_2_addition: none
 Special_dice_face_3_addition: none
+Health_Modifier:
+Sanity_Modifier:
 ---
 
 Outcome0087
@@ -80,3 +82,7 @@ Outcome0087
 - special\_dice\_face\_3\_addition: none
 
 - tags: outcome
+
+- health\_modifier: null
+
+- sanity\_modifier: null

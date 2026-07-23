@@ -8,6 +8,34 @@ properties:
     displayName: Item_ID_prerequisite
 views:
   - type: table
+    name: BaseView
+    order:
+      - file.name
+      - Response_ID
+      - Narrative_ID
+      - Character_ID
+      - Response_completion_status
+      - Response_text
+      - Player_action_description
+      - Opponent_action_description
+      - Skill_check_text
+      - Response_prerequisite_type
+      - Prerequisite_quest_ID
+      - Quest_ID_prerequisite_relation
+      - Outcome_ID_prerequisite
+      - Outcome_ID_prerequisite_relation
+      - Prerequisite_item_ID
+      - Item_ID_prerequisite_relation
+      - Item_check?
+      - Item_Id
+      - Skill_check?
+      - Skill_type
+      - Multiple_skill_check_attempt?
+      - Succeed_outcome
+      - Neutral_outcome
+      - Failed_outcome
+      - tags
+  - type: table
     name: FilteredView
     filters:
       and:
@@ -46,30 +74,101 @@ views:
       note.Multiple_skill_check_attempt?: 95
       note.Item_Id: 120
   - type: table
-    name: BaseView
+    name: TextDataView
     order:
       - file.name
-      - Response_ID
-      - Narrative_ID
       - Character_ID
-      - Response_completion_status
+      - Narrative_ID
       - Response_text
       - Player_action_description
       - Opponent_action_description
       - Skill_check_text
-      - Response_prerequisite_type
-      - Prerequisite_quest_ID
-      - Quest_ID_prerequisite_relation
-      - Outcome_ID_prerequisite
-      - Outcome_ID_prerequisite_relation
-      - Prerequisite_item_ID
-      - Item_ID_prerequisite_relation
-      - Item_check?
-      - Item_Id
+    columnSize:
+      note.Character_ID: 135
+      note.Response_text: 193
+      note.Player_action_description: 110
+      note.Skill_check_text: 210
+  - type: table
+    name: SkillCheckNOutcomeView
+    order:
+      - file.name
+      - Narrative_ID
+      - Skill_check_text
       - Skill_check?
       - Skill_type
-      - Multiple_skill_check_attempt?
       - Succeed_outcome
       - Neutral_outcome
       - Failed_outcome
-      - tags
+    columnSize:
+      note.Skill_check_text: 246
+  - type: table
+    name: PrerequisiteView
+    order:
+      - file.name
+      - Narrative_ID
+      - Response_prerequisite_type
+      - Prerequisite_item_ID
+      - Item_ID_prerequisite_relation
+      - Outcome_ID_prerequisite
+      - Outcome_ID_prerequisite_relation
+      - Prerequisite_quest_ID
+      - Quest_ID_prerequisite_relation
+  - type: table
+    name: SkillTypeAssignView
+    filters:
+      and:
+        - Player_action_description != "none"
+    order:
+      - file.name
+      - Character_ID
+      - Response_text
+      - Player_action_description
+      - Skill_check?
+      - Skill_type
+      - Skill_check_text
+    rowHeight: medium
+    columnSize:
+      note.Character_ID: 93
+      note.Response_text: 156
+      note.Player_action_description: 110
+      note.Skill_check?: 62
+      note.Skill_check_text: 246
+  - type: table
+    name: OutcomeOnlyView
+    order:
+      - file.name
+      - Succeed_outcome
+      - Neutral_outcome
+      - Failed_outcome
+  - type: table
+    name: ItemOwnershipTypeView
+    order:
+      - file.name
+      - Response_prerequisite_type
+      - Item_ID_prerequisite_relation
+      - Prerequisite_item_ID
+  - type: table
+    name: OutcomeTypeView
+    order:
+      - file.name
+      - Response_prerequisite_type
+      - Outcome_ID_prerequisite
+      - Outcome_ID_prerequisite_relation
+  - type: table
+    name: QuestPrerequisiteTypeView
+    order:
+      - file.name
+      - Response_prerequisite_type
+      - Prerequisite_quest_ID
+      - Quest_ID_prerequisite_relation
+  - type: table
+    name: SkillTypeOnlyView
+    filters:
+      and:
+        - Skill_type != "none"
+        - "!Skill_type.isEmpty()"
+        - Skill_type == "reflex"
+    order:
+      - file.name
+      - Skill_type
+      - Failed_outcome

@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-07T13:16:25.233+07:00
-modified: 2026-07-17T01:20:22.487+07:00
-published: 2026-07-17T01:20:22.487+07:00
+modified: 2026-07-24T03:29:01.454+07:00
+published: 2026-07-24T03:29:01.454+07:00
 tags:
   - outcome
 Outcome_ID: "[[Outcome0054]]"
@@ -29,6 +29,8 @@ Condition_dice_3_influenced_skill_type: none
 Special_dice_face_1_addition: integer
 Special_dice_face_2_addition: none
 Special_dice_face_3_addition: none
+Health_Modifier:
+Sanity_Modifier:
 ---
 
 Outcome0054
@@ -80,3 +82,7 @@ Outcome0054
 - special\_dice\_face\_3\_addition: none
 
 - tags: outcome
+
+- health\_modifier: null
+
+- sanity\_modifier: null

@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-11T16:38:23.926+07:00
-modified: 2026-07-11T20:37:47.761+07:00
-published: 2026-07-11T20:37:47.761+07:00
+modified: 2026-07-22T15:25:10.340+07:00
+published: 2026-07-22T15:25:10.340+07:00
 tags:
   - quest
 Quest_ID: "[[Quest0026]]"
@@ -34,6 +34,7 @@ Narrative_ID_relation: is
 canvas:
   - "[[_General Plot.canvas]]"
 _General Plot:
+  - "[[LC0017]]"
   - "[[LC0017]]"
 Starter_Narrative_ID: "[[Narrative0041]]"
 ---
@@ -88,6 +89,6 @@ Quest0026
 
 - canvas: [[Plot/_General Plot.canvas|_General Plot.canvas]]
 
-- \_general plot: [[Narrative data/LocationChanger/LC0017|LC0017]]
+- \_general plot: [[Location/LocationChanger/LC0017|LC0017]],[[Location/LocationChanger/LC0017|LC0017]]
 
 - starter\_narrative\_id: [[Narrative data/Narrative/Narrative0041|Narrative0041]]

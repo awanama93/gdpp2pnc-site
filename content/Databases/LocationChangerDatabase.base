@@ -1,6 +1,6 @@
 filters:
   and:
-    - file.inFolder("Narrative data/LocationChanger")
+    - file.inFolder("Location/LocationChanger")
 views:
   - type: table
     name: Table

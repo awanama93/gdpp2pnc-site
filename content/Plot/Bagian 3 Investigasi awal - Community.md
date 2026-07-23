@@ -1,10 +1,10 @@
 ---
 canvas:
   - "[[_General Plot.canvas]]"
-_General Plot:
-  - "[[Bagian 4 Insiden Jaringan Food Court]]"
 dg-publish: true
 publish: true
+_General Plot:
+  - "[[Bagian 4 Insiden Jaringan Food Court]]"
 ---
 
 - Bagian 3 Investigasi awal - Community

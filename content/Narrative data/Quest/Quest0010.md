@@ -79,7 +79,7 @@ Quest0010
 
 - canvas: [[Plot/_General Plot.canvas|_General Plot.canvas]]
 
-- \_general plot: [[Narrative data/Quest/Quest0011|Quest0011]],[[Narrative data/LocationChanger/LC0005|LC0005]]
+- \_general plot: [[Narrative data/Quest/Quest0011|Quest0011]],[[Location/LocationChanger/LC0005|LC0005]]
 
 - completion\_quest\_id\_relation: none
 

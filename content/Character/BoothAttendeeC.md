@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-11T16:56:53.405+07:00
-modified: 2026-07-16T17:48:06.049+07:00
-published: 2026-07-16T17:48:06.049+07:00
+modified: 2026-07-21T23:47:10.986+07:00
+published: 2026-07-21T23:47:10.986+07:00
 tags:
   - character
 Character_ID: "[[BoothAttendeeC]]"

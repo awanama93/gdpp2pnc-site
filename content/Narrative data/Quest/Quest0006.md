@@ -77,7 +77,7 @@ Quest0006
 
 - canvas: [[Plot/_General Plot.canvas|_General Plot.canvas]]
 
-- \_general plot: [[Narrative data/Quest/Quest0007|Quest0007]],[[Narrative data/DoorTeleporter/DT0002|DT0002]],[[Narrative data/DoorTeleporter/DT0001|DT0001]]
+- \_general plot: [[Narrative data/Quest/Quest0007|Quest0007]],[[Location/DoorTeleporter/DT0002|DT0002]],[[Location/DoorTeleporter/DT0001|DT0001]]
 
 - completion\_quest\_id\_relation: is
 

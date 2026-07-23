@@ -1,18 +1,23 @@
 ---
 publish: true
 created: 2026-07-11T16:38:23.926+07:00
-modified: 2026-07-11T20:25:06.099+07:00
-published: 2026-07-11T20:25:06.099+07:00
+modified: 2026-07-23T15:33:28.384+07:00
+published: 2026-07-23T15:33:28.384+07:00
+tags:
+  - quest
 Quest_ID: "[[Quest0028]]"
-Quest_name:
-Quest_type:
+Quest_name: Find Info about the Real Culprit
+Quest_type: main quest
 Status:
-Quest_description:
+Quest_description: You have to find information about the real culprit
 Hints:
-Starter_prerequisite_type:
-Starter_item_ID:
-Starter_quest_ID:
-Starter_response_ID:
+  - "[[Hint0054]]"
+  - "[[Hint0061]]"
+  - "[[Hint0062]]"
+Starter_prerequisite_type: Quest completion
+Starter_item_ID: none
+Starter_quest_ID: "[[Quest0025]]"
+Starter_response_ID: none
 Completion_prerequisite_type:
 Completion_quest_ID:
 Completion_quest_ID_relation:
@@ -25,31 +30,34 @@ Completion_response_ID_relation:
 Skill_check_result:
 Narrative_ID:
 Narrative_ID_relation:
-tags:
 Starter_Narrative_ID: none
+canvas:
+  - "[[_General Plot.canvas]]"
+_General Plot:
+  - "[[Quest0029]]"
 ---
 
 Quest0028
 
 - quest\_id: [[Narrative data/Quest/Quest0028|Quest0028]]
 
-- quest\_name: null
+- quest\_name: Find Info about the Real Culprit
 
-- quest\_type: null
+- quest\_type: main quest
 
 - status: null
 
-- quest\_description: null
+- quest\_description: You have to find information about the real culprit
 
-- hints: null
+- hints: [[Narrative data/Hint/Hint0054|Hint0054]],[[Narrative data/Hint/Hint0061|Hint0061]],[[Narrative data/Hint/Hint0062|Hint0062]]
 
-- starter\_prerequisite\_type: null
+- starter\_prerequisite\_type: Quest completion
 
-- starter\_item\_id: null
+- starter\_item\_id: none
 
-- starter\_quest\_id: null
+- starter\_quest\_id: [[Narrative data/Quest/Quest0025|Quest0025]]
 
-- starter\_response\_id: null
+- starter\_response\_id: none
 
 - completion\_prerequisite\_type: null
 
@@ -75,6 +83,10 @@ Quest0028
 
 - narrative\_id\_relation: null
 
-- tags: null
+- tags: quest
 
 - starter\_narrative\_id: none
+
+- canvas: [[Plot/_General Plot.canvas|_General Plot.canvas]]
+
+- \_general plot: [[Narrative data/Quest/Quest0029|Quest0029]]
