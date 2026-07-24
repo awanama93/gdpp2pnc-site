@@ -33,3 +33,55 @@ Sanity_Modifier:
 ---
 
 Outcome0284
+
+- outcome\_id: null
+
+- outcome\_type: Succeed or neutral response
+
+- response\_id: [[Narrative data/Response/Response0201|Response0201]]
+
+- outcome\_name: Slammed but Angry at trio
+
+- outcome\_response: She's slammed by the fact but still angry at Vlogger, Cosplayer, and Mangaka
+
+- exp\_gain: 5
+
+- add\_item\_id: null
+
+- subtract\_item\_id: null
+
+- condition\_target\_1: Player
+
+- condition\_dice\_1\_type\_modification: addition
+
+- condition\_dice\_1\_id: [[Dice/DPBResolute|DPBResolute]]
+
+- condition\_dice\_1\_influenced\_skill\_type: strength
+
+- condition\_target\_2: Opponent
+
+- condition\_dice\_2\_type\_modification: addition
+
+- condition\_dice\_2\_id: [[Dice/DONReckless|DONReckless]]
+
+- condition\_dice\_2\_influenced\_skill\_type: knowledge
+
+- condition\_target\_3: Opponent
+
+- condition\_dice\_3\_id: null
+
+- condition\_dice 3\_type\_modification: subtraction
+
+- condition\_dice\_3\_influenced\_skill\_type: any dice containing artistry buff
+
+- special\_dice\_face\_1\_addition: null
+
+- special\_dice\_face\_2\_addition: null
+
+- special\_dice\_face\_3\_addition: null
+
+- tags: null
+
+- health\_modifier: +1
+
+- sanity\_modifier: null

@@ -32,16 +32,56 @@ Health_Modifier:
 Sanity_Modifier:
 ---
 
-```datacorejsx
+Outcome0258
 
-return function TitleHeader() {
+- outcome\_id: null
 
-const file = dc.useCurrentFile();
+- outcome\_type: Succeed or neutral response
 
-if (!file) return null;
+- response\_id: [[Narrative data/Response/Response0184|Response0184]]
 
-// file.$name contains the clean string of the note title
+- outcome\_name: Reveal in defeat
 
-return <h1>{file.$name}</h1>; }
+- outcome\_response: Finally in defeat she tells you the reason Stage Host did that
 
-```
+- exp\_gain: 5
+
+- add\_item\_id: null
+
+- subtract\_item\_id: null
+
+- condition\_target\_1: Player
+
+- condition\_dice\_1\_type\_modification: addition
+
+- condition\_dice\_1\_id: [[Dice/DPBUnshakable|DPBUnshakable]]
+
+- condition\_dice\_1\_influenced\_skill\_type: deception
+
+- condition\_target\_2: Opponent
+
+- condition\_dice\_2\_type\_modification: addition
+
+- condition\_dice\_2\_id: [[Dice/DONStrained|DONStrained]]
+
+- condition\_dice\_2\_influenced\_skill\_type: reflex
+
+- condition\_target\_3: Opponent
+
+- condition\_dice\_3\_id: null
+
+- condition\_dice 3\_type\_modification: subtraction
+
+- condition\_dice\_3\_influenced\_skill\_type: any dice containing knowledge buff
+
+- special\_dice\_face\_1\_addition: null
+
+- special\_dice\_face\_2\_addition: null
+
+- special\_dice\_face\_3\_addition: null
+
+- tags: null
+
+- health\_modifier: null
+
+- sanity\_modifier: null

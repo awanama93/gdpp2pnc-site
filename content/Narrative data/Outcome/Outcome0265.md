@@ -33,3 +33,55 @@ Sanity_Modifier: "-1"
 ---
 
 Outcome0265
+
+- outcome\_id: null
+
+- outcome\_type: Failed response
+
+- response\_id: [[Narrative data/Response/Response0187|Response0187]]
+
+- outcome\_name: Will bring Musician
+
+- outcome\_response: She says she will bring Musician
+
+- exp\_gain: 2
+
+- add\_item\_id: null
+
+- subtract\_item\_id: null
+
+- condition\_target\_1: Player
+
+- condition\_dice\_1\_type\_modification: addition
+
+- condition\_dice\_1\_id: [[Dice/DPNVulnerable|DPNVulnerable]]
+
+- condition\_dice\_1\_influenced\_skill\_type: deception
+
+- condition\_target\_2: Opponent
+
+- condition\_dice\_2\_type\_modification: addition
+
+- condition\_dice\_2\_id: [[Dice/DOBMasterful|DOBMasterful]]
+
+- condition\_dice\_2\_influenced\_skill\_type: reflex
+
+- condition\_target\_3: Player
+
+- condition\_dice\_3\_id: null
+
+- condition\_dice 3\_type\_modification: subtraction
+
+- condition\_dice\_3\_influenced\_skill\_type: any dice containing knowledge buff
+
+- special\_dice\_face\_1\_addition: null
+
+- special\_dice\_face\_2\_addition: null
+
+- special\_dice\_face\_3\_addition: null
+
+- tags: null
+
+- health\_modifier: null
+
+- sanity\_modifier: -1

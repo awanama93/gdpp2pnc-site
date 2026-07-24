@@ -33,3 +33,55 @@ Sanity_Modifier: "-1"
 ---
 
 Outcome0248
+
+- outcome\_id: [[Narrative data/Outcome/Outcome0248|Outcome0248]]
+
+- outcome\_type: Failed response
+
+- response\_id: [[Narrative data/Response/Response0177|Response0177]]
+
+- outcome\_name: Ask for explanation
+
+- outcome\_response: He still asks for your explanation
+
+- exp\_gain: 2
+
+- add\_item\_id: null
+
+- subtract\_item\_id: null
+
+- condition\_target\_1: Player
+
+- condition\_dice\_1\_type\_modification: addition
+
+- condition\_dice\_1\_id: [[Dice/DPNDrained|DPNDrained]]
+
+- condition\_dice\_1\_influenced\_skill\_type: deception
+
+- condition\_target\_2: Opponent
+
+- condition\_dice\_2\_type\_modification: addition
+
+- condition\_dice\_2\_id: [[Dice/DOBRestless|DOBRestless]]
+
+- condition\_dice\_2\_influenced\_skill\_type: reflex
+
+- condition\_target\_3: Player
+
+- condition\_dice\_3\_id: null
+
+- condition\_dice 3\_type\_modification: subtraction
+
+- condition\_dice\_3\_influenced\_skill\_type: any dice containing knowledge buff
+
+- special\_dice\_face\_1\_addition: null
+
+- special\_dice\_face\_2\_addition: null
+
+- special\_dice\_face\_3\_addition: null
+
+- tags: null
+
+- health\_modifier: null
+
+- sanity\_modifier: -1

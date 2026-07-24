@@ -32,16 +32,56 @@ Health_Modifier:
 Sanity_Modifier: "-1"
 ---
 
-```datacorejsx
+Outcome0255
 
-return function TitleHeader() {
+- outcome\_id: null
 
-const file = dc.useCurrentFile();
+- outcome\_type: Failed response
 
-if (!file) return null;
+- response\_id: [[Narrative data/Response/Response0182|Response0182]]
 
-// file.$name contains the clean string of the note title
+- outcome\_name: Complicity denial firmly
 
-return <h1>{file.$name}</h1>; }
+- outcome\_response: She firmly says she doesn't comply in any crime
 
-```
+- exp\_gain: 2
+
+- add\_item\_id: null
+
+- subtract\_item\_id: null
+
+- condition\_target\_1: Player
+
+- condition\_dice\_1\_type\_modification: addition
+
+- condition\_dice\_1\_id: [[Dice/DPNDrained|DPNDrained]]
+
+- condition\_dice\_1\_influenced\_skill\_type: knowledge
+
+- condition\_target\_2: Opponent
+
+- condition\_dice\_2\_type\_modification: addition
+
+- condition\_dice\_2\_id: [[Dice/DOBInspired|DOBInspired]]
+
+- condition\_dice\_2\_influenced\_skill\_type: artistry
+
+- condition\_target\_3: Player
+
+- condition\_dice\_3\_id: null
+
+- condition\_dice 3\_type\_modification: subtraction
+
+- condition\_dice\_3\_influenced\_skill\_type: any dice containing observation buff
+
+- special\_dice\_face\_1\_addition: null
+
+- special\_dice\_face\_2\_addition: null
+
+- special\_dice\_face\_3\_addition: null
+
+- tags: null
+
+- health\_modifier: null
+
+- sanity\_modifier: -1

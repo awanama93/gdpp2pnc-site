@@ -42,3 +42,55 @@ Starter_Narrative_ID: none
 ---
 
 Quest0021
+
+- quest\_id: [[Narrative data/Quest/Quest0021|Quest0021]]
+
+- quest\_name: Check out again the newest work from The Mangaka
+
+- quest\_type: main quest
+
+- status: null
+
+- quest\_description: The Mangaka recently released a new work that is recognized internationally. Check that out
+
+- hints: [[Narrative data/Hint/Hint0039|Hint0039]],[[Narrative data/Hint/Hint0040|Hint0040]],[[Narrative data/Hint/Hint0041|Hint0041]]
+
+- starter\_prerequisite\_type: Quest completion
+
+- starter\_item\_id: none
+
+- starter\_quest\_id: [[Narrative data/Quest/Quest0018|Quest0018]]
+
+- starter\_response\_id: none
+
+- completion\_prerequisite\_type: Narrative completion
+
+- completion\_quest\_id: none
+
+- completion\_quest\_id\_relation: none
+
+- completion\_item\_id: none
+
+- completion\_item\_id\_relation: none
+
+- completion\_outcome\_id: none
+
+- completion\_outcome\_id\_relation: none
+
+- completion\_response\_id: none
+
+- completion\_response\_id\_relation: none
+
+- skill\_check\_result: none
+
+- narrative\_id: [[Narrative data/Narrative/Narrative0027|Narrative0027]],[[Narrative data/Narrative/Narrative0029|Narrative0029]],[[Narrative data/Narrative/Narrative0030|Narrative0030]]
+
+- narrative\_id\_relation: and
+
+- tags: quest
+
+- canvas: [[Plot/_General Plot.canvas|_General Plot.canvas]]
+
+- \_general plot:
+
+- starter\_narrative\_id: none

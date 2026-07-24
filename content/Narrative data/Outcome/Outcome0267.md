@@ -33,3 +33,55 @@ Sanity_Modifier: "-1"
 ---
 
 Outcome0267
+
+- outcome\_id: null
+
+- outcome\_type: Failed response
+
+- response\_id: [[Narrative data/Response/Response0188|Response0188]]
+
+- outcome\_name: Can't believe strongly
+
+- outcome\_response: He strongly can't believe Stage Host did that
+
+- exp\_gain: 2
+
+- add\_item\_id: null
+
+- subtract\_item\_id: null
+
+- condition\_target\_1: Player
+
+- condition\_dice\_1\_type\_modification: addition
+
+- condition\_dice\_1\_id: [[Dice/DPNHeavy|DPNHeavy]]
+
+- condition\_dice\_1\_influenced\_skill\_type: knowledge
+
+- condition\_target\_2: Opponent
+
+- condition\_dice\_2\_type\_modification: addition
+
+- condition\_dice\_2\_id: [[Dice/DOBMasterful|DOBMasterful]]
+
+- condition\_dice\_2\_influenced\_skill\_type: artistry
+
+- condition\_target\_3: Player
+
+- condition\_dice\_3\_id: null
+
+- condition\_dice 3\_type\_modification: subtraction
+
+- condition\_dice\_3\_influenced\_skill\_type: any dice containing observation buff
+
+- special\_dice\_face\_1\_addition: null
+
+- special\_dice\_face\_2\_addition: null
+
+- special\_dice\_face\_3\_addition: null
+
+- tags: null
+
+- health\_modifier: null
+
+- sanity\_modifier: -1

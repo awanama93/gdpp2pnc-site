@@ -27,48 +27,42 @@ Quest_type: main quest
 Quest_description: Get the backdoor key from Food Vendor
 ---
 
-```datacorejsx
+Quest0046
 
-return function TitleHeader() {
+- quest\_name: Get the backdoor key from Food Vendor
 
-const file = dc.useCurrentFile();
+- completion\_prerequisite\_type: Narrative completion
 
-if (!file) return null;
+- completion\_item\_id: null
 
-// file.$name contains the clean string of the note title
+- completion\_item\_id\_relation: null
 
-return <h1>{file.$name}</h1>; }
+- completion\_outcome\_id: null
 
-```
+- completion\_outcome\_id\_relation: null
 
-```datacorejsx
+- completion\_quest\_id: null
 
-return function View() {
+- completion\_quest\_id\_relation: null
 
-const file = dc.useCurrentFile();
+- completion\_response\_id: null
 
-const hiddenKeys = ["dg-publish", "publish"];
+- completion\_response\_id\_relation: null
 
-  
+- narrative\_id: [[Narrative data/Narrative/Narrative0100|Narrative0100]]
 
-if(!file) return <p>loading</p>;
+- narrative\_id\_relation: is
 
-  
+- quest\_id: [[Narrative data/Quest/Quest0046|Quest0046]]
 
-const KUMPULAN = file.$frontmatter;
+- starter\_prerequisite\_type: Quest completion
 
-  
+- starter\_quest\_id: [[Narrative data/Quest/Quest0044|Quest0044]]
 
-const items = Object.entries(KUMPULAN)
+- canvas: [[Plot/_General Plot.canvas|_General Plot.canvas]]
 
-    .filter(([key]) => !key.startsWith("__") && !hiddenKeys.includes(key))
+- \_general plot: [[Location/DoorTeleporter/DT0023|DT0023]]
 
-    .map(([key, field]) => {return `${key}: ${field?.value}`;}
+- quest\_type: main quest
 
-);
-
-    return <dc.List rows={items} />;
-
-}
-
-```
+- quest\_description: Get the backdoor key from Food Vendor

@@ -38,3 +38,55 @@ _General Plot:
 ---
 
 Quest0028
+
+- quest\_id: [[Narrative data/Quest/Quest0028|Quest0028]]
+
+- quest\_name: Find Info about the Real Culprit
+
+- quest\_type: main quest
+
+- status: null
+
+- quest\_description: You have to find information about the real culprit
+
+- hints: [[Narrative data/Hint/Hint0054|Hint0054]],[[Narrative data/Hint/Hint0061|Hint0061]],[[Narrative data/Hint/Hint0062|Hint0062]]
+
+- starter\_prerequisite\_type: Quest completion
+
+- starter\_item\_id: none
+
+- starter\_quest\_id: [[Narrative data/Quest/Quest0025|Quest0025]]
+
+- starter\_response\_id: none
+
+- completion\_prerequisite\_type: null
+
+- completion\_quest\_id: null
+
+- completion\_quest\_id\_relation: null
+
+- completion\_item\_id: null
+
+- completion\_item\_id\_relation: null
+
+- completion\_outcome\_id: null
+
+- completion\_outcome\_id\_relation: null
+
+- completion\_response\_id: null
+
+- completion\_response\_id\_relation: null
+
+- skill\_check\_result: null
+
+- narrative\_id: null
+
+- narrative\_id\_relation: null
+
+- tags: quest
+
+- starter\_narrative\_id: none
+
+- canvas: [[Plot/_General Plot.canvas|_General Plot.canvas]]
+
+- \_general plot: [[Narrative data/Quest/Quest0029|Quest0029]]

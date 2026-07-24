@@ -30,48 +30,44 @@ Quest_type: main quest
 Quest_description: Confront Stage Host
 ---
 
-```datacorejsx
+Quest0043
 
-return function TitleHeader() {
+- quest\_name: Confront Stage Host
 
-const file = dc.useCurrentFile();
+- completion\_prerequisite\_type: Narrative completion
 
-if (!file) return null;
+- completion\_item\_id: null
 
-// file.$name contains the clean string of the note title
+- completion\_item\_id\_relation: null
 
-return <h1>{file.$name}</h1>; }
+- completion\_outcome\_id: null
 
-```
+- completion\_outcome\_id\_relation: null
 
-```datacorejsx
+- completion\_quest\_id: null
 
-return function View() {
+- completion\_quest\_id\_relation: null
 
-const file = dc.useCurrentFile();
+- completion\_response\_id: null
 
-const hiddenKeys = ["dg-publish", "publish"];
+- completion\_response\_id\_relation: null
 
-  
+- narrative\_id: [[Narrative data/Narrative/Narrative0097|Narrative0097]]
 
-if(!file) return <p>loading</p>;
+- narrative\_id\_relation: is
 
-  
+- tags: quest
 
-const KUMPULAN = file.$frontmatter;
+- quest\_id: [[Narrative data/Quest/Quest0043|Quest0043]]
 
-  
+- canvas: [[Plot/_General Plot.canvas|_General Plot.canvas]]
 
-const items = Object.entries(KUMPULAN)
+- starter\_prerequisite\_type: Quest completion
 
-    .filter(([key]) => !key.startsWith("__") && !hiddenKeys.includes(key))
+- starter\_quest\_id: [[Narrative data/Quest/Quest0042|Quest0042]]
 
-    .map(([key, field]) => {return `${key}: ${field?.value}`;}
+- \_general plot: [[Narrative data/Quest/Quest0044|Quest0044]],[[Narrative data/Quest/Quest0045|Quest0045]]
 
-);
+- quest\_type: main quest
 
-    return <dc.List rows={items} />;
-
-}
-
-```
+- quest\_description: Confront Stage Host

@@ -33,48 +33,56 @@ canvas:
 _General Plot: []
 ---
 
-```datacorejsx
+Quest0041
 
-return function TitleHeader() {
+- quest\_id: [[Narrative data/Quest/Quest0041|Quest0041]]
 
-const file = dc.useCurrentFile();
+- quest\_name: Tell Security Organizer about your suspects
 
-if (!file) return null;
+- quest\_type: main quest
 
-// file.$name contains the clean string of the note title
+- status: null
 
-return <h1>{file.$name}</h1>; }
+- quest\_description: Tell him about your suspects, Stage Host and Musician
 
-```
+- hints: null
 
-```datacorejsx
+- starter\_prerequisite\_type: Quest completion
 
-return function View() {
+- starter\_item\_id: null
 
-const file = dc.useCurrentFile();
+- starter\_quest\_id: [[Narrative data/Quest/Quest0040|Quest0040]]
 
-const hiddenKeys = ["dg-publish", "publish"];
+- starter\_response\_id: null
 
-  
+- starter\_narrative\_id: null
 
-if(!file) return <p>loading</p>;
+- completion\_prerequisite\_type: Narrative completion
 
-  
+- completion\_quest\_id: null
 
-const KUMPULAN = file.$frontmatter;
+- completion\_quest\_id\_relation: null
 
-  
+- completion\_item\_id: null
 
-const items = Object.entries(KUMPULAN)
+- completion\_item\_id\_relation: null
 
-    .filter(([key]) => !key.startsWith("__") && !hiddenKeys.includes(key))
+- completion\_outcome\_id: null
 
-    .map(([key, field]) => {return `${key}: ${field?.value}`;}
+- completion\_outcome\_id\_relation: null
 
-);
+- completion\_response\_id: null
 
-    return <dc.List rows={items} />;
+- completion\_response\_id\_relation: null
 
-}
+- skill\_check\_result: null
 
-```
+- narrative\_id: null
+
+- narrative\_id\_relation: null
+
+- tags: quest
+
+- canvas: [[Plot/_General Plot.canvas|_General Plot.canvas]]
+
+- \_general plot:

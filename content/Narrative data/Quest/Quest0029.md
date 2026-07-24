@@ -42,3 +42,55 @@ _General Plot:
 ---
 
 Quest0029
+
+- quest\_id: [[Narrative data/Quest/Quest0029|Quest0029]]
+
+- quest\_name: Ask around about the SD Card
+
+- quest\_type: main quest
+
+- status: null
+
+- quest\_description: Find the information by asking people around Convention are or hub area
+
+- hints: [[Narrative data/Hint/Hint0055|Hint0055]],[[Narrative data/Hint/Hint0056|Hint0056]],[[Narrative data/Hint/Hint0057|Hint0057]]
+
+- starter\_prerequisite\_type: Quest completion
+
+- starter\_item\_id: none
+
+- starter\_quest\_id: [[Narrative data/Quest/Quest0025|Quest0025]]
+
+- starter\_response\_id: none
+
+- completion\_prerequisite\_type: Narrative completion
+
+- completion\_quest\_id: none
+
+- completion\_quest\_id\_relation: none
+
+- completion\_item\_id: none
+
+- completion\_item\_id\_relation: none
+
+- completion\_outcome\_id: none
+
+- completion\_outcome\_id\_relation: none
+
+- completion\_response\_id: none
+
+- completion\_response\_id\_relation: none
+
+- skill\_check\_result: none
+
+- narrative\_id: [[Narrative data/Narrative/Narrative0046|Narrative0046]],[[Narrative data/Narrative/Narrative0047|Narrative0047]]
+
+- narrative\_id\_relation: and
+
+- tags: quest
+
+- starter\_narrative\_id: none
+
+- canvas: [[Plot/_General Plot.canvas|_General Plot.canvas]]
+
+- \_general plot: [[Location/LocationChanger/LC0022|LC0022]]

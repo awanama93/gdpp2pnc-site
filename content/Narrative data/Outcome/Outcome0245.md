@@ -33,3 +33,55 @@ Sanity_Modifier:
 ---
 
 Outcome0245
+
+- outcome\_id: [[Narrative data/Outcome/Outcome0245|Outcome0245]]
+
+- outcome\_type: Succeed or neutral response
+
+- response\_id: [[Narrative data/Response/Response0176|Response0176]]
+
+- outcome\_name: Put himself in your shoes
+
+- outcome\_response: He tries to put himself in your shoes but still resentful
+
+- exp\_gain: 5
+
+- add\_item\_id: null
+
+- subtract\_item\_id: null
+
+- condition\_target\_1: Player
+
+- condition\_dice\_1\_type\_modification: addition
+
+- condition\_dice\_1\_id: [[Dice/DPBUnshakable|DPBUnshakable]]
+
+- condition\_dice\_1\_influenced\_skill\_type: artistry
+
+- condition\_target\_2: Opponent
+
+- condition\_dice\_2\_type\_modification: addition
+
+- condition\_dice\_2\_id: [[Dice/DONStrained|DONStrained]]
+
+- condition\_dice\_2\_influenced\_skill\_type: observation
+
+- condition\_target\_3: Opponent
+
+- condition\_dice\_3\_id: null
+
+- condition\_dice 3\_type\_modification: subtraction
+
+- condition\_dice\_3\_influenced\_skill\_type: any dice containing reflex buff
+
+- special\_dice\_face\_1\_addition: null
+
+- special\_dice\_face\_2\_addition: null
+
+- special\_dice\_face\_3\_addition: null
+
+- tags: null
+
+- health\_modifier: +1
+
+- sanity\_modifier: null

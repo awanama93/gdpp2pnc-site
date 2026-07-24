@@ -36,3 +36,55 @@ _General Plot:
 ---
 
 Quest0034
+
+- quest\_id: [[Narrative data/Quest/Quest0034|Quest0034]]
+
+- quest\_name: Listen to Security Organizer
+
+- quest\_type: main quest
+
+- status: null
+
+- quest\_description: Security Organizer seems to have lot on his mind. Listen to him maybe helps
+
+- hints: null
+
+- starter\_prerequisite\_type: Quest completion
+
+- starter\_item\_id: null
+
+- starter\_quest\_id: [[Narrative data/Quest/Quest0033|Quest0033]]
+
+- starter\_response\_id: none
+
+- completion\_prerequisite\_type: Narrative completion
+
+- completion\_quest\_id: null
+
+- completion\_quest\_id\_relation: null
+
+- completion\_item\_id: null
+
+- completion\_item\_id\_relation: null
+
+- completion\_outcome\_id: null
+
+- completion\_outcome\_id\_relation: null
+
+- completion\_response\_id: null
+
+- completion\_response\_id\_relation: null
+
+- skill\_check\_result: null
+
+- narrative\_id: [[Narrative data/Narrative/Narrative0069|Narrative0069]]
+
+- narrative\_id\_relation: is
+
+- tags: quest
+
+- starter\_narrative\_id: none
+
+- canvas: [[Plot/_General Plot.canvas|_General Plot.canvas]]
+
+- \_general plot: [[Location/DoorTeleporter/DT0012|DT0012]]

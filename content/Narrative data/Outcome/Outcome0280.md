@@ -33,3 +33,55 @@ Sanity_Modifier: "+1"
 ---
 
 Outcome0280
+
+- outcome\_id: null
+
+- outcome\_type: Succeed or neutral response
+
+- response\_id: [[Narrative data/Response/Response0199|Response0199]]
+
+- outcome\_name: Slapped
+
+- outcome\_response: She's slapped by the fact but mocking Head Organizer
+
+- exp\_gain: 5
+
+- add\_item\_id: null
+
+- subtract\_item\_id: null
+
+- condition\_target\_1: Player
+
+- condition\_dice\_1\_type\_modification: addition
+
+- condition\_dice\_1\_id: [[Dice/DPBResolute|DPBResolute]]
+
+- condition\_dice\_1\_influenced\_skill\_type: observation
+
+- condition\_target\_2: Opponent
+
+- condition\_dice\_2\_type\_modification: addition
+
+- condition\_dice\_2\_id: [[Dice/DONFading|DONFading]]
+
+- condition\_dice\_2\_influenced\_skill\_type: strength
+
+- condition\_target\_3: Opponent
+
+- condition\_dice\_3\_id: null
+
+- condition\_dice 3\_type\_modification: subtraction
+
+- condition\_dice\_3\_influenced\_skill\_type: any dice containing deception buff
+
+- special\_dice\_face\_1\_addition: null
+
+- special\_dice\_face\_2\_addition: null
+
+- special\_dice\_face\_3\_addition: null
+
+- tags: null
+
+- health\_modifier: null
+
+- sanity\_modifier: +1

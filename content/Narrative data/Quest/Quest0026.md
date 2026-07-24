@@ -40,3 +40,55 @@ Starter_Narrative_ID: "[[Narrative0041]]"
 ---
 
 Quest0026
+
+- quest\_id: [[Narrative data/Quest/Quest0026|Quest0026]]
+
+- quest\_name: Try to explain your innocent
+
+- quest\_type: main quest
+
+- status: null
+
+- quest\_description: Of course you are innocent, but Security Organizer won't believe you. Try again, harder
+
+- hints: [[Narrative data/Hint/Hint0051|Hint0051]]
+
+- starter\_prerequisite\_type: Narrative completion
+
+- starter\_item\_id: none
+
+- starter\_quest\_id: none
+
+- starter\_response\_id: none
+
+- completion\_prerequisite\_type: Narrative completion
+
+- completion\_quest\_id: none
+
+- completion\_quest\_id\_relation: none
+
+- completion\_item\_id: none
+
+- completion\_item\_id\_relation: none
+
+- completion\_outcome\_id: none
+
+- completion\_outcome\_id\_relation: none
+
+- completion\_response\_id: none
+
+- completion\_response\_id\_relation: none
+
+- skill\_check\_result: none
+
+- narrative\_id: [[Narrative data/Narrative/Narrative0042|Narrative0042]]
+
+- narrative\_id\_relation: is
+
+- tags: quest
+
+- canvas: [[Plot/_General Plot.canvas|_General Plot.canvas]]
+
+- \_general plot: [[Location/LocationChanger/LC0017|LC0017]],[[Location/LocationChanger/LC0017|LC0017]]
+
+- starter\_narrative\_id: [[Narrative data/Narrative/Narrative0041|Narrative0041]]
