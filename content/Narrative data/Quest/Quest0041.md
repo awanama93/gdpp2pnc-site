@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-22T14:56:27.517+07:00
-modified: 2026-07-23T18:50:26.468+07:00
-published: 2026-07-23T18:50:26.468+07:00
+modified: 2026-07-27T13:28:37.310+07:00
+published: 2026-07-27T13:28:37.310+07:00
 tags:
   - quest
 Quest_ID: "[[Quest0041]]"
@@ -27,7 +27,8 @@ Completion_response_ID:
 Completion_response_ID_relation:
 Skill_check_result:
 Narrative_ID:
-Narrative_ID_relation:
+  - "[[Narrative0085]]"
+Narrative_ID_relation: is
 canvas:
   - "[[_General Plot.canvas]]"
 _General Plot: []
@@ -77,9 +78,9 @@ Quest0041
 
 - skill\_check\_result: null
 
-- narrative\_id: null
+- narrative\_id: [[Narrative data/Narrative/Narrative0085|Narrative0085]]
 
-- narrative\_id\_relation: null
+- narrative\_id\_relation: is
 
 - tags: quest
 

@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-11T16:38:23.926+07:00
-modified: 2026-07-23T15:33:28.384+07:00
-published: 2026-07-23T15:33:28.384+07:00
+modified: 2026-07-27T13:26:38.787+07:00
+published: 2026-07-27T13:26:38.787+07:00
 tags:
   - quest
 Quest_ID: "[[Quest0028]]"
@@ -18,8 +18,9 @@ Starter_prerequisite_type: Quest completion
 Starter_item_ID: none
 Starter_quest_ID: "[[Quest0025]]"
 Starter_response_ID: none
-Completion_prerequisite_type:
+Completion_prerequisite_type: Quest completion
 Completion_quest_ID:
+  - "[[Quest0039]]"
 Completion_quest_ID_relation:
 Completion_item_ID:
 Completion_item_ID_relation:
@@ -59,9 +60,9 @@ Quest0028
 
 - starter\_response\_id: none
 
-- completion\_prerequisite\_type: null
+- completion\_prerequisite\_type: Quest completion
 
-- completion\_quest\_id: null
+- completion\_quest\_id: [[Narrative data/Quest/Quest0039|Quest0039]]
 
 - completion\_quest\_id\_relation: null
 
